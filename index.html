@@ -22,7 +22,7 @@
     }
     .home-buttons a {
         margin-bottom: 26px;
-        width: 330px;
+        width: 300px;
     }
     .home-buttons a:hover {
         background: #000;
@@ -32,6 +32,7 @@
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="50" class="dark-theme">
+<div id="app">
 
     <nav class="navbar navbar-fixed-top shadow">
         <div class="container-fluid">
@@ -45,14 +46,15 @@
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="#home">home</a></li>
-                    <li><a href="#services">product</a></li>
-                    <li><a href="#solution">architecture</a></li>
-                    <li><a href="#timeline">roadmap</a></li>
-                    <li><a href="#team">team</a></li>
-                    <li><a href="#clients">consultants</a></li>
-                    <li><a href="#portfolio">institutions</a></li>
-                    <li><a href="#contact">contact</a></li>
+                    <li class="active"><a href="#home">{{lang=='en'?'Home':'首页'}}</a></li>
+                    <li><a href="#services">{{lang=='en'?'Product':'产品'}}</a></li>
+                    <li><a href="#solution">{{lang=='en'?'Architecture':'架构'}}</a></li>
+                    <li><a href="#timeline">{{lang=='en'?'Roadmap':'里程碑'}}</a></li>
+                    <li><a href="#team">{{lang=='en'?'Team':'团队'}}</a></li>
+                    <li><a href="#clients">{{lang=='en'?'Consultants':'顾问'}}</a></li>
+                    <li><a href="#portfolio">{{lang=='en'?'Institutions':'机构'}}</a></li>
+                    <li><a href="#contact">{{lang=='en'?'Contact':'联系'}}</a></li>
+                    <li><a @click="lang=(lang=='en'?'cn':'en')">{{lang=='en'?'中文':'English'}}</a></li>
                 </ul>
             </div>
         </div>
@@ -68,14 +70,9 @@
         <div class="home-slider text-center swiper-container-horizontal">
             <div class="swiper-wrapper">
                 <div class="swiper-slide swiper-slide-active" style="width: 1253px;">
-                    <h2 class="home-slider-title-main" style="max-width:100%">Blockchain Digital Asset <br>Management Service Engine</h2>
+                    <h2 class="home-slider-title-main" style="max-width:100%" v-html="project.name[lang]"></h2>
                     <!--div class="home-slider-title-small">BitCV</div-->
                 </div>
-
-                <!--div class="swiper-slide swiper-slide-next" style="width: 1253px;">
-                      <h2 class="home-slider-title-main">Unlock Your Digital Business Potential</h2>
-                    <div class="home-slider-title-small">Lorem ipsum dolor sit amet, consectetur adipisicing</div>
-                </div-->
             </div>
 
             <!--div class="home-pagination swiper-pagination-clickable swiper-pagination-bullets"><span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span><span class="swiper-pagination-bullet"></span></div>
@@ -88,11 +85,8 @@
             </div-->
         </div>
         <div class="home-buttons text-center">
-            <a target="_blank" href="doc/bitcv_whitepaper_en.pdf" class="btn btn-margin btn-lg  btn-primary">Download White Paper(en)</a>
-            <a target="_blank" href="doc/bitcv_whitepaper_cn.pdf" class="btn btn-margin btn-lg  btn-primary">Download White Paper(cn)</a>
-            <br>
-            <a target="_blank" href="doc/bitcv_project_en.pdf" class="btn btn-margin btn-lg  btn-primary">Download Project Presentation(en)</a>
-            <a target="_blank" href="doc/bitcv_project_cn.pdf" class="btn btn-margin btn-lg  btn-primary">Download  Project Presentation(cn)</a>
+            <a target="_blank" :href="project.whitepaper.doc[lang]" class="btn btn-margin btn-lg  btn-primary">{{project.whitepaper.btn[lang]}}</a>
+            <a target="_blank" :href="project.ppt.doc[lang]" class="btn btn-margin btn-lg  btn-primary">{{project.ppt.btn[lang]}}</a>
         </div>
     </section>
 
@@ -100,45 +94,17 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 services-introduction">
-                    <h2 class="text-center">Digital Asset Management Solutions</h2>
+                    <h2 class="text-center">{{product.name[lang]}}</h2>
                 </div>
 
-                <div class="col-md-6 wow fadeInLeft" style="visibility: visible; animation-name: fadeInLeft;">
+                <div v-for="p in product.list" class="col-md-6 wow fadeInLeft" style="visibility: visible; animation-name: fadeInLeft;">
                     <div class="services-box text-center shadow">
-                        <span class="icon ti-desktop"></span>
-                        <h4>Project Investment and Financing SaaS System - SaaS</h4>
-                        <p class="fixed-height">For every independent project, its information and data are independent and isolated from other projects. For the project party, from domain name to display, they are independent and unique, and create exclusive and professional images.
+                        <span :class="p.icon"></span>
+                        <h4>{{p.title[lang]}}</h4>
+                        <p class="fixed-height">{{p.content[lang]}}
                         </p>
                     </div>
                 </div>
-
-                <div class="col-md-6 wow fadeInDown" style="visibility: visible; animation-name: fadeInDown;">
-                    <div class="services-box text-center shadow">
-                        <span class="icon ti-user"></span>
-                        <h4>Deep Mining and Investigation of Digital Asset – Finance and Economy Master</h4>
-                        <p class="fixed-height">The BitCV team consists of experienced investors, blockchain technical experts, senior media professionals, who, with all the experience in the fields of investment, media and technology, can scrutinize every aspect of a project.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="col-md-6 wow fadeInRight" style="visibility: visible; animation-name: fadeInRight;">
-                    <div class="services-box text-center shadow">
-                        <span class="icon ti-ruler-alt"></span>
-                        <h4>Digital Asset Management Evaluation Platform – Evaluation Chain</h4>
-                        <p class="fixed-height">Besides the assessment of each dimension, there are analyses based on historical models and data, including the artificial intelligence assessment and the prediction of the prospects with machine learning model. All these rely heavily on analyzing and data processing, of which the BitCV team has accumulated considerable experience.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="col-md-6 wow fadeInLeft" style="visibility: visible; animation-name: fadeInLeft;">
-                    <div class="services-box text-center shadow">
-                        <span class="icon ti-heart"></span>
-                        <h4>Digital Asset OMO Service – Service Chain</h4>
-                        <p class="fixed-height">Apart from technical services, BitCV, as a digital asset management engine, has the responsibility and obligation to serve the industry ecology as well, as to provide convenience for the project party and investors.
-                        </p>
-                    </div>
-                </div>
-
 
             </div>
         </div>
@@ -146,96 +112,27 @@
 
     <section class="about section" id="solution">
         <div class="col-md-12 about-introduction">
-            <h2 class="text-center">Project Technical Architecture and Product Realization</h2>
+            <h2 class="text-center">{{arch.name[lang]}}</h2>
         </div>
 
         <div class="container overflow-hidden">
             <div class="row">
                 <div class="about-slider swiper-container-horizontal">
                     <div class="swiper-wrapper">
-                        <div class="swiper-slide swiper-slide-active" style="width: 1170px;">
+
+                        <div v-for="a in arch.list" class="swiper-slide swiper-slide-active" style="width: 1170px;">
                             <div class="about-slider-half">
                                 <div class="about-image">
-                                    <img style="z-index: 1; visibility: visible; animation-delay: 0.4s; animation-name: fadeInDown;" src="./img/layer-1.png" alt="mockup" class="wow fadeInDown" data-wow-delay=".4s">
+                                    <img style="z-index: 1; visibility: visible; animation-delay: 0.4s; animation-name: fadeInDown;" :src="a.img" alt="mockup" class="wow fadeInDown" data-wow-delay=".4s">
 
-                                    <!--img style="z-index: 2; visibility: visible; animation-delay: 0.8s; animation-name: fadeInRight;" class="wow fadeInRight about-image-layer" src="./img/layer-2.png" data-wow-delay=".8s" alt="mockup layer">
-
-                                    <img style="z-index: 3; visibility: visible; animation-delay: 1.2s; animation-name: fadeInLeft;" class="wow fadeInLeft about-image-layer" src="./img/layer-3.png" data-wow-delay="1.2s" alt="mockup layer"-->
+                                    <!--img style="z-index: 2; visibility: visible; animation-delay: 0.8s; animation-name: fadeInRight;" class="wow fadeInRight about-image-layer" src="./img/layer-2.png" data-wow-delay=".8s" alt="mockup layer"-->
                                 </div>
                             </div>
 
                             <div class="about-slider-half about-slider-half-padding">
-                                <h3 class="wow fadeInRight" style="visibility: visible; animation-name: fadeInRight;">Design of BitCV Digital Asset Management Chain</h3>
-                                <p class="wow fadeInRight" data-wow-delay=".4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInRight;">
-                                    BitCV is an application-based blockchain product, so we are using the blockchain and existing technologies to serve the field of digital asset management. In principle, we do not conduct our own research and development of the underlying chain design on a large scale, but according to the current preliminary research and development, we use and enhance the use of the following technologies.
-                                </p>
-                                <div class="about-number-box counter">
-                                    <p>1 Blockchain distributed ledger technology</p>
-                                    <p>2 Sidechain cross-chain trading technology</p>
-                                    <p>3 DPOS consensus algorithm</p>
-                                    <p>4 Intelligent contract technology</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="swiper-slide swiper-slide-next" style="width: 1170px;">
-                            <div class="about-slider-half">
-                                <div class="about-image">
-                                    <img style="z-index: 1" src="./img/layer-2.png" alt="mockup">
-                                </div>
-                            </div>
-
-                            <div class="about-slider-half about-slider-half-padding">
-                                <h3>Reliable and scalable microservices architecture design</h3>
-                                <p>
-                                    As the digital asset service engine platform at the bottom of the blockchain, SaaS cloud service needs to be provided first. Because every project is intended for global clients and provides multi-end support, it is necessary to ensure that the service is reliable and easy to expand and maintain. The goal of reliability should be 99.99%.
-                                </p>
-                                <p>
-                                    Second, as a digital asset management service platform, a large number of digital asset exchange data of the clients are involved. Although after the clients purchase the digital assets, the corresponding tokens or the digital assets themselves will be sent into the official crowdfunding wallet, the statistics, as well as the middle storage, are still stored inside the platform, therefore the security, encryption and isolation of the data are strictly required.
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="swiper-slide swiper-slide-next" style="width: 1170px;">
-                            <div class="about-slider-half">
-                                <div class="about-image">
-                                    <img style="z-index: 1" src="./img/layer-3.png" alt="mockup">
-                                </div>
-                            </div>
-
-                            <div class="about-slider-half about-slider-half-padding">
-                                <h3>Simple and friendly platform of project and investment</h3>
-                                <p>
-                                    Fill in the basic information to generate the main site by one touch
-                                </p>
-                                <p>
-                                    Provide investors with project management services and clear results
-                                </p>
-                                <p>Provide the project party with stage progress</p>
-                                <p>Provide financiers with project data planning</p>
-                            </div>
-                        </div>
-
-                        <div class="swiper-slide swiper-slide-next" style="width: 1170px;">
-                            <div class="about-slider-half">
-                                <div class="about-image">
-                                    <img style="z-index: 1" src="./img/layer-4.png" alt="mockup">
-                                </div>
-                            </div>
-
-                            <div class="about-slider-half about-slider-half-padding">
-                                <h3>Future product planning</h3>
-                                <p>
-                                    Use the multi-digital assets wallet system constructed by cross-chain payment to make it convenient for clients to deposit and invest. 
-                                </p>
-                                <p>
-                                    Develop a fund-investment system and invest in the industry's well-known digital asset funds. Well-known digital asset funds generally have higher thresholds.
-                                </p>
-                                <p>
-                                    Provide the trading and auction platform for digital assets and real assets.
-                                </p>
-                                <p>
-                                    Provide the programmed and quantitative trading platform.
+                                <h3 class="wow fadeInRight" style="visibility: visible; animation-name: fadeInRight;">{{a.title[lang]}}</h3>
+                                <p class="wow fadeInRight" data-wow-delay=".4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInRight;" v-html="a.content[lang]">
+                                    
                                 </p>
                             </div>
                         </div>
@@ -259,56 +156,24 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 team-introduction">
-                    <h2 class="text-center">Our team</h2>
+                    <h2 class="text-center">{{team.name[lang]}}</h2>
                 </div>
                 <ul>
-                    <li class="col-md-3 col-xs-6">
-                        <a href="#" data-toggle="modal" data-target="#team-member-01" class="team-member wow fadeInUp" data-wow-delay=".2s" style="visibility: hidden; animation-delay: 0.2s; animation-name: none;">
+                    <li v-for="(u,index) in team.list" class="col-md-3 col-xs-6">
+                        <a href="#" data-toggle="modal" :data-target="'#team-member-0'+index" class="team-member wow fadeInUp" data-wow-delay=".2s" style="visibility: hidden; animation-delay: 0.2s; animation-name: none;">
                             <span class="team-member-photo">
-                            <img src="./img/user-wuxing.png" alt="team member">
+                            <img :src="'./img/'+u.img" alt="team member">
                         </span>
 
-                            <span class="team-member-name h4">Wu Xing</span>
+                            <span class="team-member-name h4">{{u.name[lang]}}</span>
                             <span class="team-member-role">Co-founder</span>
                         </a>
                     </li>
 
-                    <li class="col-md-3 col-xs-6">
-                        <a href="#" data-toggle="modal" data-target="#team-member-02" class="team-member wow fadeInUp" data-wow-delay=".4s" style="visibility: hidden; animation-delay: 0.4s; animation-name: none;">
-                            <span class="team-member-photo">
-                            <img src="./img/user-jiagui.png" alt="team member">
-                        </span>
-
-                            <span class="team-member-name h4">Xiong Jiagui</span>
-                            <span class="team-member-role">Co-founder</span>
-                        </a>
-                    </li>
-
-                    <li class="col-md-3 col-xs-6">
-                        <a href="#" data-toggle="modal" data-target="#team-member-03" class="team-member wow fadeInUp" data-wow-delay=".6s" style="visibility: hidden; animation-delay: 0.6s; animation-name: none;">
-                            <span class="team-member-photo">
-                            <img src="./img/user-wenling.png" alt="team member">
-                        </span>
-
-                            <span class="team-member-name h4">Wen Ling</span>
-                            <span class="team-member-role">Co-founder</span>
-                        </a>
-                    </li>
-
-                    <li class="col-md-3 col-xs-6">
-                        <a href="#" data-toggle="modal" data-target="#team-member-04" class="team-member wow fadeInUp" data-wow-delay=".8s" style="visibility: hidden; animation-delay: 0.8s; animation-name: none;">
-                            <span class="team-member-photo">
-                            <img src="./img/user-zhihua.png" alt="team member">
-                        </span>
-
-                            <span class="team-member-name h4">Liu Zhihua</span>
-                            <span class="team-member-role">Co-founder</span>
-                        </a>
-                    </li>
                 </ul>
 
                 <!-- TEAM MODAL -->
-                <div id="team-member-01" class="modal fade" role="dialog">
+                <div v-for="(u,index) in team.list" :id="'team-member-0'+index" class="modal fade" role="dialog">
                     <div class="modal-dialog modal-lg">
                         <!-- Modal content-->
                         <div class="modal-content shadow">
@@ -321,88 +186,8 @@
                                             <ul>
                                                 <li class="">
                                                 <span class="team-member-description-info">
-                                                    <span class="team-member-description-details">Member of Global Entrepreneur Leadership Program of Tsinghua University PBC School of Finance; core member of the sixth self-organizing board team of Hejun Business School; monitor of the third Sinovation Ventures Brotherhood. Member of the foundation team of Happy Net; advanced full stack architect. He founded UCAI, a domestic IT vocational education brand, and got many rounds of financing from funds such as Sinovation Ventures. He once managed the design and performance optimization of hundreds of millions of UV in Happy Net, and achieved more than 99.99% reliability services. Duties: Leading technology and the overall strategic planning of the foundation project.
-                                                    </span>
-                                                </span>
-                                                </li>                                            
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- / TEAM MODAL -->
-                <!-- TEAM MODAL -->
-                <div id="team-member-02" class="modal fade" role="dialog">
-                    <div class="modal-dialog modal-lg">
-                        <!-- Modal content-->
-                        <div class="modal-content shadow">
-                            <a class="close" data-dismiss="modal"><span class="ti-close"></span></a>
-                            <div class="modal-body modal-lg">
-                                <div class="team-member-detail">
-                                    <div class="col-md-12">
-                                        <div class="team-member-description">
-                                            <h4 class="">Experiences</h4>
-                                            <ul>
-                                                <li class="">
-                                                <span class="team-member-description-info">
-                                                    <span class="team-member-description-details">Graduated from Tsinghua University; senior R & D engineer in Sina; python group leader in iAsk; chief architect in Happy Net. He is proficient in Linux, Unix infrastructure research and development, and provide independently storage, communications and other middleware services. He once managed the design of millions of concurrent online instant messaging system in Happy Net. Duties: Leading the design of the underlying protocol of the digital asset management chain and highly reliable underlying platform.
-                                                    </span>
-                                                </span>
-                                                </li>                                            
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- / TEAM MODAL -->
-                <!-- TEAM MODAL -->
-                <div id="team-member-03" class="modal fade" role="dialog">
-                    <div class="modal-dialog modal-lg">
-                        <!-- Modal content-->
-                        <div class="modal-content shadow">
-                            <a class="close" data-dismiss="modal"><span class="ti-close"></span></a>
-                            <div class="modal-body modal-lg">
-                                <div class="team-member-detail">
-                                    <div class="col-md-12">
-                                        <div class="team-member-description">
-                                            <h4 class="">Experiences</h4>
-                                            <ul>
-                                                <li class="">
-                                                <span class="team-member-description-info">
-                                                    <span class="team-member-description-details">Received Master’s degree in Investment Management at Peking University; assistant of Apple’s Angel investor Mr. Li Zongnan in China; the China market leader of United States Shan Kwong Capital; former market director assistant of Sinovation Ventures; co-founder of Internet K12 online education. She is now the founder of PPTEAM Project, which provide magic performance technology service for the first-class Internet startups and first-class investment agencies senior executives, and cooperation companies include Tencent, Toutiao, the State Grid Cooperation of China and so on.
-                                                    </span>
-                                                </span>
-                                                </li>                                            
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- / TEAM MODAL -->
-                <!-- TEAM MODAL -->
-                <div id="team-member-04" class="modal fade" role="dialog">
-                    <div class="modal-dialog modal-lg">
-                        <!-- Modal content-->
-                        <div class="modal-content shadow">
-                            <a class="close" data-dismiss="modal"><span class="ti-close"></span></a>
-                            <div class="modal-body modal-lg">
-                                <div class="team-member-detail">
-                                    <div class="col-md-12">
-                                        <div class="team-member-description">
-                                            <h4 class="">Experiences</h4>
-                                            <ul>
-                                                <li class="">
-                                                <span class="team-member-description-info">
-                                                    <span class="team-member-description-details">Full stack architect, Beijing Technology and Business University Department of Computer Science graduated in 2004, once worked in Halliburton, serving CNPC, Sinopec and other giant oil service information system development, is an early Kaixin technical team members, has been responsible for sales operations support Management technical work. In 2013, he worked as a technology leader in developing a digital campus at Renmin University of China. In 2014, he joined the talent CTO. Proficient in Internet product architecture design, good before and after the end of a variety of technology development and management.
+                                                    <span class="team-member-description-details">
+                                                    {{u.intro[lang]}}
                                                     </span>
                                                 </span>
                                                 </li>                                            
@@ -423,106 +208,26 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 timeline-introduction">
-                    <h2 class="text-center">Project Milestones and Roadmap</h2>
+                    <h2 class="text-center">{{roadmap.name[lang]}}</h2>
                 </div>
 
                 <div class="col-md-12">
                     <ul class="timeline-list">
-                        <li class="">
+
+                        <li v-for="(r,index) in roadmap.list" :class="index%2==0 ? 'timeline-inverted' : ''">
                             <div class="timeline-badge wow pulse" data-wow-delay=".3s" data-wow-iteration="2" style="visibility: hidden; animation-delay: 0.3s; animation-iteration-count: 2; animation-name: none;">
                                 <span class="ti-time"></span>
                             </div>
                             <div class="timeline-item shadow wow fadeInLeft" style="visibility: hidden; animation-name: none;">
-                                <span class="timeline-date h4">Sep. 2017</span>
-                                <h4 class="timeline-title">Initial planning of the project starts</h4>
+                                <span class="timeline-date h4">{{r.date[lang]}}</span>
+                                <h4 class="timeline-title" v-html="r.content[lang]"></h4>
 
                                 <!--div class="timeline-content">
                                     <p>Initial planning of the project starts</p>
                                 </div-->
                             </div>
                         </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-badge wow pulse" data-wow-delay=".3s" data-wow-iteration="2" style="visibility: hidden; animation-delay: 0.3s; animation-iteration-count: 2; animation-name: none;">
-                                <span class="ti-time"></span>
-                            </div>
-                            <div class="timeline-item shadow wow fadeInRight" style="visibility: hidden; animation-name: none;">
-                                <span class="timeline-date h4">Nov. 2017</span>
-                                <h4 class="timeline-title">Project prototype and the design and planning of project architecture is completed<br>
-                                The construction of the initial team is completed</h4>
 
-                            </div>
-                        </li>
-
-                        <li class="">
-                            <div class="timeline-badge wow pulse" data-wow-delay=".3s" data-wow-iteration="2" style="visibility: hidden; animation-delay: 0.3s; animation-iteration-count: 2; animation-name: none;">
-                                <span class="ti-time"></span>
-                            </div>
-                            <div class="timeline-item shadow wow fadeInLeft" style="visibility: hidden; animation-name: none;">
-                                <span class="timeline-date h4">Dec. 2017</span>
-                                <h4 class="timeline-title">The first version of the project white paper is completed<br>Project development officially starts</h4>
-
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-badge wow pulse" data-wow-delay=".3s" data-wow-iteration="2" style="visibility: hidden; animation-delay: 0.3s; animation-iteration-count: 2; animation-name: none;">
-                                <span class="ti-time"></span>
-                            </div>
-                            <div class="timeline-item shadow wow fadeInRight" style="visibility: hidden; animation-name: none;">
-                                <span class="timeline-date h4">Jan. 15, 2018</span>
-                                <h4 class="timeline-title">The first prototype product Demo is completed; white paper V1.1 is completed</h4>
-
-                            </div>
-                        </li>
-                        <li class="">
-                            <div class="timeline-badge wow pulse" data-wow-delay=".3s" data-wow-iteration="2" style="visibility: hidden; animation-delay: 0.3s; animation-iteration-count: 2; animation-name: none;">
-                                <span class="ti-time"></span>
-                            </div>
-                            <div class="timeline-item shadow wow fadeInRight" style="visibility: hidden; animation-name: none;">
-                                <span class="timeline-date h4">Jan. 2018</span>
-                                <h4 class="timeline-title">Angel Investment starts<br>The Finance and Economy Master is put into use<br>The issue and exchange of BCV<br>Chain project is put into use initially</h4>
-
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-badge wow pulse" data-wow-delay=".3s" data-wow-iteration="2" style="visibility: hidden; animation-delay: 0.3s; animation-iteration-count: 2; animation-name: none;">
-                                <span class="ti-time"></span>
-                            </div>
-                            <div class="timeline-item shadow wow fadeInRight" style="visibility: hidden; animation-name: none;">
-                                <span class="timeline-date h4">Late Feb. 2018</span>
-                                <h4 class="timeline-title">SaaS project starts officially; BCV enters the exchange</h4>
-
-                            </div>
-                        </li>
-                        <li class="">
-                            <div class="timeline-badge wow pulse" data-wow-delay=".3s" data-wow-iteration="2" style="visibility: hidden; animation-delay: 0.3s; animation-iteration-count: 2; animation-name: none;">
-                                <span class="ti-time"></span>
-                            </div>
-                            <div class="timeline-item shadow wow fadeInRight" style="visibility: hidden; animation-name: none;">
-                                <span class="timeline-date h4">Mar. 2018</span>
-                                <h4 class="timeline-title">Chain service is put into use<br>Chain evaluation is put into use</h4>
-
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-badge wow pulse" data-wow-delay=".3s" data-wow-iteration="2" style="visibility: hidden; animation-delay: 0.3s; animation-iteration-count: 2; animation-name: none;">
-                                <span class="ti-time"></span>
-                            </div>
-                            <div class="timeline-item shadow wow fadeInRight" style="visibility: hidden; animation-name: none;">
-                                <span class="timeline-date h4">Aug. 2018</span>
-                                <h4 class="timeline-title">Asset management business arrangement</h4>
-
-                            </div>
-                        </li>
-                        <li class="">
-                            <div class="timeline-badge wow pulse" data-wow-delay=".3s" data-wow-iteration="2" style="visibility: hidden; animation-delay: 0.3s; animation-iteration-count: 2; animation-name: none;">
-                                <span class="ti-time"></span>
-                            </div>
-                            <div class="timeline-item shadow wow fadeInRight" style="visibility: hidden; animation-name: none;">
-                                <span class="timeline-date h4">Mar. 2019</span>
-                                <h4 class="timeline-title">The construction of asset management ecology is completed</h4>
-
-                            </div>
-                        </li>
                     </ul>
                 </div>
             </div>
@@ -533,168 +238,23 @@
         <div class="container overflow-hidden">
             <div class="row">
                 <div class="col-md-12 clients-introduction">
-                    <h2 class="text-center">Project consultants</h2>
+                    <h2 class="text-center">{{consultants.name[lang]}}</h2>
                 </div>
 
                 <div class="clients-slider swiper-container-horizontal swiper-container-multirow">
                     <div class="swiper-wrapper" style="width: 1755px;">
-                        <div class="swiper-slide shadow wow bounceIn swiper-slide-active" data-wow-delay=".1s" data-swiper-column="0" data-swiper-row="0" style="order: 0; width: 262.5px; visibility: hidden; animation-delay: 0.1s; animation-name: none; margin-right: 30px;position:relative;overflow:hidden;">
-                            <img src="./img/brand-fengxin.png" alt="brand logo">
+                        
+                        <div v-for="u in consultants.list" class="swiper-slide shadow wow bounceIn swiper-slide-active" data-wow-delay=".1s" data-swiper-column="0" data-swiper-row="0" style="order: 0; width: 262.5px; visibility: hidden; animation-delay: 0.1s; animation-name: none; margin-right: 30px;position:relative;overflow:hidden;">
+                            <img :src="u.img" alt="brand logo">
                             <li class="filtr-item" data-category="1, 3" style="top:0;width:100%;height:100%;opacity: 1; transform: scale(1) translate3d(0px, 0px, 0px); backface-visibility: hidden; perspective: 1000px; transform-style: preserve-3d; position: absolute; transition: all 0.5s ease-out 0ms; pointer-events: auto;">
-                            <a href="" class="portfolio-thumbnail" style="background-image: url(./img/brand-fengxin.png)" data-toggle="modal" data-target="#portfolio-01">
+                            <a href="" class="portfolio-thumbnail" :style="'background-image: url('+u.img+')'" data-toggle="modal" data-target="#portfolio-01">
                                 <span class="portfolio-description text-center">  
-                                <span class="text-center portfolio-title2">Feng Xin</span>
-                                <span>Founder of Carbon 9 Accelerator and MBA of Nankai Business School. He once worked for Legend Capital, leading to invest in iFLYTEK and worked for True Fund as a partner in investment. He once invested in well-known projects such as SZ.</span>
+                                <span class="text-center portfolio-title2">{{u.name[lang]}}</span>
+                                <span>{{u.intro[lang]}}</span>
                                 </span>
                             </a>
                             </li>
                         </div>
-
-                        <div class="swiper-slide shadow wow bounceIn swiper-slide-active" data-wow-delay=".1s" data-swiper-column="0" data-swiper-row="0" style="order: 0; width: 262.5px; visibility: hidden; animation-delay: 0.1s; animation-name: none; margin-right: 30px;position:relative;overflow:hidden;">
-                            <img src="./img/brand-liujiang.png" alt="brand logo">
-                            <li class="filtr-item" data-category="1, 3" style="top:0;width:100%;height:100%;opacity: 1; transform: scale(1) translate3d(0px, 0px, 0px); backface-visibility: hidden; perspective: 1000px; transform-style: preserve-3d; position: absolute; transition: all 0.5s ease-out 0ms; pointer-events: auto;">
-                            <a href="" class="portfolio-thumbnail" style="background-image: url(./img/brand-liujiang.png)" data-toggle="modal" data-target="#portfolio-01">
-                                <span class="portfolio-description text-center">  
-                                <span class="text-center portfolio-title2">Liu Jiang</span>
-                                <span>Founding partner of Sparkling Star Capital; founder of Xingheng Education; member of tagcash Foundation; co-founder of WuKang network.</span>
-                                </span>
-                            </a>
-                            </li>
-                        </div>
-
-                        <div class="swiper-slide shadow wow bounceIn swiper-slide-active" data-wow-delay=".1s" data-swiper-column="0" data-swiper-row="0" style="order: 0; width: 262.5px; visibility: hidden; animation-delay: 0.1s; animation-name: none; margin-right: 30px;position:relative;overflow:hidden;">
-                            <img src="./img/brand-jiangjie.png" alt="brand logo">
-                            <li class="filtr-item" data-category="1, 3" style="top:0;width:100%;height:100%;opacity: 1; transform: scale(1) translate3d(0px, 0px, 0px); backface-visibility: hidden; perspective: 1000px; transform-style: preserve-3d; position: absolute; transition: all 0.5s ease-out 0ms; pointer-events: auto;">
-                            <a href="" class="portfolio-thumbnail" style="background-image: url(./img/brand-jiangjie.png)" data-toggle="modal" data-target="#portfolio-01">
-                                <span class="portfolio-description text-center">  
-                                <span class="text-center portfolio-title2">Jiang Jie</span>
-                                <span>Founding partner of R-Coin Foundation partner of QinYi Capital Former COO of China Investment Center, involved in the operation of billions of funds</span>
-                                </span>
-                            </a>
-                            </li>
-                        </div>
-
-                        <div class="swiper-slide shadow wow bounceIn swiper-slide-active" data-wow-delay=".1s" data-swiper-column="0" data-swiper-row="0" style="order: 0; width: 262.5px; visibility: hidden; animation-delay: 0.1s; animation-name: none; margin-right: 30px;position:relative;overflow:hidden;">
-                            <img src="./img/brand-wushu.png" alt="brand logo">
-                            <li class="filtr-item" data-category="1, 3" style="top:0;width:100%;height:100%;opacity: 1; transform: scale(1) translate3d(0px, 0px, 0px); backface-visibility: hidden; perspective: 1000px; transform-style: preserve-3d; position: absolute; transition: all 0.5s ease-out 0ms; pointer-events: auto;">
-                            <a href="" class="portfolio-thumbnail" style="background-image: url(./img/brand-wushu.png)" data-toggle="modal" data-target="#portfolio-01">
-                                <span class="portfolio-description text-center">  
-                                <span class="text-center portfolio-title2">Wu Shu</span>
-                                <span>MBA of Cheung Kong Graduate School of Business; Angel investor; Founding Team Member of Tiger Snooker Network; Former Chief Editor of Black Horse; Witness and Founding Member of China's New Media Industry. He used to be the Director of LeTV Group Investment and Financing and Vice President of LeTV cloud computing capital operation. He has been in charge of capital business of LeTV Zhixin, LeTV Mobile, LeTV Finance, LeTV Cloud computing, etc. The total number of the funds he set up, investment and financing is over 30 trillion yuan.
-                                </span>
-                                </span>
-                            </a>
-                            </li>
-                        </div>
-
-                        <div class="swiper-slide shadow wow bounceIn swiper-slide-active" data-wow-delay=".1s" data-swiper-column="0" data-swiper-row="0" style="order: 0; width: 262.5px; visibility: hidden; animation-delay: 0.1s; animation-name: none; margin-right: 30px;position:relative;overflow:hidden;">
-                            <img src="./img/brand-xujizhe.png" alt="brand logo">
-                            <li class="filtr-item" data-category="1, 3" style="top:0;width:100%;height:100%;opacity: 1; transform: scale(1) translate3d(0px, 0px, 0px); backface-visibility: hidden; perspective: 1000px; transform-style: preserve-3d; position: absolute; transition: all 0.5s ease-out 0ms; pointer-events: auto;">
-                            <a href="" class="portfolio-thumbnail" style="background-image: url(./img/brand-xujizhe.png)" data-toggle="modal" data-target="#portfolio-01">
-                                <span class="portfolio-description text-center">  
-                                <span class="text-center portfolio-title2">Xu Jizhe</span>
-                                <span>Co-founder of the Smartweb Elastos driven by the blockchain; founder of philosophy community; pioneer and advocate of free software movement; blockchain expert.</span>
-                                </span>
-                            </a>
-                            </li>
-                        </div>
-
-                        <div class="swiper-slide shadow wow bounceIn swiper-slide-active" data-wow-delay=".1s" data-swiper-column="0" data-swiper-row="0" style="order: 0; width: 262.5px; visibility: hidden; animation-delay: 0.1s; animation-name: none; margin-right: 30px;position:relative;overflow:hidden;">
-                            <img src="./img/brand-luofei.png" alt="brand logo">
-                            <li class="filtr-item" data-category="1, 3" style="top:0;width:100%;height:100%;opacity: 1; transform: scale(1) translate3d(0px, 0px, 0px); backface-visibility: hidden; perspective: 1000px; transform-style: preserve-3d; position: absolute; transition: all 0.5s ease-out 0ms; pointer-events: auto;">
-                            <a href="" class="portfolio-thumbnail" style="background-image: url(./img/brand-luofei.png)" data-toggle="modal" data-target="#portfolio-01">
-                                <span class="portfolio-description text-center">  
-                                <span class="text-center portfolio-title2">Luo Fei</span>
-                                <span>Domestic AI R & D pioneer; he has developed Moorobot, smart speakers and other smart products, and served as SAE in Sina; he is the earliest cloud computing development experts, and core developer of ThinkPHP; he is active in the open source community, and the open source projects he develops have been used by 2 million developers; he is also skilled in technical community operations, and operating a technology community comprised of technical directors from major companies.</span>
-                                </span>
-                            </a>
-                            </li>
-                        </div>
-
-                        <div class="swiper-slide shadow wow bounceIn swiper-slide-active" data-wow-delay=".1s" data-swiper-column="0" data-swiper-row="0" style="order: 0; width: 262.5px; visibility: hidden; animation-delay: 0.1s; animation-name: none; margin-right: 30px;position:relative;overflow:hidden;">
-                            <img src="./img/brand-chengbinghao.png" alt="brand logo">
-                            <li class="filtr-item" data-category="1, 3" style="top:0;width:100%;height:100%;opacity: 1; transform: scale(1) translate3d(0px, 0px, 0px); backface-visibility: hidden; perspective: 1000px; transform-style: preserve-3d; position: absolute; transition: all 0.5s ease-out 0ms; pointer-events: auto;">
-                            <a href="" class="portfolio-thumbnail" style="background-image: url(./img/brand-chengbinghao.png)" data-toggle="modal" data-target="#portfolio-01">
-                                <span class="portfolio-description text-center">  
-                                <span class="text-center portfolio-title2">Cheng Binghao</span>
-                                <span>CEO of Happy Net; investor.</span>
-                                </span>
-                            </a>
-                            </li>
-                        </div>
-
-                        <div class="swiper-slide shadow wow bounceIn swiper-slide-active" data-wow-delay=".1s" data-swiper-column="0" data-swiper-row="0" style="order: 0; width: 262.5px; visibility: hidden; animation-delay: 0.1s; animation-name: none; margin-right: 30px;position:relative;overflow:hidden;">
-                            <img src="./img/brand-yushui.png" alt="brand logo">
-                            <li class="filtr-item" data-category="1, 3" style="top:0;width:100%;height:100%;opacity: 1; transform: scale(1) translate3d(0px, 0px, 0px); backface-visibility: hidden; perspective: 1000px; transform-style: preserve-3d; position: absolute; transition: all 0.5s ease-out 0ms; pointer-events: auto;">
-                            <a href="" class="portfolio-thumbnail" style="background-image: url(./img/brand-yushui.png)" data-toggle="modal" data-target="#portfolio-01">
-                                <span class="portfolio-description text-center">  
-                                <span class="text-center portfolio-title2">Yu Shui</span>
-                                <span>Co-founder of KCash; graduated from Nankai University; he has 7 years of management consulting experience, and used to serve as consultant partner for Hejun. He has provided strategic planning, business model design, organizational change and design, personnel training and service for a number of A-share listed companies.</span>
-                                </span>
-                            </a>
-                            </li>
-                        </div>
-
-                        <div class="swiper-slide shadow wow bounceIn swiper-slide-active" data-wow-delay=".1s" data-swiper-column="0" data-swiper-row="0" style="order: 0; width: 262.5px; visibility: hidden; animation-delay: 0.1s; animation-name: none; margin-right: 30px;position:relative;overflow:hidden;">
-                            <img src="./img/brand-chengmingxia.png" alt="brand logo">
-                            <li class="filtr-item" data-category="1, 3" style="top:0;width:100%;height:100%;opacity: 1; transform: scale(1) translate3d(0px, 0px, 0px); backface-visibility: hidden; perspective: 1000px; transform-style: preserve-3d; position: absolute; transition: all 0.5s ease-out 0ms; pointer-events: auto;">
-                            <a href="" class="portfolio-thumbnail" style="background-image: url(./img/brand-chengmingxia.png)" data-toggle="modal" data-target="#portfolio-01">
-                                <span class="portfolio-description text-center">  
-                                <span class="text-center portfolio-title2">Cheng Mingxia</span>
-                                <span>Assistant Dean of Tencent Research; former deputy editor of Harvard Business Review China.</span>
-                                </span>
-                            </a>
-                            </li>
-                        </div>
-
-                        <div class="swiper-slide shadow wow bounceIn swiper-slide-active" data-wow-delay=".1s" data-swiper-column="0" data-swiper-row="0" style="order: 0; width: 262.5px; visibility: hidden; animation-delay: 0.1s; animation-name: none; margin-right: 30px;position:relative;overflow:hidden;">
-                            <img src="./img/brand-zhanglijun.png" alt="brand logo">
-                            <li class="filtr-item" data-category="1, 3" style="top:0;width:100%;height:100%;opacity: 1; transform: scale(1) translate3d(0px, 0px, 0px); backface-visibility: hidden; perspective: 1000px; transform-style: preserve-3d; position: absolute; transition: all 0.5s ease-out 0ms; pointer-events: auto;">
-                            <a href="" class="portfolio-thumbnail" style="background-image: url(./img/brand-zhanglijun.png)" data-toggle="modal" data-target="#portfolio-01">
-                                <span class="portfolio-description text-center">  
-                                <span class="text-center portfolio-title2">Zhang Lijun</span>
-                                <span>Executive director of Sinovation Ventures; graduated from Renmin University of China, with a master degree in technical economics and management. She joined Sinovation Ventures in 2011 and focused on investment in education. Successful investments include projects such as VIPKID, Box Fish, TheOne Smart Piano, among which VIPKID has gained hundreds of times of valuation growth and has grown into a unicorn in the industry.</span>
-                                </span>
-                            </a>
-                            </li>
-                        </div>
-
-                        <div class="swiper-slide shadow wow bounceIn swiper-slide-active" data-wow-delay=".1s" data-swiper-column="0" data-swiper-row="0" style="order: 0; width: 262.5px; visibility: hidden; animation-delay: 0.1s; animation-name: none; margin-right: 30px;position:relative;overflow:hidden;">
-                            <img src="./img/brand-liutao.png" alt="brand logo">
-                            <li class="filtr-item" data-category="1, 3" style="top:0;width:100%;height:100%;opacity: 1; transform: scale(1) translate3d(0px, 0px, 0px); backface-visibility: hidden; perspective: 1000px; transform-style: preserve-3d; position: absolute; transition: all 0.5s ease-out 0ms; pointer-events: auto;">
-                            <a href="" class="portfolio-thumbnail" style="background-image: url(./img/brand-liutao.png)" data-toggle="modal" data-target="#portfolio-01">
-                                <span class="portfolio-description text-center">  
-                                <span class="text-center portfolio-title2">Liu Tao</span>
-                                <span>Undergraduate of Renmin University of China; MBA of National University of Singapore. She used to be chief risk control officer of Head Office of the Agricultural Bank of China; Chief Marketing Officer of Asia Pacific of Interactive Brokers; Director of International Financial Investment and Operation of CRH; Director and Investment Director of Hong Kong Asian Culture Enterprise Company; Chairman of CITIC Huifu Investment Co., Ltd. ; since March 2017, she has been the partner of Beijing Cathay Venture Capital Fund Management Co., Ltd.</span>
-                                </span>
-                            </a>
-                            </li>
-                        </div>
-
-                        <div class="swiper-slide shadow wow bounceIn swiper-slide-active" data-wow-delay=".1s" data-swiper-column="0" data-swiper-row="0" style="order: 0; width: 262.5px; visibility: hidden; animation-delay: 0.1s; animation-name: none; margin-right: 30px;position:relative;overflow:hidden;">
-                            <img src="./img/brand-yuanye.png" alt="brand logo">
-                            <li class="filtr-item" data-category="1, 3" style="top:0;width:100%;height:100%;opacity: 1; transform: scale(1) translate3d(0px, 0px, 0px); backface-visibility: hidden; perspective: 1000px; transform-style: preserve-3d; position: absolute; transition: all 0.5s ease-out 0ms; pointer-events: auto;">
-                            <a href="" class="portfolio-thumbnail" style="background-image: url(./img/brand-yuanye.png)" data-toggle="modal" data-target="#portfolio-01">
-                                <span class="portfolio-description text-center">  
-                                <span class="text-center portfolio-title2">Yuan Ye</span>
-                                <span>Graduated from the University of International Business and Economics and Windsor University in Canada. He joined KPMG Huazhen in September 2003 and joined Latitude Capital Group in 2004. He joined Ce Yuan Ventures in 2005 and has been the managing partner since then.</span>
-                                </span>
-                            </a>
-                            </li>
-                        </div>
-
-                        <div class="swiper-slide shadow wow bounceIn swiper-slide-active" data-wow-delay=".1s" data-swiper-column="0" data-swiper-row="0" style="order: 0; width: 262.5px; visibility: hidden; animation-delay: 0.1s; animation-name: none; margin-right: 30px;position:relative;overflow:hidden;">
-                            <img src="./img/brand-daiyue.png" alt="brand logo">
-                            <li class="filtr-item" data-category="1, 3" style="top:0;width:100%;height:100%;opacity: 1; transform: scale(1) translate3d(0px, 0px, 0px); backface-visibility: hidden; perspective: 1000px; transform-style: preserve-3d; position: absolute; transition: all 0.5s ease-out 0ms; pointer-events: auto;">
-                            <a href="" class="portfolio-thumbnail" style="background-image: url(./img/brand-daiyue.png)" data-toggle="modal" data-target="#portfolio-01">
-                                <span class="portfolio-description text-center">  
-                                <span class="text-center portfolio-title2">Dai Yue</span>
-                                <span>Domain name tycoon; founder of domain name capital; CEO of LouPan network.</span>
-                                </span>
-                            </a>
-                            </li>
-                        </div>
-
 
                     </div>
                     <div class="clients-pagination text-center swiper-pagination-clickable swiper-pagination-bullets"><span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span></div>
@@ -714,7 +274,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 portfolio-introduction">
-                    <h2 class="text-center">Institutions</h2>
+                    <h2 class="text-center">{{institutions.name[lang]}}</h2>
                 </div>
                 <!--ul class="simplefilter portfolio-filter-label">
                     <li class="active wow fadeInDown" data-wow-delay=".2s" data-filter="all" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInDown;">All</li>
@@ -726,44 +286,9 @@
                 </ul-->
                 <div class="filtr-container" style="padding: 0px; position: relative; height: 520px;">
                     <ul class="portfolio-list">
-                        <li class="filtr-item" data-category="4 , 2" style="opacity: 1; transform: scale(1) translate3d(390px, 0px, 0px); backface-visibility: hidden; perspective: 1000px; transform-style: preserve-3d; position: absolute; transition: all 0.5s ease-out 0ms; pointer-events: auto;">
-                            <a href="" class="portfolio-thumbnail" style="background-image: url(&#39;img/project2.jpg&#39;)" data-toggle="modal" data-target="#portfolio-01">
-                                
-                            </a>
-                        </li>
 
-                        <li class="filtr-item" data-category="2 , 5" style="opacity: 1; transform: scale(1) translate3d(780px, 0px, 0px); backface-visibility: hidden; perspective: 1000px; transform-style: preserve-3d; position: absolute; transition: all 0.5s ease-out 0ms; pointer-events: auto;">
-                            <a href="" class="portfolio-thumbnail" style="background-image: url(&#39;img/project3.jpg&#39;)" data-toggle="modal" data-target="#portfolio-01">
-                                
-                            </a>
-                        </li>
-
-                        <li class="filtr-item" data-category="1 , 5" style="opacity: 1; transform: scale(1) translate3d(0px, 260px, 0px); backface-visibility: hidden; perspective: 1000px; transform-style: preserve-3d; position: absolute; transition: all 0.5s ease-out 0ms; pointer-events: auto;">
-                            <a href="" class="portfolio-thumbnail" style="background-image: url(&#39;img/project4.jpg&#39;)" data-toggle="modal" data-target="#portfolio-01">
-                                
-                            </a>
-                        </li>
-
-                        <li class="filtr-item" data-category="4 , 3" style="opacity: 1; transform: scale(1) translate3d(390px, 260px, 0px); backface-visibility: hidden; perspective: 1000px; transform-style: preserve-3d; position: absolute; transition: all 0.5s ease-out 0ms; pointer-events: auto;">
-                            <a href="" class="portfolio-thumbnail" style="background-image: url(&#39;img/project5.jpg&#39;)" data-toggle="modal" data-target="#portfolio-01">
-                                
-                            </a>
-                        </li>
-
-                        <li class="filtr-item" data-category="3 , 5" style="opacity: 1; transform: scale(1) translate3d(780px, 260px, 0px); backface-visibility: hidden; perspective: 1000px; transform-style: preserve-3d; position: absolute; transition: all 0.5s ease-out 0ms; pointer-events: auto;">
-                            <a href="" class="portfolio-thumbnail" style="background-image: url(&#39;img/project7.jpg&#39;)" data-toggle="modal" data-target="#portfolio-01">
-                                
-                            </a>
-                        </li>
-
-                        <li class="filtr-item" data-category="3 , 5" style="opacity: 1; transform: scale(1) translate3d(780px, 260px, 0px); backface-visibility: hidden; perspective: 1000px; transform-style: preserve-3d; position: absolute; transition: all 0.5s ease-out 0ms; pointer-events: auto;">
-                            <a href="" class="portfolio-thumbnail" style="background-image: url(&#39;img/project8.jpg&#39;)" data-toggle="modal" data-target="#portfolio-01">
-                                
-                            </a>
-                        </li>
-
-                        <li class="filtr-item" data-category="1, 3" style="opacity: 1; transform: scale(1) translate3d(0px, 0px, 0px); backface-visibility: hidden; perspective: 1000px; transform-style: preserve-3d; position: absolute; transition: all 0.5s ease-out 0ms; pointer-events: auto;">
-                            <a href="" class="portfolio-thumbnail" style="background-image: url(&#39;img/project1.jpg&#39;)" data-toggle="modal" data-target="#portfolio-01">
+                        <li v-for="img in institutions.list" class="filtr-item" data-category="4 , 2" style="opacity: 1; transform: scale(1) translate3d(390px, 0px, 0px); backface-visibility: hidden; perspective: 1000px; transform-style: preserve-3d; position: absolute; transition: all 0.5s ease-out 0ms; pointer-events: auto;">
+                            <a href="" class="portfolio-thumbnail" :style="'background-image: url('+img+')'" data-toggle="modal" data-target="#portfolio-01">
                                 
                             </a>
                         </li>
@@ -799,7 +324,10 @@
             </div>
         </footer>
     </div>
+</div>
 
+<script src="./js/vue.js"></script>
+<script src="./js/data.js"></script>
 
 <script data-cfasync="false" src="./js/email-decode.min.js"></script>
 <script src="./js/jquery-1.11.2.min.js"></script>
@@ -812,7 +340,7 @@
 <script src="./js/main.js"></script>
 <script type="text/javascript">
 // Portfolio filters  
-$(function() {
+$(document).ready(function() {
     //Initialize filterizr with default options
     $('.filtr-container').filterizr();
 });
