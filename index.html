@@ -46,14 +46,14 @@
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="#home">{{lang=='en'?'Home':'首页'}}</a></li>
-                    <li><a href="#services">{{lang=='en'?'Product':'产品'}}</a></li>
-                    <li><a href="#solution">{{lang=='en'?'Architecture':'架构'}}</a></li>
+                    <li class="active"><a href="#home">{{lang=='en'?'Home':'首頁'}}</a></li>
+                    <li><a href="#services">{{lang=='en'?'Product':'產品'}}</a></li>
+                    <li><a href="#solution">{{lang=='en'?'Architecture':'架構'}}</a></li>
                     <li><a href="#timeline">{{lang=='en'?'Roadmap':'里程碑'}}</a></li>
-                    <li><a href="#team">{{lang=='en'?'Team':'团队'}}</a></li>
-                    <li><a href="#clients">{{lang=='en'?'Consultants':'顾问'}}</a></li>
-                    <li><a href="#portfolio">{{lang=='en'?'Institutions':'机构'}}</a></li>
-                    <li><a href="#contact">{{lang=='en'?'Contact':'联系'}}</a></li>
+                    <li><a href="#team">{{lang=='en'?'Team':'團隊'}}</a></li>
+                    <li><a href="#clients">{{lang=='en'?'Consultants':'顧問'}}</a></li>
+                    <li><a href="#portfolio">{{lang=='en'?'Institutions':'機構'}}</a></li>
+                    <li><a href="#contact">{{lang=='en'?'Contact':'聯繫'}}</a></li>
                     <li><a @click="lang=(lang=='en'?'cn':'en')">{{lang=='en'?'中文':'English'}}</a></li>
                 </ul>
             </div>
@@ -303,11 +303,11 @@
     <section id="contact" class="section section-min">
         <div class="social">
             <ul>
+                <li><a href="https://github.com/bitcv" target="_blank"><span class="fa fa-github"></span></a></li>
                 <li><a href="https://twitter.com/BCVofficial" target="_blank"><span class="ti-twitter-alt"></span></a></li>
                 <li><a href="https://weibo.com/bitcv" target="_blank"><span class="fa fa-weibo"></span></a></li>
-                <li><a href="http://facebook.com/" target="_blank"><span class="ti-facebook"></span></a></li>
-                <li><a ><span class="fa fa-weixin"></span></a></li>
-                <li><a ><span class="fa fa-qq"></span></a></li>
+                <li><a href="https://t.me/bcvtoken" target="_blank"><span class="fa fa-telegram"></span></a></li>
+                <li><a href="https://www.facebook.com/groups/1301707606641533/" target="_blank"><span class="ti-facebook"></span></a></li>
             </ul>
         </div>
     </section>
@@ -319,6 +319,7 @@
                     <div class="col-md-12 text-center">
                         <img class="footer-logo" src="./img/logo-white.png" alt="footer-logo">
                         <p>Copyright © 2018 BitCV. All Rights Reserved</p>
+                        <p v-if="lang=='cn'">此網站不針對中國大陸地區</p>
                     </div>
                 </div>
             </div>
