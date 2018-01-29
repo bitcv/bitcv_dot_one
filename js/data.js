@@ -292,6 +292,7 @@ var app = new Vue({
                         cn:'騰訊研究院助理院長，曾任《哈佛商業評論》中文版副主編。'
                     }
                 },
+                /*
                 {
                     img: './img/brand-zhanglijun.png',
                     name: { en:'Zhang Lijun', cn:'張麗君' },
@@ -308,6 +309,7 @@ var app = new Vue({
                         cn:'畢業於新加坡國立大學，工商管理碩士。中國内地、香港、新加坡17年金融領域投資經驗。北京國泰創業投資基金管理有限公司管理合夥人。'
                     }
                 },
+                */
                 {
                     img: './img/brand-yuanye.png',
                     name: { en:'Yuan Ye', cn:'元野' },
@@ -375,12 +377,12 @@ var app = new Vue({
         institutions: {
             name: { en:'Institutions', cn:'機構' },
             list: [
-                './img/project-linkvc.jpg', //Link VC
+                //'./img/project-linkvc.jpg', //Link VC
                 './img/project-genesis.jpg',
                 './img/project-xingyue.jpg', //星耀资本
                 './img/project-tan9.jpg', //碳 9 加速器
-                './img/project-chuangxin.jpg', //创新工场(曾投资 YeeCall、极路 由等)
-                './img/project-guotai.jpg', //国泰创投(曾投资 比特大陆)
+                //'./img/project-chuangxin.jpg', //创新工场(曾投资 YeeCall、极路 由等)
+                //'./img/project-guotai.jpg', //国泰创投(曾投资 比特大陆)
                 './img/project-ceyuan.jpg', //策源创投(曾投资 OKCoin)
                 './img/project-guanghe.jpg', //广禾资本
                 './img/project-huozhong.jpg', //火种资本
