@@ -390,7 +390,85 @@ var app = new Vue({
                 './img/project-innovalley.jpg', //创新谷基金
                 //'./img/project-yuming.jpg', //域名资本
             ]
-        }
+        },
+
+        media: {
+            name: { en:'Media report', cn:'媒体报道' },
+            list: [
+                {
+                    img: './img/media-heima.png',
+                    url: 'http://www.iheima.com/zixun/2018/0130/167135.shtml',
+                    name: { en:'iheima', cn:'黑马网' },
+                    intro: {
+                        en:'区块链新锐BitCV获千万级天使融资：或成数字资产管理平台开创者',
+                        cn:'区块链新锐BitCV获千万级天使融资：或成数字资产管理平台开创者'
+                    }
+                },
+                {
+                    img: './img/media-yiou.png',
+                    url: 'https://www.iyiou.com/p/65488',
+                    name: { en:'亿欧', cn:'亿欧' },
+                    intro: {
+                        en:'区块链新锐BitCV获千万级天使融资——或成数字资产管理平台开创者',
+                        cn:'区块链新锐BitCV获千万级天使融资——或成数字资产管理平台开创者'
+                    }
+                },
+                {
+                    img: './img/media-tencent.png',
+                    url: 'http://new.qq.com/omn/20180130/20180130A0EC6M.html',
+                    name: { en:'tencent', cn:'腾讯网' },
+                    intro: {
+                        en:'区块链BitCV获千万级天使融资：或成数字资产管理平台开创者',
+                        cn:'区块链BitCV获千万级天使融资：或成数字资产管理平台开创者'
+                    }
+                },
+                {
+                    img: './img/media-souhu.png',
+                    url: 'http://www.sohu.com/a/219786398_439726',
+                    name: { en:'sohu', cn:'搜狐' },
+                    intro: {
+                        en:'数字资产管理平台BitCV获千万级天使融资',
+                        cn:'数字资产管理平台BitCV获千万级天使融资'
+                    }
+                },
+                {
+                    img: './img/media-jinrongjie.png',
+                    url: 'http://biz.jrj.com.cn/2018/01/30141124030848.shtml',
+                    name: { en:'金融界', cn:'金融界' },
+                    intro: {
+                        en:'区块链新锐BitCV获千万级天使融资',
+                        cn:'区块链新锐BitCV获千万级天使融资'
+                    }
+                },
+                {
+                    img: './img/media-guangming.png',
+                    url: 'http://it.gmw.cn/2018-01/30/content_27515552.htm',
+                    name: { en:'光明网', cn:'光明网' },
+                    intro: {
+                        en:'数字资产管理平台BitCV获千万级天使融资',
+                        cn:'数字资产管理平台BitCV获千万级天使融资'
+                    }
+                },
+                {
+                    img: './img/media-china.png',
+                    url: 'http://tech.china.com.cn/entrepreneur/20180130/334710.shtml',
+                    name: { en:'china.com.cn', cn:'中国网' },
+                    intro: {
+                        en:'数字资产管理平台BitCV获千万级天使融资',
+                        cn:'数字资产管理平台BitCV获千万级天使融资'
+                    }
+                },
+                {
+                    img: './img/media-touzijie.png',
+                    url: 'http://pe.pedaily.cn/201801/426853.shtml',
+                    name: { en:'投资界', cn:'投资界' },
+                    intro: {
+                        en:'数字资产管理平台BitCV获千万级天使融资',
+                        cn:'数字资产管理平台BitCV获千万级天使融资'
+                    }
+                },
+            ]
+        },
 
 
     },
