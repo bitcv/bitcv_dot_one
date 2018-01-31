@@ -1,368 +1,371 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>BitCV - Blockchain Digital Asset Management Service Engine</title>
-    <link rel="icon" type="image/png" href="favicon.png">
-    <link type="text/css" rel="stylesheet" href="./css/fontset.css">
-    <link href="./css/fonts.css" rel="stylesheet">
-    <link rel="stylesheet" href="./css/bootstrap-dark.css">
-    <link rel="stylesheet" href="./css/theme-dark.css">
-    <link rel="stylesheet" href="./fonts/font-awesome/css/font-awesome.min.css">
-    <script src="./js/wow.js"></script>
-    <style type="text/css">
-    .portfolio-title2 {
-    color: #fff;
-    margin: 10px 0;
-    font-weight: 700;
-    display: block;
-    position: relative;
-    }
-    .home-buttons a {
-        margin-bottom: 26px;
-        width: 300px;
-    }
-    .home-buttons a:hover {
-        background: #000;
-        color: #c2a362;
-    }
-    </style>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>BitCV - Blockchain Digital Asset Management Service Engine</title>
+<link rel="icon" type="image/png" href="favicon.png">
+<link type="text/css" rel="stylesheet" href="./css/fontset.css">
+<link href="./css/fonts.css" rel="stylesheet">
+<link rel="stylesheet" href="./css/bootstrap-dark.css">
+<link rel="stylesheet" href="./css/theme-dark.css">
+<link rel="stylesheet" href="./fonts/font-awesome/css/font-awesome.min.css">
+<script src="./js/wow.js"></script>
+<style type="text/css">
+.portfolio-title2 {
+color: #fff;
+margin: 10px 0;
+font-weight: 700;
+display: block;
+position: relative;
+}
+.home-buttons a {
+margin-bottom: 26px;
+width: 300px;
+}
+.home-buttons a:hover {
+background: #000;
+color: #c2a362;
+}
+</style>
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="50" class="dark-theme">
 <div id="app">
 
-    <nav class="navbar navbar-fixed-top shadow">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#"><img src="./img/logo-white.png" alt="logo"></a>
-            </div>
-            <div class="collapse navbar-collapse" id="myNavbar">
-                <ul class="nav navbar-nav">
-                    <li class="active"><a href="#home">{{lang=='en'?'Home':'首頁'}}</a></li>
-                    <li><a href="#services">{{lang=='en'?'Product':'產品'}}</a></li>
-                    <li><a href="#solution">{{lang=='en'?'Architecture':'架構'}}</a></li>
-                    <li><a href="#timeline">{{lang=='en'?'Roadmap':'里程碑'}}</a></li>
-                    <li><a href="#team">{{lang=='en'?'Team':'團隊'}}</a></li>
-                    <li><a href="#clients">{{lang=='en'?'Consultants':'顧問'}}</a></li>
-                    <li><a href="#portfolio">{{lang=='en'?'Institutions':'機構'}}</a></li>
-                    <li><a href="#media">{{lang=='en'?'Media':'媒体'}}</a></li>
-                    <li><a href="#contact">{{lang=='en'?'Contact':'聯繫'}}</a></li>
-                    <li><a @click="lang=(lang=='en'?'cn':'en')">{{lang=='en'?'中文':'English'}}</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+<nav class="navbar navbar-fixed-top shadow">
+<div class="container-fluid">
+<div class="navbar-header">
+<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="navbar-brand" href="#"><img src="./img/logo-white.png" alt="logo"></a>
+</div>
+<div class="collapse navbar-collapse" id="myNavbar">
+<ul class="nav navbar-nav">
+<li class="active"><a href="#home">{{lang=='en'?'Home':(lang=='jp'?'ホームページ':'首頁')}}</a></li>
+<li><a href="#services">{{lang=='en'?'Product':(lang=='jp'?'製品':'產品')}}</a></li>
+<li><a href="#solution">{{lang=='en'?'Architecture':(lang=='jp'?'建築':'架構')}}</a></li>
+<li><a href="#timeline">{{lang=='en'?'Roadmap':(lang=='jp'?'マイルストーン':'里程碑')}}</a></li>
+<li><a href="#team">{{lang=='en'?'Team':(lang=='jp'?'チーム':'團隊')}}</a></li>
+<li><a href="#clients">{{lang=='en'?'Consultants':(lang=='jp'?'コンサルタント':'顧問')}}</a></li>
+<li><a href="#portfolio">{{lang=='en'?'Institutions':(lang=='jp'?'機関':'機構')}}</a></li>
+<li><a href="#media">{{lang=='en'?'Media':(lang=='jp'?'メディア':'媒体')}}</a></li>
+<li><a href="#contact">{{lang=='en'?'Contact':(lang=='jp'?'連絡先':'聯繫')}}</a></li>
+<!--  
+<li><a @click="lang=(lang=='en'?'cn':'en')">{{lang=='en'?'中文':'English'}}</a></li>
+-->
+<li><a @click="lang=(lang=='en'?'cn':(lang=='jp'?'en':'jp'))">{{lang=='en'?'中文':(lang=='jp'?'English':'日本語')}}</a></li>
+</ul>
+</div>
+</div>
+</nav>
 
-    <section class="home home-isometric section" id="home">
-        <div class="home-isometric-wrapper">
-            <img class="wow home-isometric-1 fadeInDown" src="./img/layer-01-3.png" data-wow-delay="0.1s" alt="image slide" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInDown;">
-            <!--img class="layer fadeInUp wow home-isometric-2" src="./img/layer-01-2.png" data-wow-delay="0.3s" alt="image slide" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
-            <img class="layer fadeInLeft wow home-isometric-3" src="./img/layer-01-3.png" data-wow-delay="0.5s" alt="image slide" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInLeft;">
-            <img class="layer fadeInUp wow home-isometric-4" src="./img/layer-01-4.png" data-wow-delay="0.7s" alt="image slide" style="visibility: visible; animation-delay: 0.7s; animation-name: fadeInUp;"-->
-        </div>
-        <div class="home-slider text-center swiper-container-horizontal">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide swiper-slide-active" style="width: 1253px;">
-                    <h2 class="home-slider-title-main" style="max-width:100%" v-html="project.name[lang]"></h2>
-                    <!--div class="home-slider-title-small">BitCV</div-->
-                </div>
-            </div>
+<section class="home home-isometric section" id="home">
+<div class="home-isometric-wrapper">
+<img class="wow home-isometric-1 fadeInDown" src="./img/layer-01-3.png" data-wow-delay="0.1s" alt="image slide" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInDown;">
+<!--img class="layer fadeInUp wow home-isometric-2" src="./img/layer-01-2.png" data-wow-delay="0.3s" alt="image slide" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
+<img class="layer fadeInLeft wow home-isometric-3" src="./img/layer-01-3.png" data-wow-delay="0.5s" alt="image slide" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInLeft;">
+<img class="layer fadeInUp wow home-isometric-4" src="./img/layer-01-4.png" data-wow-delay="0.7s" alt="image slide" style="visibility: visible; animation-delay: 0.7s; animation-name: fadeInUp;"-->
+</div>
+<div class="home-slider text-center swiper-container-horizontal">
+<div class="swiper-wrapper">
+<div class="swiper-slide swiper-slide-active" style="width: 1253px;">
+<h2 class="home-slider-title-main" style="max-width:100%" v-html="project.name[lang]"></h2>
+<!--div class="home-slider-title-small">BitCV</div-->
+</div>
+</div>
 
-            <!--div class="home-pagination swiper-pagination-clickable swiper-pagination-bullets"><span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span><span class="swiper-pagination-bullet"></span></div>
-            <div class="home-slider-next right-arrow-negative">
-                <span class="ti-arrow-right"></span>
-            </div>
+<!--div class="home-pagination swiper-pagination-clickable swiper-pagination-bullets"><span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span><span class="swiper-pagination-bullet"></span></div>
+<div class="home-slider-next right-arrow-negative">
+<span class="ti-arrow-right"></span>
+</div>
 
-            <div class="home-slider-prev left-arrow-negative swiper-button-disabled">
-                <span class="ti-arrow-left"></span>
-            </div-->
-        </div>
-        <div class="home-buttons text-center">
-            <a target="_blank" :href="project.whitepaper.doc[lang]" class="btn btn-margin btn-lg  btn-primary">{{project.whitepaper.btn[lang]}}</a>
-            <a target="_blank" :href="project.ppt.doc[lang]" class="btn btn-margin btn-lg  btn-primary">{{project.ppt.btn[lang]}}</a>
-        </div>
-    </section>
+<div class="home-slider-prev left-arrow-negative swiper-button-disabled">
+<span class="ti-arrow-left"></span>
+</div-->
+</div>
+<div class="home-buttons text-center">
+<a target="_blank" :href="project.whitepaper.doc[lang]" class="btn btn-margin btn-lg  btn-primary">{{project.whitepaper.btn[lang]}}</a>
+<a target="_blank" :href="project.ppt.doc[lang]" class="btn btn-margin btn-lg  btn-primary">{{project.ppt.btn[lang]}}</a>
+</div>
+</section>
 
-    <section id="services" class="services section">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 services-introduction">
-                    <h2 class="text-center">{{product.name[lang]}}</h2>
-                </div>
+<section id="services" class="services section">
+<div class="container">
+<div class="row">
+<div class="col-md-12 services-introduction">
+<h2 class="text-center">{{product.name[lang]}}</h2>
+</div>
 
-                <div v-for="p in product.list" class="col-md-6 wow fadeInLeft" style="visibility: visible; animation-name: fadeInLeft;">
-                    <div class="services-box text-center shadow">
-                        <span :class="p.icon"></span>
-                        <h4>{{p.title[lang]}}</h4>
-                        <p class="fixed-height">{{p.content[lang]}}
-                        </p>
-                    </div>
-                </div>
+<div v-for="p in product.list" class="col-md-6 wow fadeInLeft" style="visibility: visible; animation-name: fadeInLeft;">
+<div class="services-box text-center shadow">
+<span :class="p.icon"></span>
+<h4>{{p.title[lang]}}</h4>
+<p class="fixed-height">{{p.content[lang]}}
+</p>
+</div>
+</div>
 
-            </div>
-        </div>
-    </section>
+</div>
+</div>
+</section>
 
-    <section class="about section" id="solution">
-        <div class="col-md-12 about-introduction">
-            <h2 class="text-center">{{arch.name[lang]}}</h2>
-        </div>
+<section class="about section" id="solution">
+<div class="col-md-12 about-introduction">
+<h2 class="text-center">{{arch.name[lang]}}</h2>
+</div>
 
-        <div class="container overflow-hidden">
-            <div class="row">
-                <div class="about-slider swiper-container-horizontal">
-                    <div class="swiper-wrapper">
+<div class="container overflow-hidden">
+<div class="row">
+<div class="about-slider swiper-container-horizontal">
+<div class="swiper-wrapper">
 
-                        <div v-for="a in arch.list" class="swiper-slide swiper-slide-active" style="width: 1170px;">
-                            <div class="about-slider-half">
-                                <div class="about-image">
-                                    <img style="z-index: 1; visibility: visible; animation-delay: 0.4s; animation-name: fadeInDown;" :src="a.img" alt="mockup" class="wow fadeInDown" data-wow-delay=".4s">
+<div v-for="a in arch.list" class="swiper-slide swiper-slide-active" style="width: 1170px;">
+<div class="about-slider-half">
+<div class="about-image">
+<img style="z-index: 1; visibility: visible; animation-delay: 0.4s; animation-name: fadeInDown;" :src="a.img" alt="mockup" class="wow fadeInDown" data-wow-delay=".4s">
 
-                                    <!--img style="z-index: 2; visibility: visible; animation-delay: 0.8s; animation-name: fadeInRight;" class="wow fadeInRight about-image-layer" src="./img/layer-2.png" data-wow-delay=".8s" alt="mockup layer"-->
-                                </div>
-                            </div>
+<!--img style="z-index: 2; visibility: visible; animation-delay: 0.8s; animation-name: fadeInRight;" class="wow fadeInRight about-image-layer" src="./img/layer-2.png" data-wow-delay=".8s" alt="mockup layer"-->
+</div>
+</div>
 
-                            <div class="about-slider-half about-slider-half-padding">
-                                <h3 class="wow fadeInRight" style="visibility: visible; animation-name: fadeInRight;">{{a.title[lang]}}</h3>
-                                <p class="wow fadeInRight" data-wow-delay=".4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInRight;" v-html="a.content[lang]">
-                                    
-                                </p>
-                            </div>
-                        </div>
+<div class="about-slider-half about-slider-half-padding">
+<h3 class="wow fadeInRight" style="visibility: visible; animation-name: fadeInRight;">{{a.title[lang]}}</h3>
+<p class="wow fadeInRight" data-wow-delay=".4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInRight;" v-html="a.content[lang]">
 
-                    </div>
+</p>
+</div>
+</div>
 
-                    <div class="about-pagination text-center swiper-pagination-clickable swiper-pagination-bullets"><span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span><span class="swiper-pagination-bullet"></span></div>
-                    <div class="about-slider-next right-arrow-negative">
-                        <span class="ti-arrow-right"></span>
-                    </div>
+</div>
 
-                    <div class="about-slider-prev left-arrow-negative swiper-button-disabled">
-                        <span class="ti-arrow-left"></span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+<div class="about-pagination text-center swiper-pagination-clickable swiper-pagination-bullets"><span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span><span class="swiper-pagination-bullet"></span></div>
+<div class="about-slider-next right-arrow-negative">
+<span class="ti-arrow-right"></span>
+</div>
 
-    <section id="team" class="team section">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 team-introduction">
-                    <h2 class="text-center">{{team.name[lang]}}</h2>
-                </div>
-                <ul>
-                    <li v-for="(u,index) in team.list" class="col-md-3 col-xs-6">
-                        <a href="#" data-toggle="modal" :data-target="'#team-member-0'+index" class="team-member wow fadeInUp" data-wow-delay=".2s" style="visibility: hidden; animation-delay: 0.2s; animation-name: none;">
-                            <span class="team-member-photo">
-                            <img :src="'./img/'+u.img" alt="team member">
-                        </span>
+<div class="about-slider-prev left-arrow-negative swiper-button-disabled">
+<span class="ti-arrow-left"></span>
+</div>
+</div>
+</div>
+</div>
+</section>
 
-                            <span class="team-member-name h4">{{u.name[lang]}}</span>
-                            <span class="team-member-role">Co-founder</span>
-                        </a>
-                    </li>
+<section id="team" class="team section">
+<div class="container">
+<div class="row">
+<div class="col-md-12 team-introduction">
+<h2 class="text-center">{{team.name[lang]}}</h2>
+</div>
+<ul>
+<li v-for="(u,index) in team.list" class="col-md-3 col-xs-6">
+<a href="#" data-toggle="modal" :data-target="'#team-member-0'+index" class="team-member wow fadeInUp" data-wow-delay=".2s" style="visibility: hidden; animation-delay: 0.2s; animation-name: none;">
+<span class="team-member-photo">
+<img :src="'./img/'+u.img" alt="team member">
+</span>
 
-                </ul>
+<span class="team-member-name h4">{{u.name[lang]}}</span>
+<span class="team-member-role">Co-founder</span>
+</a>
+</li>
 
-                <!-- TEAM MODAL -->
-                <div v-for="(u,index) in team.list" :id="'team-member-0'+index" class="modal fade" role="dialog">
-                    <div class="modal-dialog modal-lg">
-                        <!-- Modal content-->
-                        <div class="modal-content shadow">
-                            <a class="close" data-dismiss="modal"><span class="ti-close"></span></a>
-                            <div class="modal-body modal-lg">
-                                <div class="team-member-detail">
-                                    <div class="col-md-12">
-                                        <div class="team-member-description">
-                                            <h4 class="">Experiences</h4>
-                                            <ul>
-                                                <li class="">
-                                                <span class="team-member-description-info">
-                                                    <span class="team-member-description-details">
-                                                    {{u.intro[lang]}}
-                                                    </span>
-                                                </span>
-                                                </li>                                            
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- / TEAM MODAL -->
-            </div>
-        </div>
-    </section>
+</ul>
 
-    <section id="timeline" class="timeline section">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 timeline-introduction">
-                    <h2 class="text-center">{{roadmap.name[lang]}}</h2>
-                </div>
+<!-- TEAM MODAL -->
+<div v-for="(u,index) in team.list" :id="'team-member-0'+index" class="modal fade" role="dialog">
+<div class="modal-dialog modal-lg">
+<!-- Modal content-->
+<div class="modal-content shadow">
+<a class="close" data-dismiss="modal"><span class="ti-close"></span></a>
+<div class="modal-body modal-lg">
+<div class="team-member-detail">
+<div class="col-md-12">
+<div class="team-member-description">
+<h4 class="">Experiences</h4>
+<ul>
+<li class="">
+<span class="team-member-description-info">
+<span class="team-member-description-details">
+{{u.intro[lang]}}
+</span>
+</span>
+</li>                                            
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- / TEAM MODAL -->
+</div>
+</div>
+</section>
 
-                <div class="col-md-12">
-                    <ul class="timeline-list">
+<section id="timeline" class="timeline section">
+<div class="container">
+<div class="row">
+<div class="col-md-12 timeline-introduction">
+<h2 class="text-center">{{roadmap.name[lang]}}</h2>
+</div>
 
-                        <li v-for="(r,index) in roadmap.list" :class="index%2==0 ? 'timeline-inverted' : ''">
-                            <div class="timeline-badge wow pulse" data-wow-delay=".3s" data-wow-iteration="2" style="visibility: hidden; animation-delay: 0.3s; animation-iteration-count: 2; animation-name: none;">
-                                <span class="ti-time"></span>
-                            </div>
-                            <div class="timeline-item shadow wow fadeInLeft" style="visibility: hidden; animation-name: none;">
-                                <span class="timeline-date h4">{{r.date[lang]}}</span>
-                                <h4 class="timeline-title" v-html="r.content[lang]"></h4>
+<div class="col-md-12">
+<ul class="timeline-list">
 
-                                <!--div class="timeline-content">
-                                    <p>Initial planning of the project starts</p>
-                                </div-->
-                            </div>
-                        </li>
+<li v-for="(r,index) in roadmap.list" :class="index%2==0 ? 'timeline-inverted' : ''">
+<div class="timeline-badge wow pulse" data-wow-delay=".3s" data-wow-iteration="2" style="visibility: hidden; animation-delay: 0.3s; animation-iteration-count: 2; animation-name: none;">
+<span class="ti-time"></span>
+</div>
+<div class="timeline-item shadow wow fadeInLeft" style="visibility: hidden; animation-name: none;">
+<span class="timeline-date h4">{{r.date[lang]}}</span>
+<h4 class="timeline-title" v-html="r.content[lang]"></h4>
 
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
+<!--div class="timeline-content">
+<p>Initial planning of the project starts</p>
+</div-->
+</div>
+</li>
 
-    <section class="clients section" id="clients">
-        <div class="container overflow-hidden">
-            <div class="row">
-                <div class="col-md-12 clients-introduction">
-                    <h2 class="text-center">{{consultants.name[lang]}}</h2>
-                </div>
+</ul>
+</div>
+</div>
+</div>
+</section>
 
-                <div class="clients-slider swiper-container-horizontal swiper-container-multirow">
-                    <div class="swiper-wrapper" style="width: 1755px;">
-                        
-                        <div v-for="u in consultants.list" class="swiper-slide shadow wow bounceIn swiper-slide-active" data-wow-delay=".1s" data-swiper-column="0" data-swiper-row="0" style="order: 0; width: 262.5px; visibility: hidden; animation-delay: 0.1s; animation-name: none; margin-right: 30px;position:relative;overflow:hidden;">
-                            <img :src="u.img" alt="brand logo">
-                            <li class="filtr-item" data-category="1, 3" style="top:0;width:100%;height:100%;opacity: 1; transform: scale(1) translate3d(0px, 0px, 0px); backface-visibility: hidden; perspective: 1000px; transform-style: preserve-3d; position: absolute; transition: all 0.5s ease-out 0ms; pointer-events: auto;">
-                            <a href="" class="portfolio-thumbnail" :style="'background-image: url('+u.img+')'" data-toggle="modal" data-target="#portfolio-01">
-                                <span class="portfolio-description text-center">  
-                                <span class="text-center portfolio-title2">{{u.name[lang]}}</span>
-                                <span>{{u.intro[lang]}}</span>
-                                </span>
-                            </a>
-                            </li>
-                        </div>
+<section class="clients section" id="clients">
+<div class="container overflow-hidden">
+<div class="row">
+<div class="col-md-12 clients-introduction">
+<h2 class="text-center">{{consultants.name[lang]}}</h2>
+</div>
 
-                    </div>
-                    <div class="clients-pagination text-center swiper-pagination-clickable swiper-pagination-bullets"><span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span></div>
-                    <div class="clients-slider-next right-arrow-negative">
-                        <span class="ti-arrow-right"></span>
-                    </div>
+<div class="clients-slider swiper-container-horizontal swiper-container-multirow">
+<div class="swiper-wrapper" style="width: 1755px;">
 
-                    <div class="clients-slider-prev left-arrow-negative swiper-button-disabled">
-                        <span class="ti-arrow-left"></span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+<div v-for="u in consultants.list" class="swiper-slide shadow wow bounceIn swiper-slide-active" data-wow-delay=".1s" data-swiper-column="0" data-swiper-row="0" style="order: 0; width: 262.5px; visibility: hidden; animation-delay: 0.1s; animation-name: none; margin-right: 30px;position:relative;overflow:hidden;">
+<img :src="u.img" alt="brand logo">
+<li class="filtr-item" data-category="1, 3" style="top:0;width:100%;height:100%;opacity: 1; transform: scale(1) translate3d(0px, 0px, 0px); backface-visibility: hidden; perspective: 1000px; transform-style: preserve-3d; position: absolute; transition: all 0.5s ease-out 0ms; pointer-events: auto;">
+<a href="" class="portfolio-thumbnail" :style="'background-image: url('+u.img+')'" data-toggle="modal" data-target="#portfolio-01">
+<span class="portfolio-description text-center">  
+<span class="text-center portfolio-title2">{{u.name[lang]}}</span>
+<span>{{u.intro[lang]}}</span>
+</span>
+</a>
+</li>
+</div>
 
-    <section id="portfolio" class="portfolio section">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 portfolio-introduction">
-                    <h2 class="text-center">{{institutions.name[lang]}}</h2>
-                </div>
-                <!--ul class="simplefilter portfolio-filter-label">
-                    <li class="active wow fadeInDown" data-wow-delay=".2s" data-filter="all" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInDown;">All</li>
-                    <li class="wow fadeInDown" data-wow-delay=".3s" data-filter="1" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInDown;">option filter 1</li>
-                    <li class="wow fadeInDown" data-wow-delay=".4s" data-filter="2" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInDown;">option filter 2</li>
-                    <li class="wow fadeInDown" data-wow-delay=".5s" data-filter="3" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInDown;">option filter 3</li>
-                    <li class="wow fadeInDown" data-wow-delay=".6s" data-filter="4" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInDown;">option filter 4</li>
-                    <li class="wow fadeInDown" data-wow-delay=".7s" data-filter="5" style="visibility: visible; animation-delay: 0.7s; animation-name: fadeInDown;">option filter 5</li>
-                </ul-->
-                <div class="filtr-container" style="padding: 0px; position: relative; height: 520px;">
-                    <ul class="portfolio-list">
+</div>
+<div class="clients-pagination text-center swiper-pagination-clickable swiper-pagination-bullets"><span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span></div>
+<div class="clients-slider-next right-arrow-negative">
+<span class="ti-arrow-right"></span>
+</div>
 
-                        <li v-for="img in institutions.list" class="filtr-item" data-category="4 , 2" style="opacity: 1; transform: scale(1) translate3d(390px, 0px, 0px); backface-visibility: hidden; perspective: 1000px; transform-style: preserve-3d; position: absolute; transition: all 0.5s ease-out 0ms; pointer-events: auto;">
-                            <a href="" class="portfolio-thumbnail" :style="'background-image: url('+img+')'" data-toggle="modal" data-target="#portfolio-01">
-                                
-                            </a>
-                        </li>
+<div class="clients-slider-prev left-arrow-negative swiper-button-disabled">
+<span class="ti-arrow-left"></span>
+</div>
+</div>
+</div>
+</div>
+</section>
 
-                    </ul>
-                </div>
-                
-            </div>
-        </div>
-    </section>
+<section id="portfolio" class="portfolio section">
+<div class="container">
+<div class="row">
+<div class="col-md-12 portfolio-introduction">
+<h2 class="text-center">{{institutions.name[lang]}}</h2>
+</div>
+<!--ul class="simplefilter portfolio-filter-label">
+<li class="active wow fadeInDown" data-wow-delay=".2s" data-filter="all" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInDown;">All</li>
+<li class="wow fadeInDown" data-wow-delay=".3s" data-filter="1" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInDown;">option filter 1</li>
+<li class="wow fadeInDown" data-wow-delay=".4s" data-filter="2" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInDown;">option filter 2</li>
+<li class="wow fadeInDown" data-wow-delay=".5s" data-filter="3" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInDown;">option filter 3</li>
+<li class="wow fadeInDown" data-wow-delay=".6s" data-filter="4" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInDown;">option filter 4</li>
+<li class="wow fadeInDown" data-wow-delay=".7s" data-filter="5" style="visibility: visible; animation-delay: 0.7s; animation-name: fadeInDown;">option filter 5</li>
+</ul-->
+<div class="filtr-container" style="padding: 0px; position: relative; height: 520px;">
+<ul class="portfolio-list">
 
-    <section class="clients section" id="media">
-        <div class="container overflow-hidden">
-            <div class="row">
-                <div class="col-md-12 clients-introduction">
-                    <h2 class="text-center">{{media.name[lang]}}</h2>
-                </div>
+<li v-for="img in institutions.list" class="filtr-item" data-category="4 , 2" style="opacity: 1; transform: scale(1) translate3d(390px, 0px, 0px); backface-visibility: hidden; perspective: 1000px; transform-style: preserve-3d; position: absolute; transition: all 0.5s ease-out 0ms; pointer-events: auto;">
+<a href="" class="portfolio-thumbnail" :style="'background-image: url('+img+')'" data-toggle="modal" data-target="#portfolio-01">
 
-                <div class="clients-slider swiper-container-horizontal swiper-container-multirow">
-                    <div class="swiper-wrapper" style="width: 1755px;">
-                        
-                        <div v-for="u in media.list" class="swiper-slide shadow wow bounceIn swiper-slide-active" data-wow-delay=".1s" data-swiper-column="0" data-swiper-row="0" style="order: 0; width: 262.5px; visibility: hidden; animation-delay: 0.1s; animation-name: none; margin-right: 30px;position:relative;overflow:hidden;">
-                            <img :src="u.img" alt="brand logo">
-                            <li class="filtr-item" data-category="1, 3" style="top:0;width:100%;height:100%;opacity: 1; transform: scale(1) translate3d(0px, 0px, 0px); backface-visibility: hidden; perspective: 1000px; transform-style: preserve-3d; position: absolute; transition: all 0.5s ease-out 0ms; pointer-events: auto;">
-                            <a :href="u.url" target="_blank" class="portfolio-thumbnail" :style="'background-image: url('+u.img+')'">
-                                <span class="portfolio-description text-center">  
-                                <span class="text-center portfolio-title2">{{u.name[lang]}}</span>
-                                <span>{{u.intro[lang]}}</span>
-                                <span><br>{{lang=='en'?'>>Detail':'>>详情'}}</span>
-                                </span>
-                            </a>
-                            </li>
-                        </div>
+</a>
+</li>
 
-                    </div>
-                    <div class="clients-pagination text-center swiper-pagination-clickable swiper-pagination-bullets"><span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span></div>
-                    <div class="clients-slider-next right-arrow-negative">
-                        <span class="ti-arrow-right"></span>
-                    </div>
+</ul>
+</div>
 
-                    <div class="clients-slider-prev left-arrow-negative swiper-button-disabled">
-                        <span class="ti-arrow-left"></span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+</div>
+</div>
+</section>
 
-    <section id="contact" class="section section-min">
-        <div class="social">
-            <ul>
-                <li><a href="https://github.com/bitcv" target="_blank"><span class="fa fa-github"></span></a></li>
-                <li><a href="https://twitter.com/BCVofficial" target="_blank"><span class="ti-twitter-alt"></span></a></li>
-                <li><a href="https://weibo.com/bitcv" target="_blank"><span class="fa fa-weibo"></span></a></li>
-                <li><a href="https://t.me/bcvtoken" target="_blank"><span class="fa fa-telegram"></span></a></li>
-                <li><a href="https://www.facebook.com/groups/1301707606641533/" target="_blank"><span class="ti-facebook"></span></a></li>
-            </ul>
-        </div>
-    </section>
+<section class="clients section" id="media">
+<div class="container overflow-hidden">
+<div class="row">
+<div class="col-md-12 clients-introduction">
+<h2 class="text-center">{{media.name[lang]}}</h2>
+</div>
 
-    <div class="section section-min">
-        <footer class="footer">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 text-center">
-                        <img class="footer-logo" src="./img/logo-white.png" alt="footer-logo">
-                        <p>Copyright © 2018 BitCV. All Rights Reserved</p>
-                        <p v-if="lang=='cn'">此網站不針對中國大陸地區</p>
-                    </div>
-                </div>
-            </div>
-        </footer>
-    </div>
+<div class="clients-slider swiper-container-horizontal swiper-container-multirow">
+<div class="swiper-wrapper" style="width: 1755px;">
+
+<div v-for="u in media.list" class="swiper-slide shadow wow bounceIn swiper-slide-active" data-wow-delay=".1s" data-swiper-column="0" data-swiper-row="0" style="order: 0; width: 262.5px; visibility: hidden; animation-delay: 0.1s; animation-name: none; margin-right: 30px;position:relative;overflow:hidden;">
+<img :src="u.img" alt="brand logo">
+<li class="filtr-item" data-category="1, 3" style="top:0;width:100%;height:100%;opacity: 1; transform: scale(1) translate3d(0px, 0px, 0px); backface-visibility: hidden; perspective: 1000px; transform-style: preserve-3d; position: absolute; transition: all 0.5s ease-out 0ms; pointer-events: auto;">
+<a :href="u.url" target="_blank" class="portfolio-thumbnail" :style="'background-image: url('+u.img+')'">
+<span class="portfolio-description text-center">  
+<span class="text-center portfolio-title2">{{u.name[lang]}}</span>
+<span>{{u.intro[lang]}}</span>
+<span><br>{{lang=='en'?'>>Detail':'>>详情'}}</span>
+</span>
+</a>
+</li>
+</div>
+
+</div>
+<div class="clients-pagination text-center swiper-pagination-clickable swiper-pagination-bullets"><span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span></div>
+<div class="clients-slider-next right-arrow-negative">
+<span class="ti-arrow-right"></span>
+</div>
+
+<div class="clients-slider-prev left-arrow-negative swiper-button-disabled">
+<span class="ti-arrow-left"></span>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section id="contact" class="section section-min">
+<div class="social">
+<ul>
+<li><a href="https://github.com/bitcv" target="_blank"><span class="fa fa-github"></span></a></li>
+<li><a href="https://twitter.com/BCVofficial" target="_blank"><span class="ti-twitter-alt"></span></a></li>
+<li><a href="https://weibo.com/bitcv" target="_blank"><span class="fa fa-weibo"></span></a></li>
+<li><a href="https://t.me/bcvtoken" target="_blank"><span class="fa fa-telegram"></span></a></li>
+<li><a href="https://www.facebook.com/groups/1301707606641533/" target="_blank"><span class="ti-facebook"></span></a></li>
+</ul>
+</div>
+</section>
+
+<div class="section section-min">
+<footer class="footer">
+<div class="container">
+<div class="row">
+<div class="col-md-12 text-center">
+<img class="footer-logo" src="./img/logo-white.png" alt="footer-logo">
+<p>Copyright © 2018 BitCV. All Rights Reserved</p>
+<p v-if="lang=='cn'">此網站不針對中國大陸地區</p>
+</div>
+</div>
+</div>
+</footer>
+</div>
 </div>
 
 <script src="./js/vue.js"></script>
@@ -380,8 +383,8 @@
 <script type="text/javascript">
 // Portfolio filters  
 $(document).ready(function() {
-    //Initialize filterizr with default options
-    $('.filtr-container').filterizr();
+//Initialize filterizr with default options
+$('.filtr-container').filterizr();
 });
 </script>
 
