@@ -46,16 +46,24 @@ color: #c2a362;
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="#home">{{lang=='en'?'Home':'首頁'}}</a></li>
-                    <li><a href="#services">{{lang=='en'?'Product':'產品'}}</a></li>
-                    <li><a href="#solution">{{lang=='en'?'Architecture':'架構'}}</a></li>
-                    <li><a href="#timeline">{{lang=='en'?'Roadmap':'里程碑'}}</a></li>
-                    <li><a href="#team">{{lang=='en'?'Team':'團隊'}}</a></li>
-                    <li><a href="#clients">{{lang=='en'?'Consultants':'顧問'}}</a></li>
-                    <li><a href="#portfolio">{{lang=='en'?'Institutions':'機構'}}</a></li>
-                    <li><a href="#media">{{lang=='en'?'Media':'媒体'}}</a></li>
-                    <li><a href="#contact">{{lang=='en'?'Contact':'聯繫'}}</a></li>
-                    <li><a @click="lang=(lang=='en'?'cn':'en')">{{lang=='en'?'中文':'English'}}</a></li>
+                    <li class="active"><a href="#home">{{project.menu.home[lang]}}</a></li>
+						<li><a href="#services">{{project.menu.services[lang]}}</a></li>
+						<li><a href="#solution">{{project.menu.solution[lang]}}</a></li>
+						<li><a href="#timeline">{{project.menu.timeline[lang]}}</a></li>
+						<li><a href="#team">{{project.menu.team[lang]}}</a></li>
+						<li><a href="#clients">{{project.menu.clients[lang]}}</a></li>
+						<li><a href="#portfolio">{{project.menu.portfolio[lang]}}</a></li>
+						<li><a href="#media">{{project.menu.media[lang]}}</a></li>
+						<li><a href="#contact">{{project.menu.contact[lang]}}</a></li>
+                        
+                    <li style="width:70px;"><a></a>
+                        <div style="position:absolute;top:20px">
+                            <a style="color:#fff;cursor:pointer;padding:0 15px" v-if="lang!='cn'" @click="lang='cn'">中文</a>
+                            <a style="color:#fff;cursor:pointer;padding:0 15px" v-if="lang!='en'" @click="lang='en'">English</a>
+                            <a style="color:#fff;cursor:pointer;padding:0 15px" v-if="lang!='ko'" @click="lang='ko'">Korea</a>
+                            <a style="color:#fff;cursor:pointer;padding:0 15px" v-if="lang!='jp'" @click="lang='jp'">Japanese</a>
+                        </div>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -369,19 +377,19 @@ color: #c2a362;
 
 </div>
 
-<script src="./js/vue.js"></script>
-<script src="./js/data.js?4"></script>
+	<script src="./js/vue.js"></script>
+	<script src="./js/data.js?4"></script>
 
-<script data-cfasync="false" src="./js/email-decode.min.js"></script>
-<script src="./js/jquery-1.11.2.min.js"></script>
-<script src="./js/swiper.min.js"></script>
-<script src="./js/bootstrap.min.js"></script>
-<script src="./js/jquery.countTo.js"></script>
-<script src="./js/jquery.inview.js"></script>
-<script src="./js/jquery.filterizr.js"></script>
-<script src="./js/controls.js"></script>
-<script src="./js/main.js"></script>
-<script type="text/javascript">
+	<script data-cfasync="false" src="./js/email-decode.min.js"></script>
+	<script src="./js/jquery-1.11.2.min.js"></script>
+	<script src="./js/swiper.min.js"></script>
+	<script src="./js/bootstrap.min.js"></script>
+	<script src="./js/jquery.countTo.js"></script>
+	<script src="./js/jquery.inview.js"></script>
+	<script src="./js/jquery.filterizr.js"></script>
+	<script src="./js/controls.js"></script>
+	<script src="./js/main.js"></script>
+	<script type="text/javascript">
 // Portfolio filters  
 $(document).ready(function() {
 //Initialize filterizr with default options
