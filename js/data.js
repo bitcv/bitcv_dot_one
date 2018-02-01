@@ -106,7 +106,7 @@ var app = new Vue({
                     }
                 },
                 {   
-                    img: 'user-jiagui.png',
+                    img: 'user-jiagui.png?1',
                     name: { en:'Xiong Jiagui', cn:'熊家貴' },
                     intro: {
                         en: 'Graduated from Tsinghua University; senior R & D engineer in Sina; python group leader in iAsk; chief architect in Happy Net. He is proficient in Linux, Unix infrastructure research and development, and provide independently storage, communications and other middleware services. He once managed the design of millions of concurrent online instant messaging system in Happy Net. Duties: Leading the design of the underlying protocol of the digital asset management chain and highly reliable underlying platform.',
@@ -122,7 +122,7 @@ var app = new Vue({
                     }
                 },
                 {   
-                    img: 'user-wenling.png',
+                    img: 'user-wenling.png?1',
                     name: { en:'Wen Ling', cn:'文玲' },
                     intro: {
                         en: 'Received Master’s degree in Investment Management at Peking University; assistant of Apple’s Angel investor Mr. Li Zongnan in China; the China market leader of United States Shan Kwong Capital; former market director assistant of Sinovation Ventures; co-founder of Internet K12 online education. She is now the founder of PPTEAM Project, which provide magic performance technology service for the first-class Internet startups and first-class investment agencies senior executives, and cooperation companies include Tencent, Toutiao, the State Grid Cooperation of China and so on.',
@@ -284,6 +284,7 @@ var app = new Vue({
                         cn:'KCash 聯合創始人、畢業於南開大學，7年管理咨詢經驗，曾任和君咨詢業務合夥人，為多家A股上市公司提供戰略規劃及商業模式設計、組織變革與設計、人才培養與服務。'
                     }
                 },
+                /*
                 {
                     img: './img/brand-chengmingxia.png',
                     name: { en:'Cheng Mingxia', cn:'程明霞' },
@@ -292,7 +293,6 @@ var app = new Vue({
                         cn:'騰訊研究院助理院長，曾任《哈佛商業評論》中文版副主編。'
                     }
                 },
-                /*
                 {
                     img: './img/brand-zhanglijun.png',
                     name: { en:'Zhang Lijun', cn:'張麗君' },
@@ -309,7 +309,6 @@ var app = new Vue({
                         cn:'畢業於新加坡國立大學，工商管理碩士。中國内地、香港、新加坡17年金融領域投資經驗。北京國泰創業投資基金管理有限公司管理合夥人。'
                     }
                 },
-                */
                 {
                     img: './img/brand-yuanye.png',
                     name: { en:'Yuan Ye', cn:'元野' },
@@ -318,6 +317,7 @@ var app = new Vue({
                         cn:'畢業於對外經濟貿易大學，加拿大溫莎大學，2003年9月加入畢馬威華振會計師事務所，2004年加入樂通投資集團，2005年加入策源創投，至今任主管合夥人。'
                     }
                 },
+                */
                 {
                     img: './img/brand-zhubo.png',
                     name: { en:'Zhu Bo', cn:'朱波' },
@@ -383,7 +383,7 @@ var app = new Vue({
                 './img/project-tan9.jpg', //碳 9 加速器
                 //'./img/project-chuangxin.jpg', //创新工场(曾投资 YeeCall、极路 由等)
                 //'./img/project-guotai.jpg', //国泰创投(曾投资 比特大陆)
-                './img/project-ceyuan.jpg', //策源创投(曾投资 OKCoin)
+                //'./img/project-ceyuan.jpg', //策源创投(曾投资 OKCoin)
                 './img/project-guanghe.jpg', //广禾资本
                 './img/project-huozhong.jpg', //火种资本
                 './img/project-bdfund.jpg', //梦工场基金
