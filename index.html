@@ -13,21 +13,40 @@
 <link rel="stylesheet" href="./fonts/font-awesome/css/font-awesome.min.css">
 <script src="./js/wow.js"></script>
 <style type="text/css">
-.portfolio-title2 {
-color: #fff;
-margin: 10px 0;
-font-weight: 700;
-display: block;
-position: relative;
-}
-.home-buttons a {
-margin-bottom: 26px;
-width: 300px;
-}
-.home-buttons a:hover {
-background: #000;
-color: #c2a362;
-}
+    .portfolio-title2 {
+        color: #fff;
+        margin: 10px 0;
+        font-weight: 700;
+        display: block;
+        position: relative;
+    }
+    .home-buttons a {
+        margin-bottom: 26px;
+        width: 300px;
+    }
+    .home-buttons a:hover {
+        background: #000;
+        color: #c2a362;
+    }
+    .lilang {
+        width: 80px;
+    }
+    .lilang div {
+        position:absolute;
+        top:20px;
+        width: 100%;
+        text-align: center;
+    }
+    .lilang div a {
+        color:#fff;
+        cursor:pointer;
+        padding:0 15px;
+    }
+    @media (max-width: 1199px) and (min-width: 480px) {
+        .lilang {
+            width: 100%;
+        }
+    }
 </style>
 </head>
 
@@ -47,21 +66,22 @@ color: #c2a362;
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav">
                     <li class="active"><a href="#home">{{project.menu.home[lang]}}</a></li>
-						<li><a href="#services">{{project.menu.services[lang]}}</a></li>
-						<li><a href="#solution">{{project.menu.solution[lang]}}</a></li>
-						<li><a href="#timeline">{{project.menu.timeline[lang]}}</a></li>
-						<li><a href="#team">{{project.menu.team[lang]}}</a></li>
-						<li><a href="#clients">{{project.menu.clients[lang]}}</a></li>
-						<li><a href="#portfolio">{{project.menu.portfolio[lang]}}</a></li>
-						<li><a href="#media">{{project.menu.media[lang]}}</a></li>
-						<li><a href="#contact">{{project.menu.contact[lang]}}</a></li>
+					<li><a href="#services">{{project.menu.services[lang]}}</a></li>
+					<li><a href="#solution">{{project.menu.solution[lang]}}</a></li>
+					<li><a href="#timeline">{{project.menu.timeline[lang]}}</a></li>
+					<li><a href="#team">{{project.menu.team[lang]}}</a></li>
+					<li><a href="#clients">{{project.menu.clients[lang]}}</a></li>
+					<li><a href="#portfolio">{{project.menu.portfolio[lang]}}</a></li>
+					<li><a href="#media">{{project.menu.media[lang]}}</a></li>
+					<li><a href="#contact">{{project.menu.contact[lang]}}</a></li>
                         
-                    <li style="width:70px;"><a></a>
-                        <div style="position:absolute;top:20px">
-                            <a style="color:#fff;cursor:pointer;padding:0 15px" v-if="lang!='cn'" @click="lang='cn'">中文</a>
-                            <a style="color:#fff;cursor:pointer;padding:0 15px" v-if="lang!='en'" @click="lang='en'">English</a>
-                            <a style="color:#fff;cursor:pointer;padding:0 15px" v-if="lang!='ko'" @click="lang='ko'">Korea</a>
-                            <a style="color:#fff;cursor:pointer;padding:0 15px" v-if="lang!='jp'" @click="lang='jp'">Japanese</a>
+                    <li class="lilang">
+                        <a></a>
+                        <div>
+                            <a v-if="lang!='cn'" @click="lang='cn'">中文</a>
+                            <a v-if="lang!='en'" @click="lang='en'">English</a>
+                            <a v-if="lang!='jp'" @click="lang='jp'">日本語</a>
+                            <a v-if="lang!='ko'" @click="lang='ko'">한국어</a>
                         </div>
                     </li>
                 </ul>
@@ -378,7 +398,7 @@ color: #c2a362;
 </div>
 
 	<script src="./js/vue.js"></script>
-	<script src="./js/data.js?4"></script>
+	<script src="./js/data.js?5"></script>
 
 	<script data-cfasync="false" src="./js/email-decode.min.js"></script>
 	<script src="./js/jquery-1.11.2.min.js"></script>

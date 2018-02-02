@@ -7,7 +7,8 @@ var app = new Vue({
         lang: 'en',
 
         project: {
-        	menu: { home:{ cn:'首頁', en:'Home', jp:'ホームページ', ko:'홈' },  
+        	menu: {
+                home:{ cn:'首頁', en:'Home', jp:'ホームページ', ko:'홈' },  
     		    services:{ cn:'產品', en:'Product', jp:'製品', ko:'제품' },
     		    solution:{ cn:'架構', en:'Architecture', jp:'建築', ko:'건축' },
     		    timeline:{ cn:'里程碑', en:'Roadmap', jp:'マイルストーン', ko:'이정표' },
@@ -16,7 +17,7 @@ var app = new Vue({
     		    portfolio:{ cn:'機構', en:'Institutions', jp:'機関', ko:'기관' },
     		    media:{ cn:'媒体', en:'Media', jp:'メディア', ko:'미디어' },
     		    contact:{ cn:'聯繫', en:'Contact', jp:'連絡先', ko:'연락처' }
-    	},
+    	    },
             name: { en:'Blockchain Digital Asset <br>Management Service Engine', cn:'區塊鏈數字資產管理服務引擎', jp:'ブロックチェーンデジタル<br>資産管理サービスエンジン', ko:'블록체인디지털자산관리서비스엔진' },
             whitepaper: {
                 btn: { en:'Download White Paper', cn:'下載白皮書', jp:'ホワイトペーパーのダウンロード', ko:'백서 다운로드' },
@@ -277,6 +278,16 @@ var app = new Vue({
                     }
                 },
                 {
+                    img: './img/brand-guohongcai.png',
+                    name: { en:'Guo Hongcai', cn:'郭宏才', jp:'郭宏才', ko:'광굉재' },
+                    intro: {
+                        en:'The well-known figure of digital',
+                        cn:'币圈知名大佬',
+                        jp:'ビットコイン界の専門家',
+                        ko:'디지털화폐업계의 형님'
+                    }
+                },
+                {
                     img: './img/brand-liujiang.png',
                     name: { en:'Liu Jiang', cn:'劉江', jp:'劉江', ko:'유강' },
                     intro: {
@@ -286,6 +297,7 @@ var app = new Vue({
                         ko:'Sparkling Star 캐피탈 창립자'
                     }
                 },
+                /*
                 {
                     img: './img/brand-jiangjie.png',
                     name: { en:'Jiang Jie', cn:'蔣傑', jp:'蔣傑', ko:'장걸' },
@@ -296,6 +308,7 @@ var app = new Vue({
                         ko:'R-Coin 기금회창립파트너'
                     }
                 },
+                */
                 {
                     img: './img/brand-wushu.png',
                     name: { en:'Wu Shu', cn:'吳澍', jp:'吳澍', ko:'오주' },
