@@ -68,8 +68,8 @@
                     <li class="active"><a href="#home">{{project.menu.home[lang]}}</a></li>
 					<li><a href="#services">{{project.menu.services[lang]}}</a></li>
 					<li><a href="#solution">{{project.menu.solution[lang]}}</a></li>
+                    <li><a href="#team">{{project.menu.team[lang]}}</a></li>
 					<li><a href="#timeline">{{project.menu.timeline[lang]}}</a></li>
-					<li><a href="#team">{{project.menu.team[lang]}}</a></li>
 					<li><a href="#clients">{{project.menu.clients[lang]}}</a></li>
 					<li><a href="#portfolio">{{project.menu.portfolio[lang]}}</a></li>
 					<li><a href="#media">{{project.menu.media[lang]}}</a></li>
@@ -249,7 +249,7 @@
                             </div>
                             <div class="timeline-item shadow wow fadeInLeft" style="visibility: hidden; animation-name: none;">
                                 <span class="timeline-date h4">{{r.date[lang]}}</span>
-                                <h4 class="timeline-title" v-html="r.content[lang]"></h4>
+                                <h4 class="timeline-title" style="line-height:18px;" v-html="r.content[lang]"></h4>
 
                                 <!--div class="timeline-content">
                                     <p>Initial planning of the project starts</p>
@@ -370,10 +370,10 @@
         <div class="social">
             <ul>
                 <li><a href="https://github.com/bitcv" target="_blank"><span class="fa fa-github"></span></a></li>
+                <li><a href="https://www.facebook.com/BitCapitalVendor" target="_blank"><span class="ti-facebook"></span></a></li>
                 <li><a href="https://twitter.com/BCVofficial" target="_blank"><span class="ti-twitter-alt"></span></a></li>
-                <li><a href="https://weibo.com/bitcv" target="_blank"><span class="fa fa-weibo"></span></a></li>
                 <li><a href="https://t.me/bcvtoken" target="_blank"><span class="fa fa-telegram"></span></a></li>
-                <li><a href="https://www.facebook.com/groups/1301707606641533/" target="_blank"><span class="ti-facebook"></span></a></li>
+                <li><a href="https://weibo.com/bitcv" target="_blank"><span class="fa fa-weibo"></span></a></li>
             </ul>
         </div>
     </section>
@@ -398,7 +398,7 @@
 </div>
 
 	<script src="./js/vue.js"></script>
-	<script src="./js/data.js?5"></script>
+	<script src="./js/data.js?7"></script>
 
 	<script data-cfasync="false" src="./js/email-decode.min.js"></script>
 	<script src="./js/jquery-1.11.2.min.js"></script>

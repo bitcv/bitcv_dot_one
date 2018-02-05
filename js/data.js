@@ -21,11 +21,11 @@ var app = new Vue({
             name: { en:'Blockchain Digital Asset <br>Management Service Engine', cn:'區塊鏈數字資產管理服務引擎', jp:'ブロックチェーンデジタル<br>資産管理サービスエンジン', ko:'블록체인디지털자산관리서비스엔진' },
             whitepaper: {
                 btn: { en:'Download White Paper', cn:'下載白皮書', jp:'ホワイトペーパーのダウンロード', ko:'백서 다운로드' },
-                doc: { en:'doc/bitcv_whitepaper_en.pdf', cn:'doc/bitcv_whitepaper_cn.pdf', jp:'doc/bitcv_whitepaper_jp.pdf', ko:'doc/bitcv_whitepaper_ko.pdf' }
+                doc: { en:'doc/bitcv_whitepaper_en.pdf', cn:'doc/bitcv_whitepaper_tr.pdf', jp:'doc/bitcv_whitepaper_jp.pdf', ko:'doc/bitcv_whitepaper_ko.pdf' }
             },
             ppt: {
                 btn: { en:'Download Project Presentation', cn:'下載PPT', jp:'PPTをダウンロード', ko:'PPT 다운로드' },
-                doc: { en:'doc/bitcv_project_en.pdf', cn:'doc/bitcv_project_cn.pdf', jp:'doc/bitcv_project_jp.pdf', ko:'doc/bitcv_project_ko.pdf' }
+                doc: { en:'doc/bitcv_project_en.pdf', cn:'doc/bitcv_project_tr.pdf', jp:'doc/bitcv_project_jp.pdf', ko:'doc/bitcv_project_ko.pdf' }
             }
         },
 
@@ -297,18 +297,6 @@ var app = new Vue({
                         ko:'Sparkling Star 캐피탈 창립자'
                     }
                 },
-                /*
-                {
-                    img: './img/brand-jiangjie.png',
-                    name: { en:'Jiang Jie', cn:'蔣傑', jp:'蔣傑', ko:'장걸' },
-                    intro: {
-                        en:'Founding partner of R-Coin Foundation partner of QinYi Capital Former COO of China Investment Center, involved in the operation of billions of funds',
-                        cn:'R-Coin 基金會創始合夥人，欽一資本合夥人，曾任中國投資人中心COO，參與運作基金數十億',
-                        jp:'R-Coin 基金の創業パートナー',
-                        ko:'R-Coin 기금회창립파트너'
-                    }
-                },
-                */
                 {
                     img: './img/brand-wushu.png',
                     name: { en:'Wu Shu', cn:'吳澍', jp:'吳澍', ko:'오주' },
@@ -359,52 +347,6 @@ var app = new Vue({
                         ko:'Happy Net CEO, 투자자'
                     }
                 },
-                {
-                    img: './img/brand-yushui.png',
-                    name: { en:'Yu Shui', cn:'餘水', jp:'餘水', ko:'여수' },
-                    intro: {
-                        en:'Co-founder of KCash; graduated from Nankai University; he has 7 years of management consulting experience, and used to serve as consultant partner for Hejun. He has provided strategic planning, business model design, organizational change and design, personnel training and service for a number of A-share listed companies.',
-                        cn:'KCash 聯合創始人、畢業於南開大學，7年管理咨詢經驗，曾任和君咨詢業務合夥人，為多家A股上市公司提供戰略規劃及商業模式設計、組織變革與設計、人才培養與服務。',
-                        jp:'KCash の共同創業者',
-                        ko:'KCash 연합창립자'
-                    }
-                },
-                /*
-                {
-                    img: './img/brand-chengmingxia.png',
-                    name: { en:'Cheng Mingxia', cn:'程明霞', jp:'程明霞' },
-                    intro: {
-                        en:'Assistant Dean of Tencent Research; former deputy editor of Harvard Business Review China.',
-                        cn:'騰訊研究院助理院長，曾任《哈佛商業評論》中文版副主編。',
-                        jp:'テンセント研究院の助役院長'
-                    }
-                },
-                {
-                    img: './img/brand-zhanglijun.png',
-                    name: { en:'Zhang Lijun', cn:'張麗君' },
-                    intro: {
-                        en:'Executive director of Sinovation Ventures; graduated from Renmin University of China, with a master degree in technical economics and management. She joined Sinovation Ventures in 2011 and focused on investment in education. Successful investments include projects such as VIPKID, Box Fish, TheOne Smart Piano, among which VIPKID has gained hundreds of times of valuation growth and has grown into a unicorn in the industry.',
-                        cn:'創新工場執行董事，畢業於中國人民大學，擁有技術經濟與管理碩士學位。2011年加入創新工場，專註於教育領域投資，曾成功主導投資VIPKID、盒子魚、TheOne智能鋼琴等項目，其中VIPKID獲得數百倍估值增長，成長為行業獨角獸。'
-                    }
-                },
-                {
-                    img: './img/brand-liutao.png',
-                    name: { en:'Liu Tao', cn:'劉弢' },
-                    intro: {
-                        en:'Undergraduate of Renmin University of China; MBA of National University of Singapore. She used to be chief risk control officer of Head Office of the Agricultural Bank of China; Chief Marketing Officer of Asia Pacific of Interactive Brokers; Director of International Financial Investment and Operation of CRH; Director and Investment Director of Hong Kong Asian Culture Enterprise Company; Chairman of CITIC Huifu Investment Co., Ltd. ; since March 2017, she has been the partner of Beijing Cathay Venture Capital Fund Management Co., Ltd.',
-                        cn:'畢業於新加坡國立大學，工商管理碩士。中國内地、香港、新加坡17年金融領域投資經驗。北京國泰創業投資基金管理有限公司管理合夥人。'
-                    }
-                },
-                {
-                    img: './img/brand-yuanye.png',
-                    name: { en:'Yuan Ye', cn:'元野', jp:'元野' },
-                    intro: {
-                        en:'Graduated from the University of International Business and Economics and Windsor University in Canada. He joined KPMG Huazhen in September 2003 and joined Latitude Capital Group in 2004. He joined Ce Yuan Ventures in 2005 and has been the managing partner since then.',
-                        cn:'畢業於對外經濟貿易大學，加拿大溫莎大學，2003年9月加入畢馬威華振會計師事務所，2004年加入樂通投資集團，2005年加入策源創投，至今任主管合夥人。',
-                        jp:'策源創投のパートナー'
-                    }
-                },
-                */
                 {
                     img: './img/brand-zhubo.png',
                     name: { en:'Zhu Bo', cn:'朱波', jp:'朱波', ko:'주파' },
@@ -470,7 +412,7 @@ var app = new Vue({
         },
 
         institutions: {
-            name: { en:'Institutions', cn:'機構', jp:'組織', ko:'기관' },
+            name: { en:'Institutions', cn:'機構', jp:'機関', ko:'기관' },
             list: [
                 //'./img/project-linkvc.jpg', //Link VC
                 './img/project-genesis.jpg',
