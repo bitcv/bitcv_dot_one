@@ -39,7 +39,7 @@ var app = new Vue({
                         en:'For every independent project, its information and data are independent and isolated from other projects. For the project party, from domain name to display, they are independent and unique, and create exclusive and professional images.',
                         cn:'每一個獨立的項目，資訊與數據與别的項目隔離，從域名到展示，都有獨立性和唯一性，造就專屬、專業的形象。',
                         jp:'それぞれの独立したプロジェクト、情報、データは、ドメイン名からディスプレイまで、他のプロジェクトとは独立しています。',
-                        ko:'각각의 독립적 인 프로젝트, 정보 및 데이터는 도메인 이름에서 디스플레이에 이르기까지 다른 프로젝트와 분리되어 독 립적이고 전문적인 이미지를 만들어 내며 독립적이며 독창적입니다.'
+                        ko:'각각의 독립적인 프로젝트, 정보 및 데이터는 도메인 이름에서 디스플레이에 이르기까지 다른 프로젝트와 분리되어 독립적이고 유니크하며, 그로 인해 전속적이고 전문적인 이미지를 만듭니다.'
                     }
                 },
                 {
@@ -49,7 +49,7 @@ var app = new Vue({
                         en:'The BitCV team consists of experienced investors, blockchain technical experts, senior media professionals, who, with all the experience in the fields of investment, media and technology, can scrutinize every aspect of a project.',
                         cn:'資深投資人、區塊鏈技術專家、資深媒體人士，全面挖掘項目團隊背景、項目技術實力評估、項目投資人訪談等，讓公眾投資人全面、公正、客觀地瞭解項目的方方面面',
                         jp:'シニア投資家、ブロック鎖技術の専門家、シニアメディアの人々、総合的な採掘プロジェクトチームの背景、技術力とプロジェクト評価、プロジェクト投資家のインタビュー、公共投資プロジェクトのすべての側面を包括的、公正かつ客観的理解',
-                        ko:'고위 투자자, 블록 체인 기술 전문가 및 숙련 된 미디어 전문가는 프로젝트 팀의 배경을 완전히 활용하고 프로젝트의 기술력을 평가하며 프로젝트 투자자와 면담을함으로써 모든 공공 투자자가 포괄적이고 공정하며 객관적인 방식으로 프로젝트의 모든 측면을 이해할 수 있도록합니다'
+                        ko:'베테랑 투자자, 블록 체인 기술 전문가 및 숙련 된 미디어 전문가는 프로젝트 팀의 배경을 완전히 탐색하고 프로젝트의 기술력을 평가하고 프로젝트 투자자와 면담을 함으로써 모든 공공 투자자가 포괄적이고 공정하며 객관적인 방식으로 프로젝트의 모든 측면을 이해할 수 있도록합니다'
                     }
                 },
                 {
@@ -59,7 +59,7 @@ var app = new Vue({
                         en:'Besides the assessment of each dimension, there are analyses based on historical models and data, including the artificial intelligence assessment and the prediction of the prospects with machine learning model. All these rely heavily on analyzing and data processing, of which the BitCV team has accumulated considerable experience.',
                         cn:'基於大數據與人工智能技術，做好項目價值發現與投資者評估，結合傳統金融行業大量的從業經驗，研發風險評估與風控模型。',
                         jp:'大きなデータデータや人工知能技術に基づいて、プロジェクト価値の発見と投資家の評価が行われ、従来の金融業界の多くの実務家が組み合わされて、リスクアセスメントやリスクコントロールモデルが開発されています。',
-                        ko:'빅 데이터 및 인공 지능 기술을 기반으로 프로젝트 가치 발견 및 투자자 평가가 이루어지며 전통적인 금융 업계의 수많은 실무자가 결합되어 위험 평가 및 위험 관리 모델을 개발합니다.'
+                        ko:'빅 데이터 및 인공 지능 기술을 기반으로 프로젝트 가치 발견 및 투자자 평가가 이루어지며 전통적인 금융 업계의 수많은 실무자와 결합되어 위험 평가 및 위험 관리 모델을 개발합니다.'
                     }
                 },
                 {
@@ -69,7 +69,7 @@ var app = new Vue({
                         en:'Apart from technical services, BitCV, as a digital asset management engine, has the responsibility and obligation to serve the industry ecology as well, as to provide convenience for the project party and investors.',
                         cn:'不僅僅是為數字資產項目的初始發佈助跑，更希望從技術到人才，構建起真正的落地能力支撑，這樣才是真正有助於這個生態。',
                         jp:'デジタル資産プロジェクトの最初のリリースを支援するだけでなく、技術から才能に着陸するための本当の支援能力を構築し、エコロジーを本当に助けることを望んでいます。',
-                        ko:'디지털 자산 프로젝트의 초기 출시를 돕는 것뿐만 아니라 기술에서 재능에 이르기까지 실제 지원 능력을 구축하여 실제 생태를 돕기를 희망합니다.'
+                        ko:'디지털 자산 프로젝트의 초기 출시를 돕는 것뿐만 아니라 기술에서 인재에 이르기까지 실제 지원 능력을 구축하여 진정으로 업계환경에 도움에 되기를 바랍니다.'
                     }
                 },
             ]
@@ -85,7 +85,7 @@ var app = new Vue({
                         en: 'BitCV is an application-based blockchain product, so we are using the blockchain and existing technologies to serve the field of digital asset management. In principle, we do not conduct our own research and development of the underlying chain design on a large scale, but according to the current preliminary research and development, we use and enhance the use of the following technologies.<p>1 Blockchain distributed ledger technology</p><p>2 Sidechain cross-chain trading technology</p><p>3 DPOS consensus algorithm</p><p>4 Intelligent contract technology</p>',
                         cn: 'BitCV使用區塊鏈技術，記錄所有涉及資金的交易行為，先在側鏈上或者鏈外記錄與交易，最終寫入BitCV資產管理鏈主鏈上去，保證資產管理主鏈是一個隨着交易記錄增長的，無法篡改和偽造的區塊鏈。在未來，區塊鏈分布式存儲的成熟，BitCV資產管理鏈主鏈也將轉移或者存儲在區塊鏈分布式存儲上。真正做到了去中心化。',
                         jp: 'BitCVはブロックチェーン技術を使用して、資金を含むすべてのトランザクションを記録します。記録とトランザクションは、最初にサイドチェーンまたはチェーンから外し、最後にBitCV資産管理チェーンのメインチェーンで行い、資産管理バックボーンはトランザクション履歴 改ざんと偽造はできないブロックチェーン。 将来、ブロックチェーンに成熟した分散ストレージがあれば、BitCV資産管理チェーンの主なチェーンもブロックチェーン分散ストレージに転送または格納されます。 本当に分散されています。',
-                        ko: 'BitCV는 블록 체인 기술을 사용하여 자금과 관련된 모든 거래를 기록합니다. 레코드 및 거래는 먼저 측 체인 또는 체인 외부에서 수행되고 마지막으로 BitCV 자산 관리 체인의 메인 체인에서 수행되어 자산 관리 백본이 트랜잭션 내역에 따라 증가하는 트랜잭션인지 확인합니다 훼손되거나 위조 될 수없는 블록 체인. 장래에는 블록 체인에 성숙한 분산 스토리지가 있으면 BitCV 자산 관리 체인의 주 체인도 블록 체인 분산 스토리지에 전송되거나 저장됩니다. 진정으로 분권화되었습니다.'
+                        ko: 'BitCV는 블록체인 기술을 사용하여	 자금과 관련된 모든 거래를 기록하며, 먼저 측체인 또는 체인외부에 기록되고 최종적으로 BitCV자산관리 메인체인에 입력됩니다. 이로 인해 자산관리 메인체인은 거래 기록 증가에 따라 위조와 훼손이 불가능한 블록체인이 되는 것을 보장합니다. 앞으로 블록체인 분포식 메모리가 성숙해 짐에 따라, BitCV자산관리체인의 메인체인은 블록체인 분포식 데이터베이스에 이전되거나 저장됩니다. 이를 통해 진정한 탈중개화를 실현합니다.'
                     },
                 },
                 {
@@ -95,7 +95,7 @@ var app = new Vue({
                         en:'As the digital asset service engine platform at the bottom of the blockchain, SaaS cloud service needs to be provided first. Because every project is intended for global clients and provides multi-end support, it is necessary to ensure that the service is reliable and easy to expand and maintain. The goal of reliability should be 99.99%.<br>Second, as a digital asset management service platform, a large number of digital asset exchange data of the clients are involved. Although after the clients purchase the digital assets, the corresponding tokens or the digital assets themselves will be sent into the official crowdfunding wallet, the statistics, as well as the middle storage, are still stored inside the platform, therefore the security, encryption and isolation of the data are strictly required.',
                         cn:'作為區塊鏈底層的數字資產服務引擎平臺，首先需要提供的是SaaS雲服務，由於任意一個項目，面向全球用戶使用，多端支持，因此需保證服務高可靠，應該目標是99.99%的可靠性，以及方便擴容、維護。<br>其次作為數字資產管理服務平臺，有涉及到大量的用戶代幣兑換數據，儘管用戶在購買了代幣之後，幣本身會打入官方眾籌錢包，但是統計數據，以及中間存儲，都在平臺内部，所以對數據的安全性、加密存儲與隔離等有較高的要求。',
                         jp:'ブロックチェーンデジタルアセットサービスエンジンプラットフォームの最下部にある、最初に提供する必要があるSaaSクラウドサービスは、いずれかのプロジェクトのために、グローバルユーザー、マルチエンドサポートのためには、信頼性の高いサービスを確保する必要があります。目標は、99.99％の信頼性と、拡張の容易さ、メンテナンスでなければなりません。<br>第二に、デジタル資産管理サービスプラットフォームとして、ユーザーがトークンを購入したにもかかわらず、多数のユーザートークンがデータ交換に関与していますが、通貨自体を公式のクラウドファンディングウォレットに購入しましたが、統計情報と中間ストレージはプラットフォーム したがって、データのセキュリティ、暗号化、ストレージおよびアイソレーションの要件が高くなります。',
-                        ko:'블록체인 Bottom 의 디지털자산서비스엔진플랫폼으로써 먼저 필요한은 SaaS 크라우드서비스가 제공이며, 어느 프로젝트이던 간에 전 세계를대상으로 사용하며, 많은 대상을 지원합니다. 그로인해 서비스의 고신뢰성이 필요하며, 저희이 목표는 99.9%의 신뢰성과 확장편리성, 유지관리입니다.<br>둘째, 디지털 자산 관리 서비스 플랫폼으로 사용자가 토큰을 구입했지만 공식적인 크라우드 펀딩 지갑에 통화 자체를 구입했지만 통계 및 중간 저장 장치가 플랫폼에 있지만 데이터 교환에 관련된 많은 수의 사용자 토큰이 있습니다 따라서 데이터 보안, 암호화, 저장 및 격리에는 더 높은 요구 사항이 있습니다.'
+                        ko: '블록체인 Bottom의 디지털자산서비스플랫폼엔진으로써 먼저 필요한 것은 SaaS 크라우드서비스 제공이며, 어느 프로젝트간에 전 세계를 대상으로 사용하며, 많은 대상을 지원합니다. 그로인해 서비스의 고신뢰성이 필요하며, 저희이 목표는 99.9%의 신뢰성과 확장편리성, 유지관리입니다.<br>다음으로는, 디지털자산관리서비스플랫폼으로써 많은 사용자의 디지털화폐환전에 관련되어 있고, 사용자가 디지털화폐 구매 후, 공식 크라우드펀딩 지갑에 입금되지만, 통계데이터와 중간저장데이터는 플랫폼 내부에 저장되어 있습니다.이로 인해 데이터의 보안과 암호화저장, 그리고 격리등의 비교적 높은 요구사항이 있습니다.'
                     }
                 },
                 {
@@ -105,7 +105,7 @@ var app = new Vue({
                         en:'Fill in the basic information to generate the main site by one touch<br>Provide investors with project management services and clear results<br>Provide the project party with stage progress<br>Provide financiers with project data planning',
                         cn:'需要融資的項目，透過申請獨立的發佈站，經過審核之後即可以開通SaaS平臺，開通成功，獲得該系統的管理員用戶名和密碼，完成項目資料登記、完善與獨立發佈站的建設。在建設的過程中，需要提供的基本資料，包括但不限於市場分析、項目亮點、媒體報道、代幣額度、價格設定、項目團隊、合作夥伴、路徑圖等等。<br><br>填寫基本資料，一鍵生成項目主站<br>項目管理服務，讓投資人清晰放心<br>項目階段進度，讓項目方瞭然於胸<br>項目數據規劃，讓融資方運籌帷幄',
                         jp:'SaaSプラットフォームのオープンに成功すると、システム管理者のユーザー名とパスワードの登録、プロジェクトデータの完全な登録と改善、独立した出版局の設置が行われます。 建設の過程では、市場分析、プロジェクトハイライト、メディアカバレッジ、トークン金額、価格設定、プロジェクトチーム、パートナー、ロードマップなど、基本的な情報を提供する必要があります。<br><br>プロジェクト管理サービス、投資家の明確かつ確実な<br>プロジェクトの段階の進行は、胸のプロジェクト側<br>プロジェクトデータの計画、資金調達側の戦略を立てる',
-                        ko:'파이낸싱을 필요로하는 프로젝트는 독립적 인 포스트 스테이션의 승인을 거쳐 SaaS 플랫폼으로 개방 될 것이며, SaaS 플랫폼이 성공적으로 개설되면 시스템 관리자의 사용자 이름과 암호가 등록되고 프로젝트 데이터가 완전히 등록되고 개선되며 독립적 인 출판 스테이션이 설립 될 것입니다. 건설 과정에서 우리는 시장 분석, 프로젝트 하이라이트, 언론 보도, 토큰 금액, 가격 설정, 프로젝트 팀, 파트너, 로드맵 등을 포함하되 이에 국한되지 않는 기본 정보를 제공해야합니다.<br><br>주요 정보를 입력하십시오. 핵심 프로젝트 마스터입니다.<br>프로젝트 단계의 진행, 그래서 가슴의 프로젝트 측면'
+                        ko: '투융자를 필요로하는 프로젝트는 독립적인 Publishing Station을 통한 신청과 심사를 거친 후즉시 SaaS플랫폼을 개설가능하고, 개설완료 후, 해당 시스템의 관리자 아이디와 패스워드 취득 및 프로젝트 자료등록 후 완전하고 독립적인 Publishing Station을 개설 할수 있습니다.개설 과정에서 기본자료만 필요할 뿐만 아니라 시장분석, 프로젝트 브라이트 스폿, 대중매체의 보도, 디지텔화폐한도, 가격설정, 프로젝트 팀, 합작 파트너, 로드맵 등도 필요합니다.<br><br>기본자료작성, 원클릭 프로젝트 Main Station 개설<br>프로젝트관리서비스, 투자자에게 명확한 안심 제공<br>프로젝트단계진도, 프로젝트측에게 완벽한 이해<br>프로젝트데이터기획, 투융자측에게 후방전략수립'
                     }
                 },
                 {
@@ -115,7 +115,7 @@ var app = new Vue({
                         en:'Use the multi-digital assets wallet system constructed by cross-chain payment to make it convenient for clients to deposit and invest.<br>Develop a fund-investment system and invest in the industry\'s well-known digital asset funds. Well-known digital asset funds generally have higher thresholds.<br>Provide the trading and auction platform for digital assets and real assets.<br>Provide the programmed and quantitative trading platform.',
                         cn:'除了做好基礎的項目和投資者服務之外，我們將逐步開發以下產品和底層基礎設施，以構建整個資管平臺底層技術服務體系。<br><br>使用跨鏈支付構建多幣種錢包系統<br>開發基金跟投系統參與知名數字資產基金的投資<br>數字資產、實物資產對標交易拍賣平臺<br>程序化量化交易平臺為投資者建立多元化投資手段',
                         jp:'基礎的なプロジェクトと投資者へのサービス以外、我々は以下の製品と基礎施設を開発していく。このようにして、資産管理のプラットフォームの基礎技術サービスシステムを設ける<br><br>ユーザーが多種のデジタル資産を保存しやすいように、クロスチェーンの支払いで多種のデジタル資産ウオレットシステムを構築する。<br>大衆でも直接投資に参加できて、ファンド投資から利益を得るように、BitCV は小額から高額までのファンドを念入りに選んだ<br>デジタル資産と実物資産が交換できる競売プラットフォームを設ける<br>プロジェクト的で量的な取引プラットフォーム',
-                        ko:'자금력이 좋은 프로젝트와 투자자 서비스 외에도 다음과 같은 제품과 인프라를 점진적으로 개발하여 전체 자산 관리 플랫폼을위한 기반 기술 서비스 플랫폼을 구축 할 것입니다.<br><br>상호 연결된 지불을 사용하여 다기능 지갑 시스템 구축<br>잘 알려진 디지털 자산 펀드 투자에 참여할 개발 기금 및 투자 시스템<br>디지털 자산, 물리적 자산 벤치마킹 경매 거래 플랫폼<br>프로그램 투자자를위한 양적 거래 플랫폼은 다양한 투자 도구를 설립'
+                        ko:'기반이 튼튼한 프로젝트와 투자자 서비스 외에도, 저희는 모든 자산관리플랫폼Bottom기술서비스체계를 구축하기 위해 점진적으로 아래의 제품과 기본 인프라를 개발할 것입니다.<br><br>크로스체인지불을 사용하여 다양한 토큰지갑 시스템 구축<br>기금 추적투자시스템을 개발하여 유명한 디지털자산기금의 투자에 참여<br>디지털자산과 실물자산의 벤치마킹 거래 경매 플랫폼<br>프로그램화 및 양적 거래플랫폼으로 투자자에게 다각적인 투자수단 제공'
                     }
                 },
             ]
