@@ -163,6 +163,26 @@ var app = new Vue({
                         jp: '北京大学投資管理学の修士。アップルのエンジェル投資家「華人創投資の父」李宗南の中華区域の助役。アメリカ ShanKwong 資本の中国市場の責任者。創新工場総監の助役。インタネット会社Ｋ１２通信制教育会社の共同創業者。今のPPTEAM プロジェクトの創業者。一流のインタネット創業会社や投資会社の管理者に魔法的な表現技術サービスを提供している。パートナー企業にはテンセント、今日頭条、国家電網など大手会社がある。',
                         ko: '북경대학투자관리석사졸업;Apple Angel 투자자인 중국계 외국인이며, 창립 투자자인부종남선생님의 중화구역 비서;미국 삼광 Sunland Fund 중국시장 책임자;이전 Sinovation 벤쳐시장 CEO 비서;인터넷 K12 Online 교육회사연합창립자;현 PPTEAM 프로젝트 창립자;일류 인터넷창업회사와 일류투자기관 고위층에매직쇼기술서비스제공;합작회사는 Tecent 회사, 금일 톱뉴스 국가전력 등이다.'
                     }
+                },
+                {
+                    img: 'user-ruanying.png',
+                    name: { en:'Ruan Ying', cn:'阮颖', jp:'また穎', ko:'성 뛰어나다' },
+                    intro: {
+                        en: 'Graduated from Nankai University and then studied at the 33 phase of Exed, the Chinese enterprise operator of Guanghua School of Management, Peking University. She is an early founder team of Renren games, the earliest web game productor in China, and a pioneer of the earliest overseas operation model. Then join the Kaixin network management team, responsible for the overall product and operation of the Kaixin.',
+                        cn: '本科毕业于南开大学，后在北京大学光华管理学院中国企业经营者33期Exed学习。曾是人人游戏早期创始团队，国内最早的网页游戏探路者，最早海外运营模式的参与者开创者。后加入开心网管理团队，负责开心网整体产品和运营工作。',
+                        jp: '本科を卒業した後に北京で大学南開大学、光華の管理学院の中国企業の経営者が33期Exed勉強。かつて誰もゲーム早期創始チームは、国内最古のホームページのゲームの隙間者で、一番早く海外運営モデルの参加者の先駆者。その後、楽しいネット管理チームに参加して、ネット全体の製品と運営を担当しています。',
+                        ko: '본과는 남개대학을 졸업하고, 이후 북경대학 광화관리대학 중국기업 경영자는 33 기 Ext 에서 배운다.게임 조기 창시 팀, 국내 최초의 홈페이지 게임 로더, 최초의 해외 운영 패턴의 참가자 창문이다.후 신풍망 관리 팀 에 가입해 신난 망 전체 제품 과 운영 작업 을 했 다.'
+                    }
+                },
+                {
+                    img: 'user-sicheng.png',
+                    name: { en:'Duan Sicheng', cn:'段思程', jp:'段思程', ko:'단락 생각' },
+                    intro: {
+                        en: 'Hongkong residents, major computer sicence, America\'s former Chicago futures exchange full stack engineer in Globex, SpanMargin, FedWatch and other core products research and development. He has a deep understanding of futures and options trading and maintains positive returns in the market for a long time. Chicago is the largest exchange in the world and has the right to price gold, crude oil and other commodities. Now join the BCV team for quantification, wind control, and market value management.',
+                        cn: '香港居民，计算机科班出身，留美硕士，原芝加哥期货交易所全栈工程师，参与过Globex，SpanMargin，FedWatch等核心产品的研发。对期货与期权交易有深刻的认知，并在市场中长期保持正收益。芝商所是世界上最大的交易所，并拥有黄金，原油等大宗商品的定价权。现在加入 BCV 团队，负责量化、风控以及市值管理。',
+                        jp: '香港住民は、コンピュータの正式な訓練を受けた人、アメリカ留学修士、元シカゴ先物取引所全スタックエンジニア、Globexに参与したことがあり、SpanMarginなど、FedWatchコア製品の開発。先物とオプション取引に深い認識があり、市場では長期的な収益を維持します。芝商所は世界最大の取引所で、黄金、原油などの大宗商品の定価権を持っています。今参加しBCVチームを担当し、定量化、風控や時価管理。',
+                        ko: '홍콩 주민, 컴퓨터 과학 기술 출신, 미국 미술사, 원시카고 선물거래소 전문 엔지니어, Glovx, 스포츠마인, FadWater 등 핵심 제품 개발 참여.선물과 기권거래에 대해 깊은 인지를 갖고 있으며, 시장에서는 장기간 정수익을 유지한다.지상소는 세계에서 가장 큰 교역소이며, 황금, 원유 등 대량의 상품의 정가권을 보유하고 있다.현재 BCV 에 가입해 양적, 바람 컨트롤, 시중 관리 책임이다.'
+                    }
                 }
             ]
         },
