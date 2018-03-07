@@ -422,7 +422,7 @@ var app = new Vue({
                 //'./img/project-guotai.jpg', //国泰创投(曾投资 比特大陆)
                 //'./img/project-ceyuan.jpg', //策源创投(曾投资 OKCoin)
                 './img/project-guanghe.jpg', //广禾资本
-                './img/project-huozhong.jpg', //火种资本
+                //'./img/project-huozhong.jpg', //火种资本
                 './img/project-bdfund.jpg', //梦工场基金
                 './img/project-innovalley.jpg', //创新谷基金
                 //'./img/project-yuming.jpg', //域名资本
