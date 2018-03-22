@@ -28,6 +28,10 @@
         background: #000;
         color: #c2a362;
     }
+    .home-buttons a:visited {
+        background: #c2a362;
+        color: #fff;
+    }
     .lilang {
         width: 80px;
     }
@@ -42,8 +46,11 @@
         cursor:pointer;
         padding:0 15px;
     }
-    .btn-default {
+    .btn-default:link {
         color: #c2a362;
+        border-color:#c2a362;
+    }
+    .btn-default:visited {
         border-color:#c2a362;
     }
     .btn-default:hover {
@@ -51,8 +58,8 @@
         background-color: #c2a362;
         border-color:#c2a362;
     }
-    .btn-default:visited {
-        border-color:#c2a362;
+    .btn-default:focus {
+        border-color: #c2a362;
     }
     @media (max-width: 1199px) and (min-width: 480px) {
         .lilang {
@@ -447,7 +454,7 @@
 </div>
 
 	<script src="./js/vue.js"></script>
-	<script src="./js/data.js?10"></script>
+	<script src="./js/data.js?11"></script>
 
 	<script data-cfasync="false" src="./js/email-decode.min.js"></script>
 	<script src="./js/jquery-1.11.2.min.js"></script>

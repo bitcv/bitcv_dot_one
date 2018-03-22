@@ -36,20 +36,20 @@ var app = new Vue({
                     mediumtitle: {en: 'BCV Trading Now On Bit-Z', cn: '幣威BCV登錄Bit-Z', jp: '通貨魏ダイナミック着陸Bit-z', ko: 'BCV착륙Bit－z'},
                     link: {en: 'https://www.bit-z.com', cn: 'https://www.bit-z.com', jp: 'https://www.bit-z.com', ko: 'https://www.bit-z.com'},
                     content: {
-                        en: 'Open Deposit Time: March 14, 2018 18:00<br>Open Trade Time: March 16, 2018 18:00<br>Trading Pairs: <a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.bit-z.com/exchange/bcv_eth">ETH</a><br>Bit-Z listing BCV,  Earn 3000000 BCV!<br>Event Time: March 21,  15:00－March 26,15:00<br>',
-                        cn: '開放充值時間：2018年3月14日18:00<br>開放交易時間：2018年3月16日12:00<br>開放交易區：<a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.bit-z.com/exchange/bcv_eth">ETH</a><br>Bit-Z上線BCV，交易瓜分3000000 BCV<br>活動時間：3月21日15：00-3月26日15點00分<br>',
-                        jp: 'オープン充電時間：2018年3月14日18:00<br>営業時間：2018年3月16日18:00<br>オープントレーディングエリア：<a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.bit-z.com/exchange/bcv_eth">ETH</a><br>ライン上のBit-z BCVは、3000000 BCVで割る<br>イベント時間：3月21日15:00  -  3月26日15:00<br>',
-                        ko: '개방식 충전 시간 : 2018 년 3 월 14 일 18:00<br>영업 시간 : 2018 년 3 월 16 일 18:00<br>공개 거래 지역 :<a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.bit-z.com/exchange/bcv_eth">ETH</a><br>BCV온라인Bit－z，3000000 BCV를 새긴다<br>행사 시간 : 3 월 21 일 15:00 - 3 월 26 일 15:00'
+                        en: 'Open Deposit Time: March 14, 2018 18:00<br>Open Trade Time: March 16, 2018 18:00<br>Trading Pairs: <a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.bit-z.com/exchange/bcv_eth">ETH</a><br>',
+                        cn: '開放充值時間：2018 年 3 月 14 日 18:00<br>開放交易時間：2018 年 3 月 16 日 12:00<br>開放交易區：<a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.bit-z.com/exchange/bcv_eth">ETH</a><br>',
+                        jp: 'オープン充電時間：2018 年 3 月 14 日 18:00<br>営業時間：2018 年 3 月 16 日 18:00<br>オープントレーディングエリア：<a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.bit-z.com/exchange/bcv_eth">ETH</a><br>',
+                        ko: '개방식 충전 시간 : 2018 년 3 월 14 일 18:00<br>영업 시간 : 2018 년 3 월 16 일 18:00<br>공개 거래 지역 :<a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.bit-z.com/exchange/bcv_eth">ETH</a><br>'
                     }
                 },
                 {
                     mediumtitle: {en: 'BCV Trading Now On AEX', cn: '幣威BCV登錄AEX', jp: '通貨魏ダイナミック着陸AEX', ko: 'BCV착륙AEX'},
                     link: {en: 'https://www.aex.com', cn: 'https://www.aex.com', jp: 'https://www.aex.com', ko: 'https://www.aex.com'},
                     content: {
-                        en: 'Open Deposit Time: March 7, 2018 20:00<br>Open Trade Time: March 9, 2018 12:00<br>Trading Pairs: <a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.aex.com/page/trade.html?mk_type=USDT&trade_coin_name=BCV">USDT</a> 、 <a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.aex.com/page/trade.html?mk_type=BitCNY&trade_coin_name=BCV">BitCNY</a> 、 <a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.aex.com/page/trade.html?mk_type=BTC&trade_coin_name=BCV">BTC</a><br>In order to celebrate AEX listing BCV, users trade and deposit BCV in Beijing time  March 1st 18:00 - March 16th 18:00, will receive millions of BCV airdrop. <br>In March 9-11, In the Super Welfare Day event, we are airdroping additional 206664BCV!',
-                        cn: '充值開放時間： 2018 年 3 月 7 日 20:00交易<br>開放時間： 2018 年 3 月 9 日 12:00<br>交易區： <a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.aex.com/page/trade.html?mk_type=USDT&trade_coin_name=BCV">USDT</a> 、 <a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.aex.com/page/trade.html?mk_type=BitCNY&trade_coin_name=BCV">BitCNY</a> 、 <a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.aex.com/page/trade.html?mk_type=BTC&trade_coin_name=BCV">BTC</a><br>為慶祝 BCV 上線 AEX ，北京時間 3 月 7 日 18:00 至 3 月 16 日 18:00，對交易 BCV 和充值 BCV 的用戶壕送百萬 BCV 。<br>此外，3 月 9 日至 11 日，超級福利將會送出 206664 BCV !',
+                        en: 'Open Deposit Time: March 7, 2018 20:00<br>Open Trade Time: March 9, 2018 12:00<br>Trading Pairs: <a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.aex.com/page/trade.html?mk_type=USDT&trade_coin_name=BCV">USDT</a> 、 <a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.aex.com/page/trade.html?mk_type=BitCNY&trade_coin_name=BCV">BitCNY</a> 、 <a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.aex.com/page/trade.html?mk_type=BTC&trade_coin_name=BCV">BTC</a>、<a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.aex.com/page/trade.html?mk_type=CNC&trade_coin_name=BCV">CNC</a><br>In order to celebrate AEX listing BCV, users trade and deposit BCV in Beijing time  March 1st 18:00 - March 16th 18:00, will receive millions of BCV airdrop. <br>In March 9-11, In the Super Welfare Day event, we are airdroping additional 206664BCV!',
+                        cn: '充值開放時間： 2018 年 3 月 7 日 20:00交易<br>開放時間： 2018 年 3 月 9 日 12:00<br>交易區： <a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.aex.com/page/trade.html?mk_type=USDT&trade_coin_name=BCV">USDT</a> 、 <a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.aex.com/page/trade.html?mk_type=BitCNY&trade_coin_name=BCV">BitCNY</a> 、 <a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.aex.com/page/trade.html?mk_type=BTC&trade_coin_name=BCV">BTC</a>、 <a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.aex.com/page/trade.html?mk_type=CNC&trade_coin_name=BCV">CNC</a><br>為慶祝 BCV 上線 AEX ，北京時間 3 月 7 日 18:00 至 3 月 16 日 18:00，對交易 BCV 和充值 BCV 的用戶壕送百萬 BCV 。<br>此外，3 月 9 日至 11 日，超級福利將會送出 206664 BCV !',
                         jp: 'オープン充電時間：2018年3月14日18:00<br>営業時間：2018年3月16日18:00<br>オープントレーディングエリア：<a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.aex.com/page/trade.html?mk_type=USDT&trade_coin_name=BCV">USDT</a> 、 <a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.aex.com/page/trade.html?mk_type=BitCNY&trade_coin_name=BCV">BitCNY</a> 、 <a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.aex.com/page/trade.html?mk_type=BTC&trade_coin_name=BCV">BTC</a><br>ラインBCVでAEXを祝うために，北京時間3月7日18:00  -  3月16日18:00，BCV取引とBCVユーザー再充電に数百万のBCVに報酬を与える<br>また、3月9日から11日には206664BCVがSuper Welfare Dayに送られます',
-                        ko: '개방식 충전 시간 : 2018 년 3 월 7 일 20:00<br>영업 시간 : 2018 년 3 월 9 일 12:00<br>공개 거래 지역 :<a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.aex.com/page/trade.html?mk_type=USDT&trade_coin_name=BCV">USDT</a> 、 <a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.aex.com/page/trade.html?mk_type=BitCNY&trade_coin_name=BCV">BitCNY</a> 、 <a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.aex.com/page/trade.html?mk_type=BTC&trade_coin_name=BCV">BTC</a><br>BCV에서 AEX를 축하하기 위해，베이징 시간 3 월 7 일 18:00 - 3 월 16 일 18:00，BCV 거래 및 BCV 사용자 재충전을 위해 수백만 BCV 보상<br>또한 3 월 9-11 일에 수퍼 복지의 날은 206664BCV'
+                        ko: '개방식 충전 시간 : 2018 년 3 월 7 일 20:00<br>영업 시간 : 2018 년 3 월 9 일 12:00<br>공개 거래 지역 :<a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.aex.com/page/trade.html?mk_type=USDT&trade_coin_name=BCV">USDT</a> 、 <a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.aex.com/page/trade.html?mk_type=BitCNY&trade_coin_name=BCV">BitCNY</a> 、 <a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.aex.com/page/trade.html?mk_type=BTC&trade_coin_name=BCV">BTC</a><br>BCV에서 AEX를 축하하기 위해，베이징 시간 3 월 7 일 18:00 - 3 월 16 일 18:00，BCV 거래 및 BCV 사용자 재충전을 위해 수백만 BCV 보상'
                     }
                 },
             ]
@@ -60,7 +60,7 @@ var app = new Vue({
             list: [
                 {
                     icon: 'icon ti-server',
-                    title: { en:'Digital Asset Management Platform——EncryptoMore', cn:'數字資產理财平台——餘額寶', jp:'デジタルアセットウェルスマネジメントプラットフォーム——貨幣バオ', ko:'프로젝트융자 SaaS 시스템—융자 SaaS' },
+                    title: { en:'Digital Asset Management Platform——EncryptoMore', cn:'數字資產理财平台——餘幣寶', jp:'デジタルアセットウェルスマネジメントプラットフォーム——貨幣バオ', ko:'프로젝트융자 SaaS 시스템—융자 SaaS' },
                     content: {
                         en:'Purchasing EncryptoMore Plan locks in future earnings in advance, collect your profit at the end of the locking period and enjoy the growth of your personal assets',
                         cn:'購買餘幣寶計劃提前鎖定未來收益，鎖定期結束收回本金並獲得額外收益實現個人資產的滾動增長',
@@ -215,23 +215,43 @@ var app = new Vue({
                     }
                 },
                 {
-                    img: 'user-ruanying.png',
+                    img: 'user-ruanying2.png',
                     name: { en:'Ruan Ying', cn:'阮颖', jp:'また穎', ko:'성 뛰어나다' },
                     intro: {
                         en: 'Graduated from Nankai University and then studied at the 33 phase of Exed, the Chinese enterprise operator of Guanghua School of Management, Peking University. She is an early founder team of Renren games, the earliest web game productor in China, and a pioneer of the earliest overseas operation model. Then join the Kaixin network management team, responsible for the overall product and operation of the Kaixin.',
-                        cn: '本科毕业于南开大学，后在北京大学光华管理学院中国企业经营者33期Exed学习。曾是人人游戏早期创始团队，国内最早的网页游戏探路者，最早海外运营模式的参与者开创者。后加入开心网管理团队，负责开心网整体产品和运营工作。',
+                        cn: '本科畢業於南開大學，後在北京大學光華管理學院中國企業經營者33期Exed學習。曾是人人遊戲早期創始團隊，國內最早的網頁遊戲探路者，最早海外運營模式的參與者開創者。後加入開心網管理團隊，負責開心網整體產品和運營工作。',
                         jp: '本科を卒業した後に北京で大学南開大学、光華の管理学院の中国企業の経営者が33期Exed勉強。かつて誰もゲーム早期創始チームは、国内最古のホームページのゲームの隙間者で、一番早く海外運営モデルの参加者の先駆者。その後、楽しいネット管理チームに参加して、ネット全体の製品と運営を担当しています。',
                         ko: '본과는 남개대학을 졸업하고, 이후 북경대학 광화관리대학 중국기업 경영자는 33 기 Ext 에서 배운다.게임 조기 창시 팀, 국내 최초의 홈페이지 게임 로더, 최초의 해외 운영 패턴의 참가자 창문이다.후 신풍망 관리 팀 에 가입해 신난 망 전체 제품 과 운영 작업 을 했 다.'
                     }
                 },
                 {
-                    img: 'user-sicheng.png',
+                    img: 'user-sicheng2.png',
                     name: { en:'Duan Sicheng', cn:'段思程', jp:'段思程', ko:'단락 생각' },
                     intro: {
                         en: 'Hongkong residents, major computer sicence, America\'s former Chicago futures exchange full stack engineer in Globex, SpanMargin, FedWatch and other core products research and development. He has a deep understanding of futures and options trading and maintains positive returns in the market for a long time. Chicago is the largest exchange in the world and has the right to price gold, crude oil and other commodities. Now join the BCV team for quantification, wind control, and market value management.',
-                        cn: '香港居民，计算机科班出身，留美硕士，原芝加哥期货交易所全栈工程师，参与过Globex，SpanMargin，FedWatch等核心产品的研发。对期货与期权交易有深刻的认知，并在市场中长期保持正收益。芝商所是世界上最大的交易所，并拥有黄金，原油等大宗商品的定价权。现在加入 BCV 团队，负责量化、风控以及市值管理。',
+                        cn: '香港居民，計算機科班出身，留美碩士，原芝加哥期貨交易所全棧工程師，參與過Globex，SpanMargin，FedWatch等核心產品的研發。對期貨與期權交易有深刻的認知，並在市場中長期保持正收益。芝商所是世界上最大的交易所，並擁有黃金，原油等大宗商品的定價權。現在加入 BCV 團隊，負責量化、風控以及市值管理。',
                         jp: '香港住民は、コンピュータの正式な訓練を受けた人、アメリカ留学修士、元シカゴ先物取引所全スタックエンジニア、Globexに参与したことがあり、SpanMarginなど、FedWatchコア製品の開発。先物とオプション取引に深い認識があり、市場では長期的な収益を維持します。芝商所は世界最大の取引所で、黄金、原油などの大宗商品の定価権を持っています。今参加しBCVチームを担当し、定量化、風控や時価管理。',
                         ko: '홍콩 주민, 컴퓨터 과학 기술 출신, 미국 미술사, 원시카고 선물거래소 전문 엔지니어, Glovx, 스포츠마인, FadWater 등 핵심 제품 개발 참여.선물과 기권거래에 대해 깊은 인지를 갖고 있으며, 시장에서는 장기간 정수익을 유지한다.지상소는 세계에서 가장 큰 교역소이며, 황금, 원유 등 대량의 상품의 정가권을 보유하고 있다.현재 BCV 에 가입해 양적, 바람 컨트롤, 시중 관리 책임이다.'
+                    }
+                },
+                {
+                    img: 'user-yingying.png',
+                    name: { en:'Zhang Yingying', cn:'張瀛瑩', jp:'張柳', ko:'장 유잉' },
+                    intro: {
+                        en: 'In 2007, in the well-known Internet service interconnection company, the company created the first million singles, many times Topsales. Lead the team to create sales performance with annual revenue of 10 million. In 2013, the world\'s leading foreign financial big data company is responsible for the market of colleges and universities nationwide. In 2017, we established Shared Plus Company and established partnerships with many companies such as Didi, QuickTime, and the famous artificial intelligence company Haizhi Technology and the establishment of state-owned enterprises under the well-known Propaganda Department.',
+                        cn: '2007 年，在知名網絡服務互聯通公司，創造第一個百萬大 單，連續多次 Topsales 。帶領團隊創造年收入千萬的銷售業 績。 2013 年在全球領先的金融大數據外企，負責全國高校及 政府的市場。 2017 年，創辦共享加公司，與滴滴、速途及知 名人工智能公司海知科技及知名中宣部下屬國企建立等多家公 司建立合作關係。',
+                        jp: '2007年には、よく知られているインターネットサービスの相互接続会社で、同社は何百万人ものトップセールスを創業しました。 年間売上1,000万ドルで販売成果を創出するチームをリードします。 2013年には、世界有数の外国金融大手データ会社が、全国の大学の市場を担当しています。 2017年には、Shared Plus Companyを設立し、Didi、QuickTime、有名な人工知能会社Haizhi Technology、有名なCentral Propaganda Departmentの国営企業など多くの企業と提携しました。',
+                        ko: '2007 년, 유명한 인터넷 서비스 상호 연결 회사에서이 회사는 처음으로 수 백만 장의 싱글을 창작했습니다. 팀을 이끌어 연간 매출 1,000 만원의 판매 실적을 창출하십시오. 2013 년에는 세계 유수의 외국 금융 빅 데이터 회사가 전국 대학 및 종합 대학의 시장을 담당합니다. 2017 년에 우리는 Shared Plus Company를 설립하고 Didi, QuickTime, 유명한 인공 지능 회사 인 Haizhi Technology 및 유명한 Propaganda Department의 국유 기업 설립과 같은 많은 회사와 파트너십을 맺었습니다.'
+                    }
+                },
+                {
+                    img: 'user-yanhe.png',
+                    name: { en:'Zhao Yanhe', cn:'趙延鶴', jp:'趙延鶴', ko:'조 얀헤' },
+                    intro: {
+                        en: 'Served as a business manager at TOPRAND. Service customers include deductions for Huawei, Beijing-based Real Estate, Hong Kong Arran Group, Yangmei Hong Education Group, and Hongdian Electric. In 2014, he joined Young Talent as a BD & Marketing Director responsible for marketing, business, and branding. The technical community is heavily involved in the formation and management of multiple full-stack and open source community technical communities. We are responsible for the currency market and community management.',
+                        cn: '曾任職於 TOPRAND 擔任商務經理。服務客戶包扣華為、京 基地產、香港雅蘭集團、楊梅紅教育集團、宏電股份等。 2014 年加入優才創智擔任 BD&市場總監負責市場、商務、品牌。技術社群重度參與者，組建和管理多個全棧及開源社區技術社群。現負責幣威市場及社群管理工作。',
+                        jp: 'TOPRANDのビジネスマネージャー。 サービス顧客には、Huawei、北京ベースの不動産、香港Arranグループ、Yangmei Hong教育グループ、Hongdian Electricの控除が含まれます。 2014年には、マーケティング、ビジネス、ブランディングを担当するBD＆Marketing DirectorとしてYoung Talentsに入社しました。 技術コミュニティは、複数のフルスタックおよびオープンソースコミュニティの技術コミュニティの形成と管理に深く関わっています。 私たちは通貨市場と地域社会の管理を担当しています。',
+                        ko: 'TOPRAND에서 비즈니스 매니저로 일했습니다. 서비스 고객은 Huawei, Beijing 기반 부동산, Hong Kong Arran Group, Yangmei Hong Education Group 및 Hongdian Electric에 대한 공제를 포함합니다. 2014 년에는 Young Talents에 BD & Marketing Director로서 마케팅, 비즈니스 및 브랜딩을 담당했습니다. 기술 커뮤니티는 다중 스택 및 오픈 소스 커뮤니티 기술 커뮤니티의 형성과 관리에 많은 노력을 기울이고 있습니다. 우리는 통화 시장과 지역 사회 관리를 담당합니다.'
                     }
                 }
             ]
@@ -286,30 +306,48 @@ var app = new Vue({
                     }
                 },
                 {
-                    date: { en:'Late Feb. 2018', cn:'2018年2月底', jp:'2018年2月下旬', ko:'2018년2월하순' },
+                    date: { en:'Early February 2018', cn:'2018年2月初', jp:'2018年2月上旬', ko:'2018 년 2 월 초' },
                     content: {
-                        en:'SaaS project starts officially, BCV enters the exchange',
-                        cn:'幣SaaS項目正式運行,BCV上交易所',
-                        jp:'SaaS を運営しはじめる。BCV は証券取引所に上場する',
-                        ko:'재경통운용개시，BCV 거래소 상장'
+                        en:'Project display platform and Yu coin Po start operations',
+                        cn:'項目展示平台及餘幣寶開始運營',
+                        jp:'プロジェクトの表示プラットフォームとゆうコインPo開始操作',
+                        ko:'프로젝트 디스플레이 플랫폼 및 유 코인 Po 작업 시작'
                     }
                 },
                 {
-                    date: { en:'Mar. 2018', cn:'2018年3月', jp:'2018年3月', ko:'2018년3월' },
+                    date: { en:'Early March 2018', cn:'2018年3月初', jp:'2018年3月初め', ko:'2018 년 3 월 초' },
+                    content: {
+                        en:'BCV Exchange, Test Platform Operation',
+                        cn:'BCV 上交易所，投融平台測試運行',
+                        jp:'BCV交換、テストプラットフォームの運用',
+                        ko:'BCV 교환, 테스트 플랫폼 운영'
+                    }
+                },
+                {
+                    date: { en:'Mid-March 2018', cn:'2018年3月中旬', jp:'2018年3月中旬', ko:'2018 년 3 월 중순' },
+                    content: {
+                        en:'Chain service put into operation',
+                        cn:'鏈服務投入運營',
+                        jp:'チェーンサービスが稼働開始',
+                        ko:'체인 서비스 운영 개시'
+                    }
+                },
+                {
+                    date: { en:'End of April 2018', cn:'2018年4月底', jp:'2018年4月末', ko:'2018 년 4 월 말' },
                     content: {
                         en:'Chain service is put into use<br>Chain evaluation is put into use',
-                        cn:'鏈服務投入運營<br>鏈評測投入運營',
-                        jp:'チェーンサービスを運営しはじめる<br>チェーンイヴァリュゥエィシャンを運営しはじめる',
-                        ko:'체인서비스운용투입<br>체인평가운용투입'
+                        cn:'鏈評測投入運營',
+                        jp:'チェーンイヴァリュゥエィシャンを運営しはじめる',
+                        ko:'체인평가운용투입'
                     }
                 },
                 {
                     date: { en:'Aug. 2018', cn:'2018年8月', jp:'2018年8月', ko:'2018년8월' },
                     content: {
-                        en:'Asset management business arrangement',
-                        cn:'資管業務整理',
-                        jp:'デジタル資管を運営しはじめる',
-                        ko:'자산관리체인 전체 개봉 및 정식 운용'
+                        en:'Asset management chain launched online as a whole',
+                        cn:'資管鏈整體上線啟動運營',
+                        jp:'アセット・マネジメント・チェーンはオンライン全体で開始',
+                        ko:'전체적으로 온라인 자산 관리 체인 출시'
                     }
                 },
                 {
@@ -382,7 +420,7 @@ var app = new Vue({
                     name: { en:'Xu Jizhe', cn:'徐繼哲', jp:'徐繼哲', ko:'서계철' },
                     intro: {
                         en:'Co-founder of the Smartweb Elastos driven by the blockchain; founder of philosophy community; pioneer and advocate of free software movement; blockchain expert.',
-                        cn:'區塊鏈驅動的智能萬維網「亦來雲「聯合創始人，哲思社區創始人，自由軟體運動先鋒，倡導者，區塊鏈專家。',
+                        cn:'區塊鏈驅動的智能萬維網「亦來雲」聯合創始人，哲思社區創始人，自由軟體運動先鋒，倡導者，區塊鏈專家。',
                         jp:'亦来云の共同創業者、ブロックチェーンの専門家',
                         ko:'Elastos“ 연합창립자，블록체인전문가”'
                     }
@@ -468,15 +506,25 @@ var app = new Vue({
                     }
                 },
                 {
-                    img: './img/brand-xuxinquan.png',
-                    name: { en:'Xu Xinquan', cn:'徐昕泉', jp:'徐昕泉', ko:'서도천' },
+                    img: './img/brand-bosheng.jpeg',
+                    name: { en:'Bo Sheng', cn:'薄胜', jp:'薄勝', ko:'보승' },
                     intro: {
-                        en:'Russia and eastern Europe President of Letv',
-                        cn:'中國樂視集團俄羅斯及東歐地區總裁',
-                        jp:'楽視集団ロシアと東ヨーロッパの総裁',
-                        ko:'Letv 러시아 및 동유럽 지부장'
+                        en:'Lezhi Technology Founder',
+                        cn:'樂智科技 創始人',
+                        jp:'Lezhi Technology創設者',
+                        ko:'Lezhi Technology 설립자'
                     }
                 },
+                {
+                    img: './img/brand-zhaodawei.jpeg',
+                    name: { en:'Zhao Dawei', cn:'趙大偉', jp:'趙大偉', ko:'자오 다 웨이' },
+                    intro: {
+                        en:'The author of "The thought of thinking in the internet"',
+                        cn:'《互聯思維獨孤九劍》作者',
+                        jp:'「インターネット上で考える思考」の著者は、',
+                        ko:'"인터넷에서 생각하는 생각"의 저자'
+                    }
+                }
 
             ]
         },
@@ -508,101 +556,100 @@ var app = new Vue({
                     url: 'http://36kr.com/p/5116931.html',
                     name: { en:'36kr', cn:'36kr', jp:'36kr', ko:'36kr' },
                     intro: {
-                        en:'区块链应用 | 数字资产管理平台「BitCV」获千万级天使融资',
-                        cn:'区块链应用 | 数字资产管理平台「BitCV」获千万级天使融资',
-                        jp:'区块链应用 | 数字资产管理平台「BitCV」获千万级天使融资',
-                        ko:'区块链应用 | 数字资产管理平台「BitCV」获千万级天使融资'
+                        en:'Block chain application | digital asset management platform "BitCV" won ten million angel financing',
+                        cn:'區塊鏈應用|數字資產管理平台「BitCV」獲千萬級天使融資',
+                        jp:'区割り| 数字情報管理平台「BitCV」浦千万级天使融資',
+                        ko:'区分子 链 应用 | 숫자 정보 관리 平台 「BitCV」鉛 千万 级 天使 融資'
                     }
                 },
                 {
                     img: './img/media-heima.png',
                     url: 'http://www.iheima.com/zixun/2018/0130/167135.shtml',
-                    name: { en:'iheima', cn:'黑马网', jp:'黑马网', ko:'黑马网' },
+                    name: { en:'iheima', cn:'黑馬網', jp:'ブラックホースネットワーク', ko:'검은 말 네트워크' },
                     intro: {
-                        en:'区块链新锐BitCV获千万级天使融资：或成数字资产管理平台开创者',
-                        cn:'区块链新锐BitCV获千万级天使融资：或成数字资产管理平台开创者',
-                        jp:'区块链新锐BitCV获千万级天使融资：或成数字资产管理平台开创者',
-                        ko:'区块链新锐BitCV获千万级天使融资：或成数字资产管理平台开创者'
+                        en:'Blockchain cutting-edge BitCV gets 10 million angel financing：Or digital asset management platform creator',
+                        cn:'區塊鏈新銳BitCV獲千萬級天使融資：或成數字資產管理平台開創者',
+                        jp:'区切り記号BitCV：ある数字の数を管理する平台开发者',
+                        ko:'구획 链锐 锐 BitCV 천사 级 天使 融资：또는 成數 资产 管理 平台 开发 者'
                     }
                 },
                 {
                     img: './img/media-yiou.png',
                     url: 'https://www.iyiou.com/p/65488',
-                    name: { en:'亿欧', cn:'亿欧', jp:'亿欧', ko:'亿欧' },
+                    name: { en:'Yiou', cn:'億歐', jp:'10億ユーロ', ko:'10 억 유로' },
                     intro: {
-                        en:'区块链新锐BitCV获千万级天使融资——或成数字资产管理平台开创者',
-                        cn:'区块链新锐BitCV获千万级天使融资——或成数字资产管理平台开创者',
-                        jp:'区块链新锐BitCV获千万级天使融资——或成数字资产管理平台开创者',
-                        ko:'区块链新锐BitCV获千万级天使融资——或成数字资产管理平台开创者'
+                        en:'Blockchain cutting-edge BitCV gets 10 million angel financing——Or digital asset management platform creator',
+                        cn:'區塊鏈新銳BitCV獲千萬級天使融資——或成數字資產管理平台開創者',
+                        jp:'区切り記号BitCV——ある数字の数を管理する平台开发者',
+                        ko:'구획 链锐 锐 BitCV 천사 级 天使 融资——또는 成數 资产 管理 平台 开发 者'
                     }
                 },
                 {
                     img: './img/media-tencent.png',
                     url: 'http://new.qq.com/omn/20180130/20180130A0EC6M.html',
-                    name: { en:'tencent', cn:'腾讯网', jp:'腾讯网', ko:'腾讯网' },
+                    name: { en:'Tencent', cn:'騰訊網', jp:'Tencent', ko:'Tencent' },
                     intro: {
-                        en:'区块链BitCV获千万级天使融资：或成数字资产管理平台开创者',
-                        cn:'区块链BitCV获千万级天使融资：或成数字资产管理平台开创者',
-                        jp:'区块链BitCV获千万级天使融资：或成数字资产管理平台开创者',
-                        ko:'区块链BitCV获千万级天使融资：或成数字资产管理平台开创者'
+                        en:'Blockchain cutting-edge BitCV gets 10 million angel financing：Or digital asset management platform creator',
+                        cn:'區塊鏈新銳BitCV獲千萬級天使融資：或成数字资产管理平台开创者',
+                        jp:'区切り記号BitCV：ある数字の数を管理する平台开发者',
+                        ko:'구획 链锐 锐 BitCV 천사 级 天使 融资：또는 成數 资产 管理 平台 开发 者'
                     }
                 },
                 {
                     img: './img/media-souhu.png',
                     url: 'http://www.sohu.com/a/219786398_439726',
-                    name: { en:'sohu', cn:'搜狐', jp:'搜狐', ko:'搜狐' },
+                    name: { en:'Sohu', cn:'搜狐', jp:'捜狐', ko:'소후' },
                     intro: {
-                        en:'数字资产管理平台BitCV获千万级天使融资',
-                        cn:'数字资产管理平台BitCV获千万级天使融资',
-                        jp:'数字资产管理平台BitCV获千万级天使融资',
-                        ko:'数字资产管理平台BitCV获千万级天使融资'
+                        en:'Digital Asset Management Platform BitCV Gets Thousands of Angel Funds',
+                        cn:'數字資產管理平台BitCV獲千萬級天使融資',
+                        jp:'デジタル資産管理プラットフォームBitCVが何千ものエンジェルファンドを獲得',
+                        ko:'디지털 자산 관리 플랫폼 BitCV, 천사 펀드 인수'
                     }
                 },
                 {
                     img: './img/media-jinrongjie.png',
                     url: 'http://biz.jrj.com.cn/2018/01/30141124030848.shtml',
-                    name: { en:'金融界', cn:'金融界', jp:'金融界', ko:'金融界' },
+                    name: { en:'Financial', cn:'金融界', jp:'金融業界', ko:'금융 산업' },
                     intro: {
-                        en:'区块链新锐BitCV获千万级天使融资',
-                        cn:'区块链新锐BitCV获千万级天使融资',
-                        jp:'区块链新锐BitCV获千万级天使融资',
-                        ko:'区块链新锐BitCV获千万级天使融资'
+                        en:'Blockchain cutting-edge BitCV gets 10 million angel financing',
+                        cn:'區塊鏈新銳BitCV獲千萬級天使融資',
+                        jp:'BlockChain最先端のBitCV、1000万円のエンジェルファイナンスを実現',
+                        ko:'블록 체인 최첨단 BitCV, 1,000 만 엔의 파이낸싱 제공'
                     }
                 },
                 {
                     img: './img/media-guangming.png',
                     url: 'http://it.gmw.cn/2018-01/30/content_27515552.htm',
-                    name: { en:'光明网', cn:'光明网', jp:'光明网', ko:'光明网' },
+                    name: { en:'Bright Network', cn:'光明網', jp:'明るいネットワーク', ko:'밝은 네트워크' },
                     intro: {
-                        en:'数字资产管理平台BitCV获千万级天使融资',
-                        cn:'数字资产管理平台BitCV获千万级天使融资',
-                        jp:'数字资产管理平台BitCV获千万级天使融资',
-                        ko:'数字资产管理平台BitCV获千万级天使融资'
+                        en:'Digital Asset Management Platform BitCV Gets Thousands of Angel Funds',
+                        cn:'數字資產管理平台BitCV獲千萬級天使融資',
+                        jp:'デジタル資産管理プラットフォームBitCVが何千ものエンジェルファンドを獲得',
+                        ko:'디지털 자산 관리 플랫폼 BitCV, 천사 펀드 인수'
                     }
                 },
                 {
                     img: './img/media-china.png',
                     url: 'http://tech.china.com.cn/entrepreneur/20180130/334710.shtml',
-                    name: { en:'china.com.cn', cn:'中国网', jp:'中国网', ko:'中国网' },
+                    name: { en:'china.com.cn', cn:'中国网', jp:'中国ネット', ko:'차이나 넷' },
                     intro: {
-                        en:'数字资产管理平台BitCV获千万级天使融资',
-                        cn:'数字资产管理平台BitCV获千万级天使融资',
-                        jp:'数字资产管理平台BitCV获千万级天使融资',
-                        ko:'数字资产管理平台BitCV获千万级天使融资'
+                        en:'Digital Asset Management Platform BitCV Gets Thousands of Angel Funds',
+                        cn:'數字資產管理平台BitCV獲千萬級天使融資',
+                        jp:'デジタル資産管理プラットフォームBitCVが何千ものエンジェルファンドを獲得',
+                        ko:'디지털 자산 관리 플랫폼 BitCV, 천사 펀드 인수'
                     }
                 },
-                /*
                 {
-                    img: './img/media-touzijie.png',
-                    url: 'http://pe.pedaily.cn/201801/426853.shtml',
-                    name: { en:'投资界', cn:'投资界', jp:'投资界' },
+                    img: './img/media-yahu.png',
+                    url: 'https://finance.yahoo.com/news/bcv-creating-model-digital-asset-145200200.html?from=groupmessage&isappinstalled=0',
+                    name: { en:'Yahoo Finance', cn:'雅虎财经', jp:'Yahoo Finance', ko:'Yahoo Finance' },
                     intro: {
-                        en:'数字资产管理平台BitCV获千万级天使融资',
-                        cn:'数字资产管理平台BitCV获千万级天使融资',
-                        jp:'数字资产管理平台BitCV获千万级天使融资'
+                        en:'Digital Asset Management Platform BitCV Gets Thousands of Angel Funds',
+                        cn:'數字資產管理平台BitCV獲千萬級天使融資',
+                        jp:'デジタル資産管理プラットフォームBitCVが何千ものエンジェルファンドを獲得',
+                        ko:'디지털 자산 관리 플랫폼 BitCV, 천사 펀드 인수'
                     }
-                },
-                */
+                }
             ]
         },
 
