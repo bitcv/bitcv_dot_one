@@ -20,7 +20,7 @@ var app = new Vue({
     	    },
             name: { en:'Blockchain Digital Asset <br>Management Service Engine', cn:'區塊鏈數字資產管理服務引擎', jp:'ブロックチェーンデジタル<br>資産管理サービスエンジン', ko:'블록체인디지털자산관리서비스엔진' },
             whitepaper: {
-                btn: { en:'Download White Paper', cn:'下載白皮書', jp:'ホワイトペーパーのダウンロード', ko:'백서 다운로드' },
+                btn: { en:'Download White Paper', cn:'下載白皮書', jp:'白書のダウンロード', ko:'백서 다운로드' },
                 doc: { en:'doc/bitcv_whitepaper_en.pdf', cn:'doc/bitcv_whitepaper_tr.pdf', jp:'doc/bitcv_whitepaper_jp.pdf', ko:'doc/bitcv_whitepaper_ko.pdf' }
             },
             ppt: {
@@ -84,41 +84,41 @@ var app = new Vue({
                 },
                 {
                     icon: 'icon ti-desktop',
-                    title: { en:'Project Investment and Financing SaaS System - SaaS', cn:'項目投融SaaS系統——投融SaaS', jp:'プロジェクト投資･融資 SaaS システム――投融資 SaaS', ko:'프로젝트융자 SaaS 시스템—융자 SaaS' },
+                    title: { en:'Project Investment and Financing SaaS System - SaaS', cn:'項目投融SaaS系統——投融SaaS', jp:'プロジェクト投資･融資 SAAS システム――投融資 SAAS', ko:'프로젝트융자 SaaS 시스템—융자 SaaS' },
                     content: {
                         en:'For every independent project, its information and data are independent and isolated from other projects. For the project party, from domain name to display, they are independent and unique, and create exclusive and professional images.',
                         cn:'每一個獨立的項目，資訊與數據與别的項目隔離，從域名到展示，都有獨立性和唯一性，造就專屬、專業的形象。',
-                        jp:'それぞれの独立したプロジェクト、情報、データは、ドメイン名からディスプレイまで、他のプロジェクトとは独立しています。',
+                        jp:'それぞれの独立したプロジェクト、情報、データは、ドメイン名からディスプレイまで、他のプロジェクトとは独立している。',
                         ko:'각각의 독립적인 프로젝트, 정보 및 데이터는 도메인 이름에서 디스플레이에 이르기까지 다른 프로젝트와 분리되어 독립적이고 유니크하며, 그로 인해 전속적이고 전문적인 이미지를 만듭니다.'
                     }
                 },
                 {
                     icon: 'icon ti-user',
-                    title: { en:'Deep Mining and Investigation of Digital Asset – Finance and Economy Master', cn:'數字資產深度挖掘與調研——財經通', jp:'デジタル資産の深堀りと調査研究――財金通', ko:'디저털자산 심도적탐색과 조사연구——재경통' },
+                    title: { en:'Deep Mining and Investigation of Digital Asset – Finance and Economy Master', cn:'數字資產深度挖掘與調研——財經通', jp:'デジタル資産の深堀と調査研究――財金通', ko:'디저털자산 심도적탐색과 조사연구——재경통' },
                     content: {
                         en:'The BitCV team consists of experienced investors, blockchain technical experts, senior media professionals, who, with all the experience in the fields of investment, media and technology, can scrutinize every aspect of a project.',
                         cn:'資深投資人、區塊鏈技術專家、資深媒體人士，全面挖掘項目團隊背景、項目技術實力評估、項目投資人訪談等，讓公眾投資人全面、公正、客觀地瞭解項目的方方面面',
-                        jp:'シニア投資家、ブロック鎖技術の専門家、シニアメディアの人々、総合的な採掘プロジェクトチームの背景、技術力とプロジェクト評価、プロジェクト投資家のインタビュー、公共投資プロジェクトのすべての側面を包括的、公正かつ客観的理解',
+                        jp:'シニア投資家、ブロックチェーン技術の専門家、シニアメディア関係者、総合的な採掘プロジェクトチームの背景、技術力とプロジェクト評価、プロジェクト投資家のインタビューなど、公共投資プロジェクトの全てを包括的、公正かつ客観的に理解',
                         ko:'베테랑 투자자, 블록 체인 기술 전문가 및 숙련 된 미디어 전문가는 프로젝트 팀의 배경을 완전히 탐색하고 프로젝트의 기술력을 평가하고 프로젝트 투자자와 면담을 함으로써 모든 공공 투자자가 포괄적이고 공정하며 객관적인 방식으로 프로젝트의 모든 측면을 이해할 수 있도록합니다'
                     }
                 },
                 {
                     icon: 'icon ti-ruler-alt',
-                    title: { en:'Digital Asset Management Evaluation Platform – Evaluation Chain', cn:'數字資管評測平臺——鏈評測', jp:'デジタル資産管理の評価･測定プラットホーム——チェン評価･測定', ko:'디지털자산관리평가플랫폼——체인 평가&추산' },
+                    title: { en:'Digital Asset Management Evaluation Platform – Evaluation Chain', cn:'數字資管評測平臺——鏈評測', jp:'デジタル資産管理の評価･測定プラットホーム——チェーン評価･測定', ko:'디지털자산관리평가플랫폼——체인 평가&추산' },
                     content: {
                         en:'Besides the assessment of each dimension, there are analyses based on historical models and data, including the artificial intelligence assessment and the prediction of the prospects with machine learning model. All these rely heavily on analyzing and data processing, of which the BitCV team has accumulated considerable experience.',
                         cn:'基於大數據與人工智能技術，做好項目價值發現與投資者評估，結合傳統金融行業大量的從業經驗，研發風險評估與風控模型。',
-                        jp:'大きなデータデータや人工知能技術に基づいて、プロジェクト価値の発見と投資家の評価が行われ、従来の金融業界の多くの実務家が組み合わされて、リスクアセスメントやリスクコントロールモデルが開発されています。',
+                        jp:'ビッグデータや人工知能技術により、プロジェクトの価値の発見と投資家の評価が行われ、従来の金融業界の多くの経験が結合し、リスクアセスメントやリスクコントロールモデルが開発される。',
                         ko:'빅 데이터 및 인공 지능 기술을 기반으로 프로젝트 가치 발견 및 투자자 평가가 이루어지며 전통적인 금융 업계의 수많은 실무자와 결합되어 위험 평가 및 위험 관리 모델을 개발합니다.'
                     }
                 },
                 {
                     icon: 'icon ti-heart',
-                    title: { en:'Digital Asset OMO Service – Service Chain', cn:'數字資產OMO服務——鏈服務', jp:'デジタル資産 OMO(Online-Mobile-Offline)サービス——ブロックチェンサービス', ko:'디저털자산 OMO 서비스——체인서비스' },
+                    title: { en:'Digital Asset OMO Service – Service Chain', cn:'數字資產OMO服務——鏈服務', jp:'デジタル資産 OMO(ONLINE-MOBILE-OFFLINE)サービス——ブロックチェーンサービス', ko:'디저털자산 OMO 서비스——체인서비스' },
                     content: {
                         en:'Apart from technical services, BitCV, as a digital asset management engine, has the responsibility and obligation to serve the industry ecology as well, as to provide convenience for the project party and investors.',
                         cn:'不僅僅是為數字資產項目的初始發佈助跑，更希望從技術到人才，構建起真正的落地能力支撑，這樣才是真正有助於這個生態。',
-                        jp:'デジタル資産プロジェクトの最初のリリースを支援するだけでなく、技術から才能に着陸するための本当の支援能力を構築し、エコロジーを本当に助けることを望んでいます。',
+                        jp:'デジタル資産プロジェクトの最初のリリースを支援するだけでなく、技術から才能へと真の支援能力を構築することで、生態を助けることを期待する。',
                         ko:'디지털 자산 프로젝트의 초기 출시를 돕는 것뿐만 아니라 기술에서 인재에 이르기까지 실제 지원 능력을 구축하여 진정으로 업계환경에 도움에 되기를 바랍니다.'
                     }
                 },
@@ -134,7 +134,7 @@ var app = new Vue({
                     content: {
                         en: 'BitCV is an application-based blockchain product, so we are using the blockchain and existing technologies to serve the field of digital asset management. In principle, we do not conduct our own research and development of the underlying chain design on a large scale, but according to the current preliminary research and development, we use and enhance the use of the following technologies.<p>1 Blockchain distributed ledger technology</p><p>2 Sidechain cross-chain trading technology</p><p>3 DPOS consensus algorithm</p><p>4 Intelligent contract technology</p>',
                         cn: 'BitCV使用區塊鏈技術，記錄所有涉及資金的交易行為，先在側鏈上或者鏈外記錄與交易，最終寫入BitCV資產管理鏈主鏈上去，保證資產管理主鏈是一個隨着交易記錄增長的，無法篡改和偽造的區塊鏈。在未來，區塊鏈分布式存儲的成熟，BitCV資產管理鏈主鏈也將轉移或者存儲在區塊鏈分布式存儲上。真正做到了去中心化。',
-                        jp: 'BitCVはブロックチェーン技術を使用して、資金を含むすべてのトランザクションを記録します。記録とトランザクションは、最初にサイドチェーンまたはチェーンから外し、最後にBitCV資産管理チェーンのメインチェーンで行い、資産管理バックボーンはトランザクション履歴 改ざんと偽造はできないブロックチェーン。 将来、ブロックチェーンに成熟した分散ストレージがあれば、BitCV資産管理チェーンの主なチェーンもブロックチェーン分散ストレージに転送または格納されます。 本当に分散されています。',
+                        jp: 'BitCVはブロックチェーン技術を用い、全ての資金の取引行為を記録する。まずサイドチェーン、もしくはチェーンの記録と取引を切り離し、最後にBitCV資産管理チェーンのメインチェーンで行い、資産管理メインチェーン保証は取引記録の増加に伴い、改ざんと偽造ができないようになっている。将来、ブロックチェーンに成熟した分散ストレージがあれば、BitCV資産管理チェーンのメインチェーンもまたブロックチェーン分散ストレージに転送、格納される。これにより分散化が行われる。',
                         ko: 'BitCV는 블록체인 기술을 사용하여	 자금과 관련된 모든 거래를 기록하며, 먼저 측체인 또는 체인외부에 기록되고 최종적으로 BitCV자산관리 메인체인에 입력됩니다. 이로 인해 자산관리 메인체인은 거래 기록 증가에 따라 위조와 훼손이 불가능한 블록체인이 되는 것을 보장합니다. 앞으로 블록체인 분포식 메모리가 성숙해 짐에 따라, BitCV자산관리체인의 메인체인은 블록체인 분포식 데이터베이스에 이전되거나 저장됩니다. 이를 통해 진정한 탈중개화를 실현합니다.'
                     },
                 },
@@ -144,7 +144,7 @@ var app = new Vue({
                     content: {
                         en:'As the digital asset service engine platform at the bottom of the blockchain, SaaS cloud service needs to be provided first. Because every project is intended for global clients and provides multi-end support, it is necessary to ensure that the service is reliable and easy to expand and maintain. The goal of reliability should be 99.99%.<br>Second, as a digital asset management service platform, a large number of digital asset exchange data of the clients are involved. Although after the clients purchase the digital assets, the corresponding tokens or the digital assets themselves will be sent into the official crowdfunding wallet, the statistics, as well as the middle storage, are still stored inside the platform, therefore the security, encryption and isolation of the data are strictly required.',
                         cn:'作為區塊鏈底層的數字資產服務引擎平臺，首先需要提供的是SaaS雲服務，由於任意一個項目，面向全球用戶使用，多端支持，因此需保證服務高可靠，應該目標是99.99%的可靠性，以及方便擴容、維護。<br>其次作為數字資產管理服務平臺，有涉及到大量的用戶代幣兑換數據，儘管用戶在購買了代幣之後，幣本身會打入官方眾籌錢包，但是統計數據，以及中間存儲，都在平臺内部，所以對數據的安全性、加密存儲與隔離等有較高的要求。',
-                        jp:'ブロックチェーンデジタルアセットサービスエンジンプラットフォームの最下部にある、最初に提供する必要があるSaaSクラウドサービスは、いずれかのプロジェクトのために、グローバルユーザー、マルチエンドサポートのためには、信頼性の高いサービスを確保する必要があります。目標は、99.99％の信頼性と、拡張の容易さ、メンテナンスでなければなりません。<br>第二に、デジタル資産管理サービスプラットフォームとして、ユーザーがトークンを購入したにもかかわらず、多数のユーザートークンがデータ交換に関与していますが、通貨自体を公式のクラウドファンディングウォレットに購入しましたが、統計情報と中間ストレージはプラットフォーム したがって、データのセキュリティ、暗号化、ストレージおよびアイソレーションの要件が高くなります。',
+                        jp:'ブロックチェーンの最下部にあるデジタル資産サービスエンジンプラットフォームとして、まずSaaSクラウドサービスを提供する必要があり、任意のプロジェクトに関して、グローバルユーザーに対して使用し、マルチエンドサポートを行う。これにより信頼性の高いサービスを確保する必要があ理、99.99％の信頼性、拡張及びメンテナンスの容易が目標である。第二に、デジタル資産管理サービスプラットフォームとして、ユーザーはトークンを購入したにもかかわらず、多数のユーザートークンがデータ交換に関与し、通貨自体を公式のクラウドファンディングウォレットで購入。統計情報と中間ストレージはプラットフォームに従って、データのセキュリティ、暗号化、ストレージ及び、アイソレーション要件が高くなる。',
                         ko: '블록체인 Bottom의 디지털자산서비스플랫폼엔진으로써 먼저 필요한 것은 SaaS 크라우드서비스 제공이며, 어느 프로젝트간에 전 세계를 대상으로 사용하며, 많은 대상을 지원합니다. 그로인해 서비스의 고신뢰성이 필요하며, 저희이 목표는 99.9%의 신뢰성과 확장편리성, 유지관리입니다.<br>다음으로는, 디지털자산관리서비스플랫폼으로써 많은 사용자의 디지털화폐환전에 관련되어 있고, 사용자가 디지털화폐 구매 후, 공식 크라우드펀딩 지갑에 입금되지만, 통계데이터와 중간저장데이터는 플랫폼 내부에 저장되어 있습니다.이로 인해 데이터의 보안과 암호화저장, 그리고 격리등의 비교적 높은 요구사항이 있습니다.'
                     }
                 },
@@ -154,7 +154,12 @@ var app = new Vue({
                     content: {
                         en:'Fill in the basic information to generate the main site by one touch<br>Provide investors with project management services and clear results<br>Provide the project party with stage progress<br>Provide financiers with project data planning',
                         cn:'需要融資的項目，透過申請獨立的發佈站，經過審核之後即可以開通SaaS平臺，開通成功，獲得該系統的管理員用戶名和密碼，完成項目資料登記、完善與獨立發佈站的建設。在建設的過程中，需要提供的基本資料，包括但不限於市場分析、項目亮點、媒體報道、代幣額度、價格設定、項目團隊、合作夥伴、路徑圖等等。<br><br>填寫基本資料，一鍵生成項目主站<br>項目管理服務，讓投資人清晰放心<br>項目階段進度，讓項目方瞭然於胸<br>項目數據規劃，讓融資方運籌帷幄',
-                        jp:'SaaSプラットフォームのオープンに成功すると、システム管理者のユーザー名とパスワードの登録、プロジェクトデータの完全な登録と改善、独立した出版局の設置が行われます。 建設の過程では、市場分析、プロジェクトハイライト、メディアカバレッジ、トークン金額、価格設定、プロジェクトチーム、パートナー、ロードマップなど、基本的な情報を提供する必要があります。<br><br>プロジェクト管理サービス、投資家の明確かつ確実な<br>プロジェクトの段階の進行は、胸のプロジェクト側<br>プロジェクトデータの計画、資金調達側の戦略を立てる',
+                        jp:'簡潔で使いやすいプロジェクトと投資プラットフォーム\n' +
+                        '融資が必要なプロジェクトは独立の申請を通過した後、審査が終わればすぐにSaaSプラットフォームを開くことができる。オープンに成功するとシステム管理者のユーザー名、パスワードを得られ、プロジェクトデータの登録と改善、独立したページの開設が行われる。開設の過程で、市場分析だけではなく、プロジェクトのハイライト、メディア報道、トークン金額、価格設定、プロジェクトチーム、パートナー、ロードマップなどの基本情報が必要である。\n' +
+                        '基本情報を記入すること、ワンクリックでプロジェクトメインページが作成される。\n' +
+                        'プロジェクト管理サービス、投資家に透明性と安心を。\n' +
+                        'プロジェクト段階の進捗、プロジェクトに明瞭さを。\n' +
+                        'プロジェクトデータ計画、融資調達側に戦略を。\n',
                         ko: '투융자를 필요로하는 프로젝트는 독립적인 Publishing Station을 통한 신청과 심사를 거친 후즉시 SaaS플랫폼을 개설가능하고, 개설완료 후, 해당 시스템의 관리자 아이디와 패스워드 취득 및 프로젝트 자료등록 후 완전하고 독립적인 Publishing Station을 개설 할수 있습니다.개설 과정에서 기본자료만 필요할 뿐만 아니라 시장분석, 프로젝트 브라이트 스폿, 대중매체의 보도, 디지텔화폐한도, 가격설정, 프로젝트 팀, 합작 파트너, 로드맵 등도 필요합니다.<br><br>기본자료작성, 원클릭 프로젝트 Main Station 개설<br>프로젝트관리서비스, 투자자에게 명확한 안심 제공<br>프로젝트단계진도, 프로젝트측에게 완벽한 이해<br>프로젝트데이터기획, 투융자측에게 후방전략수립'
                     }
                 },
@@ -164,7 +169,12 @@ var app = new Vue({
                     content: {
                         en:'Use the multi-digital assets wallet system constructed by cross-chain payment to make it convenient for clients to deposit and invest.<br>Develop a fund-investment system and invest in the industry\'s well-known digital asset funds. Well-known digital asset funds generally have higher thresholds.<br>Provide the trading and auction platform for digital assets and real assets.<br>Provide the programmed and quantitative trading platform.',
                         cn:'除了做好基礎的項目和投資者服務之外，我們將逐步開發以下產品和底層基礎設施，以構建整個資管平臺底層技術服務體系。<br><br>使用跨鏈支付構建多幣種錢包系統<br>開發基金跟投系統參與知名數字資產基金的投資<br>數字資產、實物資產對標交易拍賣平臺<br>程序化量化交易平臺為投資者建立多元化投資手段',
-                        jp:'基礎的なプロジェクトと投資者へのサービス以外、我々は以下の製品と基礎施設を開発していく。このようにして、資産管理のプラットフォームの基礎技術サービスシステムを設ける<br><br>ユーザーが多種のデジタル資産を保存しやすいように、クロスチェーンの支払いで多種のデジタル資産ウオレットシステムを構築する。<br>大衆でも直接投資に参加できて、ファンド投資から利益を得るように、BitCV は小額から高額までのファンドを念入りに選んだ<br>デジタル資産と実物資産が交換できる競売プラットフォームを設ける<br>プロジェクト的で量的な取引プラットフォーム',
+                        jp:'将来の製品の計画\n' +
+                        '基礎がしっかりとしたプロジェクトと投資家サービス以外に我々は以下の製品と基礎施設を開発していく。資産管理プラットフォーム全体の基礎技術サービスシステムを設ける。\n' +
+                        'クロスチェーン支払いを使用し、多種のデジタル資産ウォレットシステムを構築する。\n' +
+                        'ファンドと投資システムが参与できる著名なデジタル資産ファンドの投資を開発する\n' +
+                        'デジタル資産、実物資産を取引できる競売プラットフォーム\n' +
+                        '投資家の多元的な投資の手段となるためのプロジェクト的で量的な取引プラットフォーム\n',
                         ko:'기반이 튼튼한 프로젝트와 투자자 서비스 외에도, 저희는 모든 자산관리플랫폼Bottom기술서비스체계를 구축하기 위해 점진적으로 아래의 제품과 기본 인프라를 개발할 것입니다.<br><br>크로스체인지불을 사용하여 다양한 토큰지갑 시스템 구축<br>기금 추적투자시스템을 개발하여 유명한 디지털자산기금의 투자에 참여<br>디지털자산과 실물자산의 벤치마킹 거래 경매 플랫폼<br>프로그램화 및 양적 거래플랫폼으로 투자자에게 다각적인 투자수단 제공'
                     }
                 },
@@ -180,7 +190,7 @@ var app = new Vue({
                     intro: {
                         en: 'Member of Global Entrepreneur Leadership Program of Tsinghua University PBC School of Finance; core member of the sixth self-organizing board team of Hejun Business School; monitor of the third Sinovation Ventures Brotherhood. Member of the foundation team of Happy Net; advanced full stack architect. He founded UCAI, a domestic IT vocational education brand, and got many rounds of financing from funds such as Sinovation Ventures. He once managed the design and performance optimization of hundreds of millions of UV in Happy Net, and achieved more than 99.99% reliability services. Duties: Leading technology and the overall strategic planning of the foundation project.',
                         cn: '清華大學五道口金融學院全球創業領袖班學員。2004年畢業於北京工商大學，和君六屆自組織理事團隊核心成員、創新工場兄弟會3期班班長。開心網創始團隊成員，高級全棧架構師，創辦國内IT職業教育品牌優才學院，獲得創新工場等基金多輪融資，曾主導開心網數以億計UV的架構設計與性能優化，實現99.99%以上的可靠性服務。職責:基金會技術與項目整體戰略規劃。',
-                        jp: '清華大学五道口金融学院グローバル創業リーダークラスの成員。2004 年に北京工商大学を卒業した。和君第六回自組織管理チームの核心メンバー。創新工業兄弟会第三回クラスの級長。開心ウェブサイトの創始チームの成員。高級フルスタックエンジニア。国内における IT 職業教育優才学院を創業し、創新工場などから多様な融資を受け、開心ウェブサイトの数億もの UV のデザインやパフォーマンスの最適化を主導し、99.99％以上の信頼性のあるサービスを実現した。役割：基金の技術とプロジェクト総体の戦略企画。',
+                        jp: '清華大学五道口金融学院グローバル創業リーダークラスのメンバー。2004 年に北京工商大学を卒業。和君第六回自組織管理チームの中心メンバー。創新工業兄弟会第三回クラスの級長。開心ウェブサイトの創始チームのメンバー。高級フルスタックエンジニア。国内における IT 職業教育優才学院を創業し、創新工場などから多数の融資を受け、開心ウェブサイトの数億ものUVのデザインやパフォーマンスの最適化を主導し、99.99％以上の信頼性のあるサービスを実現した。役割：基金の技術とプロジェクト総体の戦略企画。\n',
                         ko: '청화대학오다구금융학원 전세계창업리더쉽반 수강생。2004 년베이징경영대학졸업，허쥔 6 회 이사조직팀 핵심멤버、Sinovation 벤쳐 형제회 3 기반장。Happy net 창립멤버，고급풀스택구축사，국내 IT 직업교육브랜드우수학원창립，Sinovation 벤쳐 등의 기금 복수기금 획득,이전 1 억대의 UV 의 Happy Net 구조설계와 성능우수화를 주도99.99%이상의 신뢰가는 서비스 실현。직책：기금회기술 및 프로젝트전략기획。전체전략기획。'
                     }
                 },
@@ -190,7 +200,7 @@ var app = new Vue({
                     intro: {
                         en: 'Graduated from Tsinghua University; senior R & D engineer in Sina; python group leader in iAsk; chief architect in Happy Net. He is proficient in Linux, Unix infrastructure research and development, and provide independently storage, communications and other middleware services. He once managed the design of millions of concurrent online instant messaging system in Happy Net. Duties: Leading the design of the underlying protocol of the digital asset management chain and highly reliable underlying platform.',
                         cn: '畢業於清華大學，曾任新浪資深研發工程師，愛問爬蟲組組長，開心網首席架構師。精通Linux、Unix底層研發，獨立實現存儲、通信等多種中間件服務。曾主導開心網數百萬並發在線即時通信系統設計。職責:主導數字資管鏈的底層協議設計和高可靠底層平臺設計。',
-                        jp: '清華大学を卒業した。Sina のプロのベテランエンジニアであった。愛問爬虫グループのリーダー、開心ウェブサイトの首席エンジニア。Linux、Unix のベース開発の専門家で、独立でストレージ、通信など様々な中間サービスを実現した。開心ウェブサイトの数百万ものインスタントメッセンジャーシステムの設計を主導したという経験を持つ。役割：デジタル資管システムのベーシックプロトコルと信頼性のあるベーシックプラットホームの設計などの主導者を務める。',
+                        jp: '清華大学を卒業。Sinaのベテランエンジニア。愛問爬虫グループリーダー、開心ウェブサイトの首席エンジニア。Linux、Unixのベース開発の専門家で、独立でストレージ、通信など様々な中間サービスを実現した。開心ウェブサイトの数百万ものインスタントメッセンジャーシステムの設計を主導したという経験を持つ。役割：デジタル資管システムのベーシックプロトコルと信頼性のあるベーシックプラットホームの設計などの主導。\n',
                         ko: '청화대학 공정물리학졸업，이전 Sina 경력직연구&개발엔지니어 이전 Sina 경력직연구&개발엔지니어,Iaskworm 팀장，Happy Net 첫 번째 구축사.정통 Linux、Unix Bottom 개발，독립적으로저장、통신 등의 중간 서비스 실현,이전 수 백만대의 Happy net 에서 Instant massage , 시스템 설계,직책：디지털자산관리체인의 Bottom 협약설계 및 고신뢰성 Bottom플랫폼설계.'
                     }
                 },
@@ -200,7 +210,7 @@ var app = new Vue({
                     intro: {
                         en: 'Full stack architect, Beijing Technology and Business University Department of Computer Science graduated in 2004, once worked in Halliburton, serving CNPC, Sinopec and other giant oil service information system development, is an early Kaixin technical team members, has been responsible for sales operations support Management technical work. In 2013, he worked as a technology leader in developing a digital campus at Renmin University of China. In 2014, he joined the talent CTO. Proficient in Internet product architecture design, good before and after the end of a variety of technology development and management.',
                         cn: '全棧架構師，北京工商大學計算機系2004年畢業，曾經就職於哈里伯頓，服務於中石油、中石化等巨頭企業油服信息化系統的開發，是開心網早期技術團隊成員，曾負責銷售運營支持管理部門技術工作。2013年作為技術負責人開發了中國人民大學數字校園，2014年加入優才創智任CTO。精於互聯網產品架構設計，擅長前後端多種技術開發管理。',
-                        jp: 'フルスタックエンジニア。2004 に北京工商大学コンピューター学科を卒業した。ハリバートンに就職した。中国石油天然気集団公司、中国石油化工集団公司など大手会社の石油サービスデジタル化システムの開発に参加した。開心ウェブサイト初期の技術チームのメンバー。販売営業支持管理部の仕事を担当した。2013 年に技術責任者として中国人民大学デジタルスクールを開発し、2014 年に優才創智に入社し、CTO を務める。インタネット製品のデザイン、Front-end とbackstage supporter 多種技術開発管理が得意である。',
+                        jp: 'フルスタックエンジニア。2004に北京工商大学コンピューター学科を卒業。卒業後はハリバートンに就職。中国石油天然気集団公司、中国石油化工集団公司など大手会社の石油サービスデジタル化システムの開発に参加した。開心ウェブサイト初期の技術チームのメンバー。販売営業支持管理部の仕事を担当した。2013 年に技術責任者として中国人民大学デジタルスクールを開発し、2014年に優才創智に入社し、CTOを務める。インターネット製品のデザイン、Front-end とbackstage supporter 多種技術開発管理を得意とする。\n',
                         ko: '풀테크구축사，2004 년 북경경영대학컴퓨터과 졸업，이전 할리버튼에서 종사，중국 석유&화학등의 대기업에 석유서비스정보화시스템개발,Happy Net 초기 기술팀 멤버,이전 판매운영지불관리부서에서 기술부분 책임2013 년 기술책임자로 중국인민대학 디지털캠퍼스 개발2014 년 Excellent Powerise 에 가입 및 CTO 임명,인터넷제품구축설계진행,Frong/Back-End 의 다양한 기술개발&관리에 정통.'
                     }
                 },
@@ -210,48 +220,64 @@ var app = new Vue({
                     intro: {
                         en: 'Received Master’s degree in Investment Management at Peking University; assistant of Apple’s Angel investor Mr. Li Zongnan in China; the China market leader of United States Shan Kwong Capital; former market director assistant of Sinovation Ventures; co-founder of Internet K12 online education. She is now the founder of PPTEAM Project, which provide magic performance technology service for the first-class Internet startups and first-class investment agencies senior executives, and cooperation companies include Tencent, Toutiao, the State Grid Cooperation of China and so on.',
                         cn: '北京大學投資管理碩士畢業;蘋果天使投資人華人創投之父李宗南先生中華區助理;美國山光資本中國市場負責人;曾任創新工場市場總監助理;互聯網K12在線教育公司聯合創始人;現PPTEAM項目創始人，為一流互聯網創業公司及一流投資機構高管提供幻演技術服務，合作公司包括騰訊、今日頭條、國家電網等。',
-                        jp: '北京大学投資管理学の修士。アップルのエンジェル投資家「華人創投資の父」李宗南の中華区域の助役。アメリカ ShanKwong 資本の中国市場の責任者。創新工場総監の助役。インタネット会社Ｋ１２通信制教育会社の共同創業者。今のPPTEAM プロジェクトの創業者。一流のインタネット創業会社や投資会社の管理者に魔法的な表現技術サービスを提供している。パートナー企業にはテンセント、今日頭条、国家電網など大手会社がある。',
+                        jp: '北京大学投資管理学の修士学位。アップルのエンジェル投資家「華人創投資の父」李宗南の中華区域の助役。アメリカShanKwong資本の中国市場の責任者。創新工場総監の助役。インターネット会社Ｋ12通信制教育会社の共同創業者。PPTEAMプロジェクトの創業者。一流のインターネット創業会社や投資会社の管理者に魔法的な表現技術サービスを提供している。パートナー企業にはテンセント、今日頭条、国家電網など大手企業がある。\n',
                         ko: '북경대학투자관리석사졸업;Apple Angel 투자자인 중국계 외국인이며, 창립 투자자인부종남선생님의 중화구역 비서;미국 삼광 Sunland Fund 중국시장 책임자;이전 Sinovation 벤쳐시장 CEO 비서;인터넷 K12 Online 교육회사연합창립자;현 PPTEAM 프로젝트 창립자;일류 인터넷창업회사와 일류투자기관 고위층에매직쇼기술서비스제공;합작회사는 Tecent 회사, 금일 톱뉴스 국가전력 등이다.'
                     }
                 },
                 {
                     img: 'user-ruanying2.png',
-                    name: { en:'Ruan Ying', cn:'阮颖', jp:'また穎', ko:'성 뛰어나다' },
+                    name: { en:'Ruan Ying', cn:'阮颖', jp:'阮穎', ko:'원영' },
                     intro: {
                         en: 'Graduated from Nankai University and then studied at the 33 phase of Exed, the Chinese enterprise operator of Guanghua School of Management, Peking University. She is an early founder team of Renren games, the earliest web game productor in China, and a pioneer of the earliest overseas operation model. Then join the Kaixin network management team, responsible for the overall product and operation of the Kaixin.',
                         cn: '本科畢業於南開大學，後在北京大學光華管理學院中國企業經營者33期Exed學習。曾是人人遊戲早期創始團隊，國內最早的網頁遊戲探路者，最早海外運營模式的參與者開創者。後加入開心網管理團隊，負責開心網整體產品和運營工作。',
-                        jp: '本科を卒業した後に北京で大学南開大学、光華の管理学院の中国企業の経営者が33期Exed勉強。かつて誰もゲーム早期創始チームは、国内最古のホームページのゲームの隙間者で、一番早く海外運営モデルの参加者の先駆者。その後、楽しいネット管理チームに参加して、ネット全体の製品と運営を担当しています。',
-                        ko: '본과는 남개대학을 졸업하고, 이후 북경대학 광화관리대학 중국기업 경영자는 33 기 Ext 에서 배운다.게임 조기 창시 팀, 국내 최초의 홈페이지 게임 로더, 최초의 해외 운영 패턴의 참가자 창문이다.후 신풍망 관리 팀 에 가입해 신난 망 전체 제품 과 운영 작업 을 했 다.'
+                        jp: '南開大学の本科を卒業後、北京大学光華管理学院中国企業経営者33期Exedにて学ぶ。人人遊戯の早期創始チームで、国内で最初のインターネットゲームの開拓者で、最も早く海外運営モデルの参加者先駆者。その後、楽しい開心ネット管理チームに参加し、ネット全体の製品と運営を担当している。\n',
+                        ko: '남개대학 본과 졸업 후, 북경대학 광화관리학부 중국기업경영자 33기 Exed이수.\n' +
+                        '이전 Ren-Ren Games 초기 창립멤버였고, 또한 국내최초 웹게임의 선구자였이며, \n' +
+                        '최초 해외 운영방식의 참여자이자 창시자였습니다.\n' +
+                        '이후 Happy-Net 관리팀에 참여하여 Happy-Net의 전 제품&운영 업무를 맡고 있습니다.\n'
                     }
                 },
                 {
                     img: 'user-sicheng2.png',
-                    name: { en:'Duan Sicheng', cn:'段思程', jp:'段思程', ko:'단락 생각' },
+                    name: { en:'Duan Sicheng', cn:'段思程', jp:'段思程', ko:'단사성\n' },
                     intro: {
                         en: 'Hongkong residents, major computer sicence, America\'s former Chicago futures exchange full stack engineer in Globex, SpanMargin, FedWatch and other core products research and development. He has a deep understanding of futures and options trading and maintains positive returns in the market for a long time. Chicago is the largest exchange in the world and has the right to price gold, crude oil and other commodities. Now join the BCV team for quantification, wind control, and market value management.',
                         cn: '香港居民，計算機科班出身，留美碩士，原芝加哥期貨交易所全棧工程師，參與過Globex，SpanMargin，FedWatch等核心產品的研發。對期貨與期權交易有深刻的認知，並在市場中長期保持正收益。芝商所是世界上最大的交易所，並擁有黃金，原油等大宗商品的定價權。現在加入 BCV 團隊，負責量化、風控以及市值管理。',
-                        jp: '香港住民は、コンピュータの正式な訓練を受けた人、アメリカ留学修士、元シカゴ先物取引所全スタックエンジニア、Globexに参与したことがあり、SpanMarginなど、FedWatchコア製品の開発。先物とオプション取引に深い認識があり、市場では長期的な収益を維持します。芝商所は世界最大の取引所で、黄金、原油などの大宗商品の定価権を持っています。今参加しBCVチームを担当し、定量化、風控や時価管理。',
+                        jp: '香港居民。コンピューター学科出身で、アメリカにて修士学位を取得。元シカゴ先物取引所全スタックエンジニア、Globexに参与したことがあり、SpanMargin、FedWatchなどコア製品を開発した。先物とオプション取引に深い知識があり、市場では長期的な収益を維持する。芝商所は世界最大の取引所で、黄金、原油などの大宗商品の定価権を有する。現在はBCVチームに参加し、量化、リスク制御や時価管理の責任者。\n',
                         ko: '홍콩 주민, 컴퓨터 과학 기술 출신, 미국 미술사, 원시카고 선물거래소 전문 엔지니어, Glovx, 스포츠마인, FadWater 등 핵심 제품 개발 참여.선물과 기권거래에 대해 깊은 인지를 갖고 있으며, 시장에서는 장기간 정수익을 유지한다.지상소는 세계에서 가장 큰 교역소이며, 황금, 원유 등 대량의 상품의 정가권을 보유하고 있다.현재 BCV 에 가입해 양적, 바람 컨트롤, 시중 관리 책임이다.'
                     }
                 },
                 {
                     img: 'user-yingying.png',
-                    name: { en:'Zhang Yingying', cn:'張瀛瑩', jp:'張柳', ko:'장 유잉' },
+                    name: { en:'Zhang Yingying', cn:'張瀛瑩', jp:'張柳', ko:'장영옥' },
                     intro: {
                         en: 'In 2007, in the well-known Internet service interconnection company, the company created the first million singles, many times Topsales. Lead the team to create sales performance with annual revenue of 10 million. In 2013, the world\'s leading foreign financial big data company is responsible for the market of colleges and universities nationwide. In 2017, we established Shared Plus Company and established partnerships with many companies such as Didi, QuickTime, and the famous artificial intelligence company Haizhi Technology and the establishment of state-owned enterprises under the well-known Propaganda Department.',
                         cn: '2007 年，在知名網絡服務互聯通公司，創造第一個百萬大 單，連續多次 Topsales 。帶領團隊創造年收入千萬的銷售業 績。 2013 年在全球領先的金融大數據外企，負責全國高校及 政府的市場。 2017 年，創辦共享加公司，與滴滴、速途及知 名人工智能公司海知科技及知名中宣部下屬國企建立等多家公 司建立合作關係。',
-                        jp: '2007年には、よく知られているインターネットサービスの相互接続会社で、同社は何百万人ものトップセールスを創業しました。 年間売上1,000万ドルで販売成果を創出するチームをリードします。 2013年には、世界有数の外国金融大手データ会社が、全国の大学の市場を担当しています。 2017年には、Shared Plus Companyを設立し、Didi、QuickTime、有名な人工知能会社Haizhi Technology、有名なCentral Propaganda Departmentの国営企業など多くの企業と提携しました。',
-                        ko: '2007 년, 유명한 인터넷 서비스 상호 연결 회사에서이 회사는 처음으로 수 백만 장의 싱글을 창작했습니다. 팀을 이끌어 연간 매출 1,000 만원의 판매 실적을 창출하십시오. 2013 년에는 세계 유수의 외국 금융 빅 데이터 회사가 전국 대학 및 종합 대학의 시장을 담당합니다. 2017 년에 우리는 Shared Plus Company를 설립하고 Didi, QuickTime, 유명한 인공 지능 회사 인 Haizhi Technology 및 유명한 Propaganda Department의 국유 기업 설립과 같은 많은 회사와 파트너십을 맺었습니다.'
+                        jp: '2007年、著名なインターネットサービスの相互接続会社にて、何百万ものトップセールス出した。年間売上1,000万ドルで販売成果を創出するチームをリードした。2013年には、世界有数の外国金融大手データ会社にて、全国の大学と政府の市場を担当。2017年には、Shared Plus Companyを設立し、Didi、QuickTime、有名な人工知能会社Haizhi Technology、Central Propaganda Departmentの国営企業など多くの企業と提携した。\n',
+                        ko: '2007년, 유명한 인터넷 서비스 CNLink 회사에서 \n' +
+                        '최초 1회 거래 백만 위안화 및 연이어 수 차례 TopSales달성 \n' +
+                        '프로젝트팀 이끌며 천만의 수익성 매출 창조.\n' +
+                        '2013년 세계를 선두하는 금융 빅 데이터 외국기업에서 \n' +
+                        '고등 교육기관 및 정부시장 담당.  \n' +
+                        '2017년, Sharespace회사 창립, China Uber Taxi(Di-Di Taxi),\nSoo-Too 및 유명 인공지능 HAIZOL, 유명 중공중앙선전부\n' +
+                        '아래의 국영기업과 파트너쉽 업무 진행。\n'
                     }
                 },
                 {
                     img: 'user-yanhe.png',
-                    name: { en:'Zhao Yanhe', cn:'趙延鶴', jp:'趙延鶴', ko:'조 얀헤' },
+                    name: { en:'Zhao Yanhe', cn:'趙延鶴', jp:'趙延鶴', ko:'조연학' },
                     intro: {
                         en: 'Served as a business manager at TOPRAND. Service customers include deductions for Huawei, Beijing-based Real Estate, Hong Kong Arran Group, Yangmei Hong Education Group, and Hongdian Electric. In 2014, he joined Young Talent as a BD & Marketing Director responsible for marketing, business, and branding. The technical community is heavily involved in the formation and management of multiple full-stack and open source community technical communities. We are responsible for the currency market and community management.',
                         cn: '曾任職於 TOPRAND 擔任商務經理。服務客戶包扣華為、京 基地產、香港雅蘭集團、楊梅紅教育集團、宏電股份等。 2014 年加入優才創智擔任 BD&市場總監負責市場、商務、品牌。技術社群重度參與者，組建和管理多個全棧及開源社區技術社群。現負責幣威市場及社群管理工作。',
-                        jp: 'TOPRANDのビジネスマネージャー。 サービス顧客には、Huawei、北京ベースの不動産、香港Arranグループ、Yangmei Hong教育グループ、Hongdian Electricの控除が含まれます。 2014年には、マーケティング、ビジネス、ブランディングを担当するBD＆Marketing DirectorとしてYoung Talentsに入社しました。 技術コミュニティは、複数のフルスタックおよびオープンソースコミュニティの技術コミュニティの形成と管理に深く関わっています。 私たちは通貨市場と地域社会の管理を担当しています。',
-                        ko: 'TOPRAND에서 비즈니스 매니저로 일했습니다. 서비스 고객은 Huawei, Beijing 기반 부동산, Hong Kong Arran Group, Yangmei Hong Education Group 및 Hongdian Electric에 대한 공제를 포함합니다. 2014 년에는 Young Talents에 BD & Marketing Director로서 마케팅, 비즈니스 및 브랜딩을 담당했습니다. 기술 커뮤니티는 다중 스택 및 오픈 소스 커뮤니티 기술 커뮤니티의 형성과 관리에 많은 노력을 기울이고 있습니다. 우리는 통화 시장과 지역 사회 관리를 담당합니다.'
+                        jp: 'TOPRANDのビジネスマネージャーを歴任。サービス顧客には、Huawei、北基地産、香港Arranグループ、Yangmei Hong教育グループ、Hongdian Electricなどがある。2014年には、マーケティング、ビジネス、ブランディングを担当するBD＆Marketing DirectorとしてYoung Talentsに入社。技術コミュニティは、複数のフルスタックおよびオープンソースコミュニティの技術コミュニティの形成と管理に深く関わっています。現在は通貨市場と地域社会管理を担当。\n',
+                        ko: '이전 TOPRAND 상무부장 재직.\n' +
+                        'Hua-Wei, King-Key 부동산, 홍콩 AIRLAND그룹, YMM 교육그룹, \n' +
+                        'Hong-Dian Stock등의 고객에 서비스 제공. \n' +
+                        '2014년 UCAI에 참가하여 BD&마케팅 이사로써 \n' +
+                        '마케팅, 상무, 브랜드 담당.\n' +
+                        '기술커뮤니티중요참여자로 다수의 Full-Stack 및 오픈소스 \n' +
+                        '기술커뮤니티 조직 및 관리.\n' +
+                        '현 화폐시장 및 커뮤니티 관리업무 담당. \n'
                     }
                 }
             ]
@@ -265,7 +291,7 @@ var app = new Vue({
                     content: {
                         en:'Initial planning of the project starts',
                         cn:'項目初始規劃啟動',
-                        jp:'プロジェクト初期の企画を始める',
+                        jp:'プロジェクト初期企画の開始',
                         ko:'프로젝트기획시작'
                     }
                 },
@@ -274,7 +300,7 @@ var app = new Vue({
                     content: {
                         en:'Project prototype and the design and planning of project architecture is completed<br>The construction of the initial team is completed',
                         cn:'項目初始原型與產品架構設計與規劃完成<br>初始團隊構建完成',
-                        jp:'プロジェクトの原型、商品のデザインと企画を完成する<br>チームを初めて作る',
+                        jp:'プロジェクトの原型、商品のデザインと企画の完成\nチームを初めて作成\n',
                         ko:'프로젝트초기원형과 제품구조설계&기획완성<br>초기프로젝트팀 구성완성'
                     }
                 },
@@ -283,7 +309,7 @@ var app = new Vue({
                     content: {
                         en:'The first version of the project white paper is completed, Project development officially starts',
                         cn:'項目白皮書第一版完成，正式啟動項目開發',
-                        jp:'プロジェクトの白書の第一版を作成し、公式にプロジェクトの開発を始める',
+                        jp:'プロジェクトの白書第一版を作成。公式にプロジェクトの開発を開始。\n',
                         ko:'첫 번째 프로젝트백서 완성, 정식 프로젝트 개발시작'
                     }
                 },
@@ -292,16 +318,17 @@ var app = new Vue({
                     content: {
                         en:'The first prototype product Demo is completed, white paper V1.1 is completed',
                         cn:'第一版產品原型Demo完成，白皮書V1.1版完成',
-                        jp:'第一版の商品原型 Demo を完成する。白書 V1.1 版の作成',
+                        jp:'第一版商品の原型 Demo の完成。白書 V1.1 版の作成。\n',
                         ko:'첫 버전 제품원형 Demo 완성, 백서 V1.1 버전 완성'
                     }
                 },
                 {
-                    date: { en:'Jan. 2018', cn:'2018年1月', jp:'2018年1月', ko:'2018년1월' },
+                    date: { en:'Jan. 2018', cn:'2018年1月', jp:'2018年1月末', ko:'2018년1월' },
                     content: {
                         en:'Angel Investment starts<br>The Finance and Economy Master is put into use<br>The issue and exchange of BCV, Chain project is put into use initially',
                         cn:'啟動天使輪融資<br>幣頭條開始運營<br>BCV發行與兑換,鏈項目初步投入應用',
-                        jp:'エンジェル投資家が始める<br>BCV の発行と両替、チェーンヘッドラインを応用しはじめる',
+                        jp:'エンジェル投資家による投資。\n' +
+                        'BCV の発行と両替、チェーンヘッドラインを応用開始。\n',
                         ko:'벤처캐피탈 융자시작<br>BCV 발행과 환전，투융자프로젝트초기응용투입'
                     }
                 },
@@ -310,7 +337,7 @@ var app = new Vue({
                     content: {
                         en:'Project display platform and Yu coin Po start operations',
                         cn:'項目展示平台及餘幣寶開始運營',
-                        jp:'プロジェクトの表示プラットフォームとゆうコインPo開始操作',
+                        jp:'プロジェクトの展開プラットフォームと余幣宝の運用開始。\n',
                         ko:'프로젝트 디스플레이 플랫폼 및 유 코인 Po 작업 시작'
                     }
                 },
@@ -319,7 +346,7 @@ var app = new Vue({
                     content: {
                         en:'BCV Exchange, Test Platform Operation',
                         cn:'BCV 上交易所，投融平台測試運行',
-                        jp:'BCV交換、テストプラットフォームの運用',
+                        jp:'BCV交換、テストプラットフォームの運用。\n',
                         ko:'BCV 교환, 테스트 플랫폼 운영'
                     }
                 },
@@ -328,7 +355,7 @@ var app = new Vue({
                     content: {
                         en:'Chain service put into operation',
                         cn:'鏈服務投入運營',
-                        jp:'チェーンサービスが稼働開始',
+                        jp:'チェーンサービスが稼働開始。',
                         ko:'체인 서비스 운영 개시'
                     }
                 },
@@ -337,7 +364,7 @@ var app = new Vue({
                     content: {
                         en:'Chain service is put into use<br>Chain evaluation is put into use',
                         cn:'鏈評測投入運營',
-                        jp:'チェーンイヴァリュゥエィシャンを運営しはじめる',
+                        jp:'チェーン評価の運営開始。',
                         ko:'체인평가운용투입'
                     }
                 },
@@ -346,7 +373,7 @@ var app = new Vue({
                     content: {
                         en:'Asset management chain launched online as a whole',
                         cn:'資管鏈整體上線啟動運營',
-                        jp:'アセット・マネジメント・チェーンはオンライン全体で開始',
+                        jp:'アセット・マネジメント・チェーンのオンラインの使用開始\n',
                         ko:'전체적으로 온라인 자산 관리 체인 출시'
                     }
                 },
@@ -355,7 +382,7 @@ var app = new Vue({
                     content: {
                         en:'The construction of asset management ecology is completed',
                         cn:'資管生態建立完成',
-                        jp:'デジタル資管の環境を整える',
+                        jp:'デジタル資管の環境整備',
                         ko:'자산관리환경건립완성'
                     }
                 },
