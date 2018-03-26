@@ -412,7 +412,7 @@ var app = new Vue({
                         ko:'QKCG 캐피탈 파트너'
                     }
                 },
-                {
+                /*{
                     img: './img/brand-guohongcai.png',
                     name: { en:'Guo Hongcai', cn:'郭宏才', jp:'郭宏才', ko:'광굉재' },
                     intro: {
@@ -421,7 +421,7 @@ var app = new Vue({
                         jp:'ビットコイン界の専門家',
                         ko:'디지털화폐업계의 형님'
                     }
-                },
+                },*/
                 {
                     img: './img/brand-liujiang.png',
                     name: { en:'Liu Jiang', cn:'劉江', jp:'劉江', ko:'유강' },
@@ -533,6 +533,16 @@ var app = new Vue({
                     }
                 },
                 {
+                    img: './img/brand-xuxinquan.png',
+                    name: { en:'Xu Xinquan', cn:'徐昕泉', jp:'徐昕泉', ko:'서명한 샘' },
+                    intro: {
+                        en:'Levision Group President, Russia and Eastern Europe',
+                        cn:'樂視集團俄羅斯及東歐地區總裁',
+                        jp:'乐视グループロシアや東欧総裁',
+                        ko:'락시 러시아 및 동유럽 지역 총재'
+                    }
+                }
+                /*{
                     img: './img/brand-bosheng.jpeg',
                     name: { en:'Bo Sheng', cn:'薄胜', jp:'薄勝', ko:'보승' },
                     intro: {
@@ -551,7 +561,7 @@ var app = new Vue({
                         jp:'「インターネット上で考える思考」の著者は、',
                         ko:'"인터넷에서 생각하는 생각"의 저자'
                     }
-                }
+                }*/
 
             ]
         },
