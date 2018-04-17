@@ -589,6 +589,61 @@ var app = new Vue({
             list: [
 
                 {
+                    img: './img/media-yahu.png',// 雅虎
+                    url: 'https://finance.yahoo.com/news/look-bit-capital-vendor-intelligent-060400180.html',
+                    name: { en:'Yahoo', cn:'雅虎', jp:'Yahoo', ko:'야후' },
+                    intro: {
+                        en:'Wasteland Toolbox Digital Asset Management Platform',
+                        cn:'開荒工具箱 數字資產智能資管平台幣威全測評',
+                        jp:'Wasteland Toolboxデジタル資産管理プラットフォーム',
+                        ko:'Wasteland Toolbox 디지털 자산 관리 플랫폼'
+                    }
+                },
+                {
+                    img: './img/media-jinsecaijing.png',// 金色财经
+                    url: 'https://www.jinse.com/news/blockchain/178033.html',
+                    name: { en:'Golden Finance', cn:'金色財經', jp:'ゴールデンファイナンス', ko:'황금 금융' },
+                    intro: {
+                        en:'In the future, 10% of the global population should configure digital assets',
+                        cn:'未來全球 10% 的人群都應配置數字資產',
+                        jp:'将来的には、世界人口の10％がデジタル資産を設定すべきです',
+                        ko:' 미래에는 전세계 인구의 10 %가 디지털 자산을 구성해야합니다.'
+                    }
+                },
+                {
+                    img: './img/media-xicaijing.png',// 烯財經
+                    url: 'http://mp.weixin.qq.com/s/2SYYWp6aXDOrt_7nyweHxA',
+                    name: { en:'Hennessy Finance', cn:'烯財經', jp:'ヘネシーファイナンス', ko:'헤네시 금융' },
+                    intro: {
+                        en:'Wasteland Toolbox Digital Asset Management Platform',
+                        cn:'開荒工具箱 數字資產智能資管平台幣威全測評',
+                        jp:'Wasteland Toolboxデジタル資産管理プラットフォーム',
+                        ko:'Wasteland Toolbox 디지털 자산 관리 플랫폼'
+                    }
+                },
+                {
+                    img: './img/media-marketwatch.png',// marketwatch
+                    url: 'https://www.marketwatch.com/story/a-look-at-bit-capital-vendor-the-intelligent-digital-asset-management-platform-2018-03-29',
+                    name: { en:'MarketWatch', cn:'MarketWatch', jp:'MarketWatch', ko:'MarketWatch' },
+                    intro: {
+                        en:'A Look at Bit Capital Vendor, the Intelligent Digital Asset Management Platform',
+                        cn:'A Look at Bit Capital Vendor, the Intelligent Digital Asset Management Platform',
+                        jp:'A Look at Bit Capital Vendor, the Intelligent Digital Asset Management Platform',
+                        ko:'A Look at Bit Capital Vendor, the Intelligent Digital Asset Management Platform'
+                    }
+                },
+                {
+                    img: './img/media-coinspectator.png',// coinspectator
+                    url: 'https://coinspectator.com/news/345279/a-look-at-bit-capital-vendor-the-intelligent-digital-asset-management-platform',
+                    name: { en:'CoinSpectator', cn:'CoinSpectator', jp:'CoinSpectator', ko:'CoinSpectator' },
+                    intro: {
+                        en:'A Look at Bit Capital Vendor, the Intelligent Digital Asset Management Platform benzinga.com',
+                        cn:'A Look at Bit Capital Vendor, the Intelligent Digital Asset Management Platform benzinga.com',
+                        jp:'A Look at Bit Capital Vendor, the Intelligent Digital Asset Management Platform benzinga.com',
+                        ko:'A Look at Bit Capital Vendor, the Intelligent Digital Asset Management Platform benzinga.com'
+                    }
+                },
+                {
                     img: './img/media-36kr.png',
                     url: 'http://36kr.com/p/5116931.html',
                     name: { en:'36kr', cn:'36kr', jp:'36kr', ko:'36kr' },
@@ -686,7 +741,18 @@ var app = new Vue({
                         jp:'デジタル資産管理プラットフォームBitCVが何千ものエンジェルファンドを獲得',
                         ko:'디지털 자산 관리 플랫폼 BitCV, 천사 펀드 인수'
                     }
-                }
+                },
+                {
+                    img: './img/media-chuangtoutiao.png',// 创头条
+                    url: 'http://www.ctoutiao.com/543527.html',
+                    name: { en:'Headlinee', cn:'創頭條', jp:'見出し', ko:'제목' },
+                    intro: {
+                        en:'Blockchain is not a panacea, solving the performance problem is the key',
+                        cn:'區塊鏈並非萬能，解決性能問題是關鍵',
+                        jp:'ブロックチェインは万能薬ではなく、性能問題を解決することが重要です',
+                        ko:' Blockchain은 성능 문제를 해결하는 만병 통치약이 아닙니다.'
+                    }
+                },
             ]
         },
 
