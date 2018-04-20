@@ -38,6 +38,10 @@
         background: #000;
         color: #c2a362;
     }
+    .home-buttons a:visited {
+        background: #c2a362;
+        color: #fff;
+    }
     .lilang {
         width: 80px;
     }
@@ -51,6 +55,21 @@
         color:#fff;
         cursor:pointer;
         padding:0 15px;
+    }
+    .btn-default:link {
+        color: #c2a362;
+        border-color:#c2a362;
+    }
+    .btn-default:visited {
+        border-color:#c2a362;
+    }
+    .btn-default:hover {
+        color: #fff;
+        background-color: #c2a362;
+        border-color:#c2a362;
+    }
+    .btn-default:focus {
+        border-color: #c2a362;
     }
     @media (max-width: 1199px) and (min-width: 480px) {
         .lilang {
@@ -129,19 +148,56 @@
         </div>
     </section>
 
+    <section id="testimonials" class="testimonials section" style="background: #262626;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 testimonials-introduction">
+                    <h2 class="text-center">{{ news.bigtitle[lang] }}</h2>
+                    <!--<p class="text-center inverse">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>-->
+                </div>
+
+                <div class="testimonials-slider text-center">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide" v-for="(label,index ) in news.list">
+                            <div style="max-width: 1000px;" class="testimonials-container shadow">
+                                <!--<img class="wow fadeInUp" src="img/user.png" alt="user avatar">-->
+                                <h3 style="color: #c2a362;font-size: 24px;" class="wow fadeInUp" data-wow-delay=".4s">{{ label.mediumtitle[lang] }}
+                                    <a :href="label.link[lang]" target="_blank" style="text-decoration:underline;color: #c2a362;"><span style="color: #c2a362;font-size:14px;text-transform:lowercase">{{ label.link[lang] }}</span></a>
+                                </h3>
+                                <p style="text-align: left;font-size: 16px;line-height: 40px;" class="wow fadeInUp" data-wow-delay=".6s" v-html="label.content[lang]">
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonials-pagination"></div>
+                    <div class="testimonials-slider-next right-arrow-negative">
+                        <span class="ti-arrow-right"></span>
+                    </div>
+
+                    <div class="testimonials-slider-prev left-arrow-negative">
+                        <span class="ti-arrow-left"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section style="min-height: 0px;"></section>
+
     <section id="services" class="services section">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 services-introduction">
                     <h2 class="text-center">{{product.name[lang]}}</h2>
                 </div>
-
-                <div v-for="p in product.list" class="col-md-6 wow fadeInLeft" style="visibility: visible; animation-name: fadeInLeft;">
-                    <div class="services-box text-center shadow">
+                <!--<img src="img/new.svg" style="max-width: 50px;"/>-->
+                <div v-for="(p, index) in product.list" class="col-md-6 wow fadeInLeft" style="visibility: visible; animation-name: fadeInLeft;">
+                    <div class="services-box text-center shadow" :style="index < 2 ? 'background-image:url(img/new.svg);background-size:50px 50px;background-repeat: no-repeat;background-position: 100% 0%;' : ''" >
                         <span :class="p.icon"></span>
                         <h4>{{p.title[lang]}}</h4>
                         <p class="fixed-height">{{p.content[lang]}}
                         </p>
+                        <a v-if="index < 2" :href="p.address" target="_blank" class="btn btn-margin btn-default btn-lg">{{ p.link[lang] }}</a>
                     </div>
                 </div>
 
@@ -408,7 +464,7 @@
 </div>
 
 	<script src="./js/vue.js"></script>
-	<script src="./js/data.js?10"></script>
+	<script src="./js/data.js?15"></script>
 
 	<script data-cfasync="false" src="./js/email-decode.min.js"></script>
 	<script src="./js/jquery-1.11.2.min.js"></script>
