@@ -3,7 +3,7 @@
     include_once('ChinaIP/class.chinaip.php');
     $chinaip = new chinaip();
     if ($chinaip->inChina()) {
-        echo $chinaip->getIp().'<br>';
+        //echo $chinaip->getIp().'<br>';
         die('此网站不对中国大陆地区提供服务。');
     }
 
