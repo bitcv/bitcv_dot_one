@@ -33,6 +33,26 @@ var app = new Vue({
             bigtitle: {en: 'BCV Dynamic', cn: 'BCV 動態', jp: '通貨魏動向', ko: 'BCV 동향'},
             list: [
                 {
+                    mediumtitle: {en: 'BCV Trading Now On BTB', cn: 'BCV 登錄 BTB', jp: '通貨魏BCVのBTB進出', ko: 'BTB에 BCV진출'},
+                    link: {en: 'https://www.btb.com', cn: 'https://www.btb.com', jp: 'https://www.btb.com', ko: 'https://www.btb.com'},
+                    content: {
+                        en: 'Open Deposit Time: April 28, 2018<br>Open Trade Time: April 28, 2018<br>Trading Pairs: <a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.btb.com/#/trade/btc/bcv">BTC</a>、<a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.btb.com/#/trade/eth/bcv">ETH</a>、<a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.btb.com/#/trade/usdt/bcv">USDT</a>',
+                        cn: '開放充值時間：2018 年 4 月 28 日<br>開放交易時間：2018 年 4 月 28 日<br>開放交易區：<a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.btb.com/#/trade/btc/bcv">BTC</a>、<a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.btb.com/#/trade/eth/bcv">ETH</a>、<a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.btb.com/#/trade/usdt/bcv">USDT</a>',
+                        jp: 'オープンチャージ時間：2018 年 4 月 28 日<br>取引開始時間：2018 年 4 月 28 日<br>オープントレーディングエリア：<a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.btb.com/#/trade/btc/bcv">BTC</a>、<a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.btb.com/#/trade/eth/bcv">ETH</a>、<a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.btb.com/#/trade/usdt/bcv">USDT</a>',
+                        ko: '충전개시 시각  : 2018 년 4 월 28 일<br>거래개시 시각 : 2018 년 4 월 28 일<br>거래개시 지역 :<a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.btb.com/#/trade/btc/bcv">BTC</a>、<a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.btb.com/#/trade/eth/bcv">ETH</a>、<a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.btb.com/#/trade/usdt/bcv">USDT</a>'
+                    }
+                },
+                {
+                    mediumtitle: {en: 'BCV Trading OTC Exchange Now On ETHOTC', cn: 'BCV 登錄場外交易所 ETHOTC', jp: 'BCV OTCへのログインETH OTC', ko: 'BCV OTC ETHOTC에 로그인하십시오'},
+                    link: {en: 'https://www.ethotc.io', cn: 'https://www.ethotc.io', jp: 'https://www.ethotc.io', ko: 'https://www.ethotc.io'},
+                    content: {
+                        en: 'Open Trade Time: April 17, 2018<br>',
+                        cn: '開放交易時間：2018 年 4 月 17 日<br>',
+                        jp: '取引開始時間：2018 年 4 月 17 日<br>',
+                        ko: '거래개시 시각 : 2018 년 4 월 17 일<br>'
+                    }
+                },
+                {
                     mediumtitle: {en: 'BCV Trading Now On Bit-Z', cn: 'BCV 登錄 Bit-Z', jp: '通貨魏BCVのBit-z進出', ko: 'Bit－z에 BCV진출'},
                     link: {en: 'https://www.bit-z.com', cn: 'https://www.bit-z.com', jp: 'https://www.bit-z.com', ko: 'https://www.bit-z.com'},
                     content: {
