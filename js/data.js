@@ -33,6 +33,16 @@ var app = new Vue({
             bigtitle: {en: 'BCV Dynamic', cn: 'BCV 動態', jp: '通貨魏動向', ko: 'BCV 동향'},
             list: [
                 {
+                    mediumtitle: {en: 'BCV * Bit-Z', cn: 'BCV * Bit-Z', jp: 'BCV * Bit-Z', ko: 'BCV * Bit-Z'},
+                    link: {en: 'https://www.bit-z.pro/user/signup?pid=1422735', cn: 'https://www.bit-z.pro/user/signup?pid=1422735', jp: 'https://www.bit-z.pro/user/signup?pid=1422735', ko: 'https://www.bit-z.pro/user/signup?pid=1422735'},
+                    content: {
+                        en: 'Trading Pairs: <a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.bit-z.com/">BTC</a><br>Open Trade Time: May 31, 2018 15:00<br>Welfare Activities：<br/>May 31 15:00 - June 2 15:00 No fee<br/>June 6th 15:00 - June 9th 15:00 Trading breaks up 300,000 BCV',
+                        cn: '開放交易區：<a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.bit-z.com/">BTC</a><br>開放時間：2018 年 5 月 31 日 15:00<br>福利活動：<br/>5月31日 15 :00-6月2日 15:00 免手續費<br/>6月6日 15:00 - 6月9日 15:00 交易瓜分 30 萬BCV',
+                        jp: 'オープントレーディングエリア：<a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.bit-z.com/">BTC</a><br>取引開始時間：2018 年 3 月 16 日 18:00<br>福祉活動：<br/>5月31日15 : 00 - 6月2日15 : 00免除手数料<br/>6月6日15 : 00 - 6月9日15 : 00交易関系30万BCV',
+                        ko: '거래개시 지역 :<a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.bit-z.com/">BTC</a><br>거래개시 시각 : 2018 년 5 월 31 일 15:00<br>복지 활동：<br/>5 월 31 일 15: 00 - 6 월 2 월 2 일 오전 15: 00 면수료 면제<br/>6 월 6 일 - 00 - 6 월 9 일 00: 00 거래 30 만 BCV'
+                    }
+                },
+                {
                     mediumtitle: {en: 'BCV Trading Now On BTB', cn: 'BCV 登錄 BTB', jp: '通貨魏BCVのBTB進出', ko: 'BTB에 BCV진출'},
                     link: {en: 'https://www.btb.com', cn: 'https://www.btb.com', jp: 'https://www.btb.com', ko: 'https://www.btb.com'},
                     content: {
