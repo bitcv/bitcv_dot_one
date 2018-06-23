@@ -33,6 +33,16 @@ var app = new Vue({
             bigtitle: {en: 'BCV Dynamic', cn: 'BCV 動態', jp: '通貨魏動向', ko: 'BCV 동향'},
             list: [
                 {
+                    mediumtitle: {en: 'BCV Landing on Bibox', cn: 'BCV 登錄 Bibox', jp: 'BCV Landing on Bibox', ko: 'BCV Landing on Bibox'},
+                    link: {en: 'https://www.bibox.com/', cn: 'https://www.bibox.com/', jp: 'https://www.bibox.com/', ko: 'https://www.bibox.com/'},
+                    content: {
+                        en: 'Trading Pairs: <a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.bibox.com/">BTC</a>、<a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.bibox.com/">ETH</a>、<a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.bibox.com/">BIX</a><br>Open Trade Time: June 5, 2018 11:00<br>Open Trade Time: June 5, 2018 16:00',
+                        cn: '開放交易區：<a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.bibox.com/">BTC</a>、<a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.bibox.com/">ETH</a>、<a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.bibox.com/">BIX</a><br>開放充值時間：2018 年 6 月 5 日 11:00<br>開放交易時間：2018 年 6 月 5 日 16:00',
+                        jp: 'Trading Pairs: <a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.bibox.com/">BTC</a>、<a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.bibox.com/">ETH</a>、<a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.bibox.com/">BIX</a><br>Open Trade Time: June 5, 2018 11:00<br>Open Trade Time: June 5, 2018 16:00',
+                        ko: 'Trading Pairs: <a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.bibox.com/">BTC</a>、<a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.bibox.com/">ETH</a>、<a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.bibox.com/">BIX</a><br>Open Trade Time: June 5, 2018 11:00<br>Open Trade Time: June 5, 2018 16:00'
+                    }
+                },
+                {
                     mediumtitle: {en: 'BCV * Bit-Z', cn: 'BCV * Bit-Z', jp: 'BCV * Bit-Z', ko: 'BCV * Bit-Z'},
                     link: {en: 'https://www.bit-z.pro/user/signup?pid=1422735', cn: 'https://www.bit-z.pro/user/signup?pid=1422735', jp: 'https://www.bit-z.pro/user/signup?pid=1422735', ko: 'https://www.bit-z.pro/user/signup?pid=1422735'},
                     content: {
@@ -85,12 +95,16 @@ var app = new Vue({
             ]
         },
 
+        download: {
+            name: { en:'BCV Wallet App Download', cn:'幣威錢包下載' ,jp:'BCV Wallet App Download', ko:'BCV Wallet App Download' }
+        },
+
         product: {
-            name: { en:'Digital Asset Management Solutions', cn:'數字資產管理解決方案' ,jp:'デジタル資産管理の方策', ko:'디저털자산관리해결방안' },
+            name: { en:'Digital Asset Management Platform', cn:'數字資産管理平台' ,jp:'デジタル資産管理の方策', ko:'디저털자산관리해결방안' },
             list: [
                 {
                     icon: 'icon ti-server',
-                    title: { en:'Digital Asset Management Platform——EncryptoMore', cn:'數字資產理财平台——餘幣寶', jp:'デジタルアセットウェルスマネジメントプラットフォーム——余幣宝', ko:'디지털 자산 관리 재테크 플랫폼—— Yu-Bi Bao' },
+                    title: { en:'Digital Asset Management Platform - EncryptoMore', cn:'數字資產理财平台 — 餘幣寶', jp:'デジタルアセットウェルスマネジメントプラットフォーム - 余幣宝', ko:'디지털 자산 관리 재테크 플랫폼 - Yu-Bi Bao' },
                     content: {
                         en:'Purchasing EncryptoMore Plan locks in future earnings in advance, collect your profit at the end of the locking period and enjoy the growth of your personal assets',
                         cn:'購買餘幣寶計劃提前鎖定未來收益，鎖定期結束收回本金並獲得額外收益實現個人資產的滾動增長',
@@ -102,7 +116,7 @@ var app = new Vue({
                 },
                 {
                     icon: 'icon ti-notepad',
-                    title: { en:'One-Click tool for efficient multi-address token transfer  ——TransferQuick', cn:'一鍵派發Token的高效利器——代發寶', jp:'ワンキー配布トークン効率的なツール——代発宝', ko:'원 클릭 token 분배의 고효율적 도구——Dai-fa Bao' },
+                    title: { en:'One-Click tool for efficient multi-address token transfer — TransferQuick', cn:'一鍵派發Token的高效利器 — 代發寶', jp:'ワンキー配布トークン効率的なツール — 代発宝', ko:'원 클릭 token 분배의 고효율적 도구 — Dai-fa Bao' },
                     content: {
                         en:'One-click upload all addresses, support multiple tokens, copy-and-paste no more, power up your efficiency.',
                         cn:'一鍵上傳用戶地址，支持多種Token自動發放，工具解放雙手。讓時間更有價值，助力企業提升服務價值',
@@ -113,45 +127,89 @@ var app = new Vue({
                     address: 'https://bitcv.com/acting/home'
                 },
                 {
-                    icon: 'icon ti-desktop',
-                    title: { en:'Project Investment and Financing SaaS System - SaaS', cn:'項目投融SaaS系統——投融SaaS', jp:'プロジェクト投資･融資 SAAS システム――投融資 SAAS', ko:'프로젝트융자 SaaS 시스템—융자 SaaS' },
+                    icon: 'icon ti-notepad',
+                    title: { en:'Digital Asset Management Application – BCV Wallet', cn:'數字資産管理應用 — 幣威錢包', jp:'Digital Asset Management Application – BCV Wallet', ko:'Digital Asset Management Application – BCV Wallet' },
                     content: {
-                        en:'For every independent project, its information and data are independent and isolated from other projects. For the project party, from domain name to display, they are independent and unique, and create exclusive and professional images.',
-                        cn:'每一個獨立的項目，資訊與數據與别的項目隔離，從域名到展示，都有獨立性和唯一性，造就專屬、專業的形象。',
-                        jp:'それぞれの独立したプロジェクト、情報、データは、ドメイン名からディスプレイまで、他のプロジェクトとは独立している。',
-                        ko:'각각의 독립적인 프로젝트, 정보 및 데이터는 도메인 이름에서 디스플레이에 이르기까지 다른 프로젝트와 분리되어 독립적이고 유니크하며, 그로 인해 전속적이고 전문적인 이미지를 만듭니다.'
+                        en:'Digital asset wallet application with leading encryption and security technologies based on blockchain technology, providing users with secure, easy-to-use and fast digital asset management services.',
+                        cn:'基于區塊鏈技術的數字錢包應用，具有領先的加密和安全技術，為用戶提供安全、易用、快捷的數字資産管理服務。',
+                        jp:'Digital asset wallet application with leading encryption and security technologies based on blockchain technology, providing users with secure, easy-to-use and fast digital asset management services.',
+                        ko:'Digital asset wallet application with leading encryption and security technologies based on blockchain technology, providing users with secure, easy-to-use and fast digital asset management services.'
+                    },
+                    link: { en:'Enter', 'cn':'进入',jp:'入力',ko:'들어가기' },
+                    address: 'https://bitcv.app/'
+                },
+                {
+                    icon: 'icon ti-notepad',
+                    title: { en:'Digital Asset Red Pocket - Candy Lot', cn:'數字資産紅包産品 — 糖包兒', jp:'Digital Asset Red Pocket - Candy Lot', ko:'Digital Asset Red Pocket - Candy Lot' },
+                    content: {
+                        en:'Quickly issue digital asset red pocket,  support common blockchain project communities such as WeChat, QQ, and Telegram.',
+                        cn:'能夠方便快速的發放數字資産紅包，可以支持微信、QQ、Telegram等常用的區塊鏈項目社群場景。',
+                        jp:'Quickly issue digital asset red pocket,  support common blockchain project communities such as WeChat, QQ, and Telegram.',
+                        ko:'Quickly issue digital asset red pocket,  support common blockchain project communities such as WeChat, QQ, and Telegram.'
+                    },
+                    link: { en:'Enter', 'cn':'进入',jp:'入力',ko:'들어가기' },
+                    address: 'https://candy.ucai.net/'
+                },
+                {
+                    icon: 'icon ti-notepad',
+                    title: { en:'Digital Asset Database — Chain Radar', cn:'數字資産資料庫 — 鏈雷達', jp:'Digital Asset Database — Chain Radar', ko:'Digital Asset Database — Chain Radar' },
+                    content: {
+                        en:'Blockchain project information database and information provider.',
+                        cn:'区块链行业项目信息数据库及信息服务提供。',
+                        jp:'Blockchain project information database and information provider.',
+                        ko:'Blockchain project information database and information provider.'
                     }
                 },
                 {
-                    icon: 'icon ti-user',
-                    title: { en:'Deep Mining and Investigation of Digital Asset – Finance and Economy Master', cn:'數字資產深度挖掘與調研——財經通', jp:'デジタル資産の深堀と調査研究――財金通', ko:'디저털자산 심도적탐색과 조사연구——재경통' },
+                    icon: 'icon ti-notepad',
+                    title: { en:'Behavior mining - Spinach Manor', cn:'經濟系統 — 菠菜莊園', jp:'Behavior mining - Spinach Manor', ko:'Behavior mining - Spinach Manor' },
                     content: {
-                        en:'The BitCV team consists of experienced investors, blockchain technical experts, senior media professionals, who, with all the experience in the fields of investment, media and technology, can scrutinize every aspect of a project.',
-                        cn:'資深投資人、區塊鏈技術專家、資深媒體人士，全面挖掘項目團隊背景、項目技術實力評估、項目投資人訪談等，讓公眾投資人全面、公正、客觀地瞭解項目的方方面面',
-                        jp:'シニア投資家、ブロックチェーン技術の専門家、シニアメディア関係者、総合的な採掘プロジェクトチームの背景、技術力とプロジェクト評価、プロジェクト投資家のインタビューなど、公共投資プロジェクトの全てを包括的、公正かつ客観的に理解',
-                        ko:'베테랑 투자자, 블록 체인 기술 전문가 및 숙련 된 미디어 전문가는 프로젝트 팀의 배경을 완전히 탐색하고 프로젝트의 기술력을 평가하고 프로젝트 투자자와 면담을 함으로써 모든 공공 투자자가 포괄적이고 공정하며 객관적인 방식으로 프로젝트의 모든 측면을 이해할 수 있도록합니다'
+                        en:'Blockchain technology-based behavior mining and reward system, a total of 120 million BCVs are used to reward the daily activities of the users. The total amount is constant, halved during time, and never increased.',
+                        cn:'基于区块链技术的行为挖矿奖励体系，共投放 1.2 亿 BCV 用于奖励币威用户的日常行为，总量恒定、逐渐减半、永不增发。',
+                        jp:'Blockchain technology-based behavior mining and reward system, a total of 120 million BCVs are used to reward the daily activities of the users. The total amount is constant, halved during time, and never increased.',
+                        ko:'Blockchain technology-based behavior mining and reward system, a total of 120 million BCVs are used to reward the daily activities of the users. The total amount is constant, halved during time, and never increased.'
                     }
-                },
-                {
-                    icon: 'icon ti-ruler-alt',
-                    title: { en:'Digital Asset Management Evaluation Platform – Evaluation Chain', cn:'數字資管評測平臺——鏈評測', jp:'デジタル資産管理の評価･測定プラットホーム——チェーン評価･測定', ko:'디지털자산관리평가플랫폼——체인 평가&추산' },
-                    content: {
-                        en:'Besides the assessment of each dimension, there are analyses based on historical models and data, including the artificial intelligence assessment and the prediction of the prospects with machine learning model. All these rely heavily on analyzing and data processing, of which the BitCV team has accumulated considerable experience.',
-                        cn:'基於大數據與人工智能技術，做好項目價值發現與投資者評估，結合傳統金融行業大量的從業經驗，研發風險評估與風控模型。',
-                        jp:'ビッグデータや人工知能技術により、プロジェクトの価値の発見と投資家の評価が行われ、従来の金融業界の多くの経験が結合し、リスクアセスメントやリスクコントロールモデルが開発される。',
-                        ko:'빅 데이터 및 인공 지능 기술을 기반으로 프로젝트 가치 발견 및 투자자 평가가 이루어지며 전통적인 금융 업계의 수많은 실무자와 결합되어 위험 평가 및 위험 관리 모델을 개발합니다.'
-                    }
-                },
-                {
-                    icon: 'icon ti-heart',
-                    title: { en:'Digital Asset OMO Service – Service Chain', cn:'數字資產OMO服務——鏈服務', jp:'デジタル資産 OMO(ONLINE-MOBILE-OFFLINE)サービス——ブロックチェーンサービス', ko:'디저털자산 OMO 서비스——체인서비스' },
-                    content: {
-                        en:'Apart from technical services, BitCV, as a digital asset management engine, has the responsibility and obligation to serve the industry ecology as well, as to provide convenience for the project party and investors.',
-                        cn:'不僅僅是為數字資產項目的初始發佈助跑，更希望從技術到人才，構建起真正的落地能力支撑，這樣才是真正有助於這個生態。',
-                        jp:'デジタル資産プロジェクトの最初のリリースを支援するだけでなく、技術から才能へと真の支援能力を構築することで、生態を助けることを期待する。',
-                        ko:'디지털 자산 프로젝트의 초기 출시를 돕는 것뿐만 아니라 기술에서 인재에 이르기까지 실제 지원 능력을 구축하여 진정으로 업계환경에 도움에 되기를 바랍니다.'
-                    }
-                },
+                }
+                // {
+                //     icon: 'icon ti-desktop',
+                //     title: { en:'Project Investment and Financing SaaS System - SaaS', cn:'項目投融SaaS系統——投融SaaS', jp:'プロジェクト投資･融資 SAAS システム――投融資 SAAS', ko:'프로젝트융자 SaaS 시스템—융자 SaaS' },
+                //     content: {
+                //         en:'For every independent project, its information and data are independent and isolated from other projects. For the project party, from domain name to display, they are independent and unique, and create exclusive and professional images.',
+                //         cn:'每一個獨立的項目，資訊與數據與别的項目隔離，從域名到展示，都有獨立性和唯一性，造就專屬、專業的形象。',
+                //         jp:'それぞれの独立したプロジェクト、情報、データは、ドメイン名からディスプレイまで、他のプロジェクトとは独立している。',
+                //         ko:'각각의 독립적인 프로젝트, 정보 및 데이터는 도메인 이름에서 디스플레이에 이르기까지 다른 프로젝트와 분리되어 독립적이고 유니크하며, 그로 인해 전속적이고 전문적인 이미지를 만듭니다.'
+                //     }
+                // },
+                // {
+                //     icon: 'icon ti-user',
+                //     title: { en:'Deep Mining and Investigation of Digital Asset – Finance and Economy Master', cn:'數字資產深度挖掘與調研——財經通', jp:'デジタル資産の深堀と調査研究――財金通', ko:'디저털자산 심도적탐색과 조사연구——재경통' },
+                //     content: {
+                //         en:'The BitCV team consists of experienced investors, blockchain technical experts, senior media professionals, who, with all the experience in the fields of investment, media and technology, can scrutinize every aspect of a project.',
+                //         cn:'資深投資人、區塊鏈技術專家、資深媒體人士，全面挖掘項目團隊背景、項目技術實力評估、項目投資人訪談等，讓公眾投資人全面、公正、客觀地瞭解項目的方方面面',
+                //         jp:'シニア投資家、ブロックチェーン技術の専門家、シニアメディア関係者、総合的な採掘プロジェクトチームの背景、技術力とプロジェクト評価、プロジェクト投資家のインタビューなど、公共投資プロジェクトの全てを包括的、公正かつ客観的に理解',
+                //         ko:'베테랑 투자자, 블록 체인 기술 전문가 및 숙련 된 미디어 전문가는 프로젝트 팀의 배경을 완전히 탐색하고 프로젝트의 기술력을 평가하고 프로젝트 투자자와 면담을 함으로써 모든 공공 투자자가 포괄적이고 공정하며 객관적인 방식으로 프로젝트의 모든 측면을 이해할 수 있도록합니다'
+                //     }
+                // },
+                // {
+                //     icon: 'icon ti-ruler-alt',
+                //     title: { en:'Digital Asset Management Evaluation Platform – Evaluation Chain', cn:'數字資管評測平臺——鏈評測', jp:'デジタル資産管理の評価･測定プラットホーム——チェーン評価･測定', ko:'디지털자산관리평가플랫폼——체인 평가&추산' },
+                //     content: {
+                //         en:'Besides the assessment of each dimension, there are analyses based on historical models and data, including the artificial intelligence assessment and the prediction of the prospects with machine learning model. All these rely heavily on analyzing and data processing, of which the BitCV team has accumulated considerable experience.',
+                //         cn:'基於大數據與人工智能技術，做好項目價值發現與投資者評估，結合傳統金融行業大量的從業經驗，研發風險評估與風控模型。',
+                //         jp:'ビッグデータや人工知能技術により、プロジェクトの価値の発見と投資家の評価が行われ、従来の金融業界の多くの経験が結合し、リスクアセスメントやリスクコントロールモデルが開発される。',
+                //         ko:'빅 데이터 및 인공 지능 기술을 기반으로 프로젝트 가치 발견 및 투자자 평가가 이루어지며 전통적인 금융 업계의 수많은 실무자와 결합되어 위험 평가 및 위험 관리 모델을 개발합니다.'
+                //     }
+                // },
+                // {
+                //     icon: 'icon ti-heart',
+                //     title: { en:'Digital Asset OMO Service – Service Chain', cn:'數字資產OMO服務——鏈服務', jp:'デジタル資産 OMO(ONLINE-MOBILE-OFFLINE)サービス——ブロックチェーンサービス', ko:'디저털자산 OMO 서비스——체인서비스' },
+                //     content: {
+                //         en:'Apart from technical services, BitCV, as a digital asset management engine, has the responsibility and obligation to serve the industry ecology as well, as to provide convenience for the project party and investors.',
+                //         cn:'不僅僅是為數字資產項目的初始發佈助跑，更希望從技術到人才，構建起真正的落地能力支撑，這樣才是真正有助於這個生態。',
+                //         jp:'デジタル資産プロジェクトの最初のリリースを支援するだけでなく、技術から才能へと真の支援能力を構築することで、生態を助けることを期待する。',
+                //         ko:'디지털 자산 프로젝트의 초기 출시를 돕는 것뿐만 아니라 기술에서 인재에 이르기까지 실제 지원 능력을 구축하여 진정으로 업계환경에 도움에 되기를 바랍니다.'
+                //     }
+                // },
             ]
         },
 
@@ -317,105 +375,86 @@ var app = new Vue({
             name: { en:'Project Milestones and Roadmap', cn:'項目里程碑及路線圖', jp:'プロジェクトのマイルストーン及びロードマップ', ko:'프로젝트 이정표 및 노선도' },
             list: [
                 {
-                    date: { en:'Sep. 2017', cn:'2017年9月', jp:'2017年9月', ko:'2017년9월' },
+                    date: { en:'Jan 2018', cn:'2018年1月', jp:'2018年1月', ko:'2018년1월' },
                     content: {
-                        en:'Initial planning of the project starts',
-                        cn:'項目初始規劃啟動',
-                        jp:'プロジェクト初期企画の開始',
-                        ko:'프로젝트기획시작'
+                        en:'Start up team formation completed',
+                        cn:'團隊組建',
+                        jp:'Start up team formation completed',
+                        ko:'Start up team formation completed'
                     }
                 },
                 {
-                    date: { en:'Nov. 2017', cn:'2017年11月', jp:'2017年11月', ko:'2017년11월' },
+                    date: { en:'Feb 2018', cn:'2018年2月', jp:'2018年2月', ko:'2018년2월' },
                     content: {
-                        en:'Project prototype and the design and planning of project architecture is completed<br>The construction of the initial team is completed',
-                        cn:'項目初始原型與產品架構設計與規劃完成<br>初始團隊構建完成',
-                        jp:'プロジェクトの原型、商品のデザインと企画の完成\nチームを初めて作成\n',
-                        ko:'프로젝트초기원형과 제품구조설계&기획완성<br>초기프로젝트팀 구성완성'
+                        en:' Service tools development, improve R & D team',
+                        cn:'工具落地，完善研發團隊',
+                        jp:' Service tools development, improve R & D team',
+                        ko:' Service tools development, improve R & D team'
                     }
                 },
                 {
-                    date: { en:'Dec. 2017', cn:'2017年12月', jp:'2017年12月', ko:'2017년12월' },
+                    date: { en:'April 2018', cn:'2018年4月', jp:'2018年4月', ko:'2018년4월' },
                     content: {
-                        en:'The first version of the project white paper is completed, Project development officially starts',
-                        cn:'項目白皮書第一版完成，正式啟動項目開發',
-                        jp:'プロジェクトの白書第一版を作成。公式にプロジェクトの開発を開始。\n',
-                        ko:'첫 번째 프로젝트백서 완성, 정식 프로젝트 개발시작'
+                        en:'Fully promote of BCV wallet development',
+                        cn:'全力推動錢包開發',
+                        jp:'Fully promote of BCV wallet development',
+                        ko:'Fully promote of BCV wallet development'
                     }
                 },
                 {
-                    date: { en:'Jan. 15, 2018', cn:'2018年1月15日', jp:'2018年1月15日', ko:'2018년1월15일' },
+                    date: { en:'Mid of May 2018', cn:'2018年5月中旬', jp:'2018年5月中旬', ko:'2018 년 5 월 중순' },
                     content: {
-                        en:'The first prototype product Demo is completed, white paper V1.1 is completed',
-                        cn:'第一版產品原型Demo完成，白皮書V1.1版完成',
-                        jp:'第一版商品の原型 Demo の完成。白書 V1.1 版の作成。\n',
-                        ko:'첫 버전 제품원형 Demo 완성, 백서 V1.1 버전 완성'
+                        en:'BCV Wallet 1.0 Online',
+                        cn:'錢包1.0版本上線',
+                        jp:'BCV Wallet 1.0 Online',
+                        ko:'BCV Wallet 1.0 Online'
                     }
                 },
                 {
-                    date: { en:'Jan. 2018', cn:'2018年1月', jp:'2018年1月末', ko:'2018년1월' },
+                    date: { en:'Beginning of June 2018', cn:'2018年6月初', jp:'2018年6月初め', ko:'2018 년 6 월 초' },
                     content: {
-                        en:'Angel Investment starts<br>The Finance and Economy Master is put into use<br>The issue and exchange of BCV, Chain project is put into use initially',
-                        cn:'啟動天使輪融資<br>幣頭條開始運營<br>BCV發行與兑換,鏈項目初步投入應用',
-                        jp:'エンジェル投資家による投資。\n' +
-                        'BCV の発行と両替、チェーンヘッドラインを応用開始。\n',
-                        ko:'벤처캐피탈 융자시작<br>BCV 발행과 환전，투융자프로젝트초기응용투입'
+                        en:'BCV Wallet supports cross chain function',
+                        cn:'跨鏈錢包實現',
+                        jp:'BCV Wallet supports cross chain function',
+                        ko:'BCV Wallet supports cross chain function'
                     }
                 },
                 {
-                    date: { en:'Early February 2018', cn:'2018年2月初', jp:'2018年2月上旬', ko:'2018 년 2 월 초' },
+                    date: { en:'Mid of June 2018', cn:'2018年6月中', jp:'2018年6月中旬', ko:'2018 년 6 월 중순' },
                     content: {
-                        en:'Project display platform and Yu coin Po start operations',
-                        cn:'項目展示平台及餘幣寶開始運營',
-                        jp:'プロジェクトの展開プラットフォームと余幣宝の運用開始。\n',
-                        ko:'프로젝트 디스플레이 플랫폼 및 유 코인 Po 작업 시작'
+                        en:'BCV wallet 2.0 online with large amount of improvements',
+                        cn:'錢包2.0發布，大幅度完善',
+                        jp:'BCV wallet 2.0 online with large amount of improvements',
+                        ko:'BCV wallet 2.0 online with large amount of improvements'
                     }
                 },
                 {
-                    date: { en:'Early March 2018', cn:'2018年3月初', jp:'2018年3月初め', ko:'2018 년 3 월 초' },
+                    date: { en:'July to Aug 2018', cn:'2018年7-8月', jp:'2018年7月-8月', ko:'2018년7월-8월' },
                     content: {
-                        en:'BCV Exchange, Test Platform Operation',
-                        cn:'BCV 上交易所，投融平台測試運行',
-                        jp:'BCV交換、テストプラットフォームの運用。\n',
-                        ko:'BCV 교환, 테스트 플랫폼 운영'
+                        en:'BCV Wallet 3.0 International Version and SDK',
+                        cn:'國際化與開放SDK 3.0',
+                        jp:'BCV Wallet 3.0 International Version and SDK',
+                        ko:'BCV Wallet 3.0 International Version and SDK'
                     }
                 },
                 {
-                    date: { en:'Mid-March 2018', cn:'2018年3月中旬', jp:'2018年3月中旬', ko:'2018 년 3 월 중순' },
+                    date: { en:'End of Sep 2018', cn:'2018年9月末', jp:'2018年9月末', ko:'2018 년 9 월 말' },
                     content: {
-                        en:'Chain service put into operation',
-                        cn:'鏈服務投入運營',
-                        jp:'チェーンサービスが稼働開始。',
-                        ko:'체인 서비스 운영 개시'
+                        en:'Test Net of BCV Chain Online',
+                        cn:'BCV Chain 內測，內部移植，搭建配套',
+                        jp:'Test Net of BCV Chain Online',
+                        ko:'Test Net of BCV Chain Online'
                     }
                 },
                 {
-                    date: { en:'End of April 2018', cn:'2018年4月底', jp:'2018年4月末', ko:'2018 년 4 월 말' },
+                    date: { en:'End of Dec 2018', cn:'2018年12月末', jp:'2018年12月末', ko:'2018 년 12 월 말' },
                     content: {
-                        en:'Chain service is put into use<br>Chain evaluation is put into use',
-                        cn:'鏈評測投入運營',
-                        jp:'チェーン評価の運営開始。',
-                        ko:'체인평가운용투입'
+                        en:'Launch of BCV Chain and API',
+                        cn:'主網上線，正式開放API',
+                        jp:'Launch of BCV Chain and API',
+                        ko:'Launch of BCV Chain and API'
                     }
-                },
-                {
-                    date: { en:'Aug. 2018', cn:'2018年8月', jp:'2018年8月', ko:'2018년8월' },
-                    content: {
-                        en:'Asset management chain launched online as a whole',
-                        cn:'資管鏈整體上線啟動運營',
-                        jp:'アセット・マネジメント・チェーンのオンラインの使用開始\n',
-                        ko:'전체적으로 온라인 자산 관리 체인 출시'
-                    }
-                },
-                {
-                    date: { en:'Mar. 2019', cn:'2019年3月', jp:'2019年3月', ko:'2019년3월' },
-                    content: {
-                        en:'The construction of asset management ecology is completed',
-                        cn:'資管生態建立完成',
-                        jp:'デジタル資管の環境整備',
-                        ko:'자산관리환경건립완성'
-                    }
-                },
+                }
             ]
         },
 
