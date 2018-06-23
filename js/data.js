@@ -158,7 +158,9 @@ var app = new Vue({
                         cn:'区块链行业项目信息数据库及信息服务提供。',
                         jp:'Blockchain project information database and information provider.',
                         ko:'Blockchain project information database and information provider.'
-                    }
+                    },
+                    link: { en:'Enter', 'cn':'进入',jp:'入力',ko:'들어가기' },
+                    address: 'https://bitcv.com/discover'
                 },
                 {
                     icon: 'icon ti-crown',
@@ -168,7 +170,9 @@ var app = new Vue({
                         cn:'基于区块链技术的行为挖矿奖励体系，共投放 1.2 亿 BCV 用于奖励币威用户的日常行为，总量恒定、逐渐减半、永不增发。',
                         jp:'Blockchain technology-based behavior mining and reward system, a total of 120 million BCVs are used to reward the daily activities of the users. The total amount is constant, halved during time, and never increased.',
                         ko:'Blockchain technology-based behavior mining and reward system, a total of 120 million BCVs are used to reward the daily activities of the users. The total amount is constant, halved during time, and never increased.'
-                    }
+                    },
+                    link: { en:'Enter', 'cn':'进入',jp:'入力',ko:'들어가기' },
+                    address: 'https://bitcv.app/'
                 }
                 // {
                 //     icon: 'icon ti-desktop',
