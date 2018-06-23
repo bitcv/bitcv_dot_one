@@ -70,6 +70,9 @@
         margin: 50px auto 70px;
         width: 80%;
     }
+    #download .download-img img {
+        width: 100%;
+    }
     @media (max-width: 1199px) and (min-width: 480px) {
         .lilang {
             width: 100%;
@@ -119,7 +122,7 @@
 
     <section class="home home-isometric section" id="home">
         <div class="home-isometric-wrapper">
-            <img class="wow home-isometric-1 fadeInDown" src="./img/layer-01-3.png" data-wow-delay="0.1s" alt="image slide" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInDown;">
+            <img class="wow home-isometric-1 fadeInDown" src="./img/layer-01-5.jpg" data-wow-delay="0.1s" alt="image slide" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInDown;">
             <!--img class="layer fadeInUp wow home-isometric-2" src="./img/layer-01-2.png" data-wow-delay="0.3s" alt="image slide" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
             <img class="layer fadeInLeft wow home-isometric-3" src="./img/layer-01-3.png" data-wow-delay="0.5s" alt="image slide" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInLeft;">
             <img class="layer fadeInUp wow home-isometric-4" src="./img/layer-01-4.png" data-wow-delay="0.7s" alt="image slide" style="visibility: visible; animation-delay: 0.7s; animation-name: fadeInUp;"-->
@@ -148,16 +151,17 @@
     </section>
     
     <!-- app download -->
-    <section id="download" class="section" style="background: #000;">
+    <section id="download" style="background: #000;">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
                     <h2 class="text-center">{{ download.name[lang] }}</h2>
-                    <img class="download-img" src="img/app_download.png" alt="">
+                    <a class="download-img" href="https://bitcv.app/"><img src="img/app_download.png" alt=""></a>
                 </div>
             </div>
         </div>
     </section>
+    <section style="min-height: 0px;"></section>
 
     <section id="testimonials" class="testimonials section" style="background: #262626;">
         <div class="container">
@@ -460,6 +464,8 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 text-center">
+                        <img style="display: block; width: 200px; margin: 0 auto 20px;" src="./img/wechat-qrC.jpg" alt="wechat-qrcode">
+                        <p>{{ footer.wechat[lang] }}</p>
                         <img class="footer-logo" src="./img/logo-white.png" alt="footer-logo">
                         <p>Singapore BitCV Foundation LTD. No: 201803900M</p>
                         <p>Address: 100 TRAS STREET #16-01 100 AM SINGAPORE (079027)</p>
@@ -475,7 +481,7 @@
 </div>
 
 	<script src="./js/vue.js"></script>
-	<script src="./js/data.js?17"></script>
+	<script src="./js/data.js?v=20180623"></script>
 
 	<script data-cfasync="false" src="./js/email-decode.min.js"></script>
 	<script src="./js/jquery-1.11.2.min.js"></script>

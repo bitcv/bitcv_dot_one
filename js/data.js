@@ -825,6 +825,9 @@ var app = new Vue({
             ]
         },
 
+        footer: {
+            wechat: { en:'WeChat scan code attention', cn:'微信扫码关注', jp:'WeChat scan code attention', ko:'WeChat scan code attention' },
+        }
 
     },
     mounted() {

@@ -71,6 +71,18 @@
     .btn-default:focus {
         border-color: #c2a362;
     }
+    
+    #download {
+        padding: 40px 0 50px;
+    }
+    #download .download-img {
+        display: block;
+        margin: 50px auto 70px;
+        width: 80%;
+    }
+    #download .download-img img {
+        width: 100%;
+    }
     @media (max-width: 1199px) and (min-width: 480px) {
         .lilang {
             width: 100%;
@@ -95,14 +107,14 @@
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav">
                     <li class="active"><a href="#home">{{project.menu.home[lang]}}</a></li>
-					<li><a href="#services">{{project.menu.services[lang]}}</a></li>
-					<li><a href="#solution">{{project.menu.solution[lang]}}</a></li>
+                    <li><a href="#services">{{project.menu.services[lang]}}</a></li>
+                    <li><a href="#solution">{{project.menu.solution[lang]}}</a></li>
                     <li><a href="#team">{{project.menu.team[lang]}}</a></li>
-					<li><a href="#timeline">{{project.menu.timeline[lang]}}</a></li>
-					<li><a href="#clients">{{project.menu.clients[lang]}}</a></li>
-					<li><a href="#portfolio">{{project.menu.portfolio[lang]}}</a></li>
-					<li><a href="#media">{{project.menu.media[lang]}}</a></li>
-					<li><a href="#contact">{{project.menu.contact[lang]}}</a></li>
+                    <li><a href="#timeline">{{project.menu.timeline[lang]}}</a></li>
+                    <li><a href="#clients">{{project.menu.clients[lang]}}</a></li>
+                    <li><a href="#portfolio">{{project.menu.portfolio[lang]}}</a></li>
+                    <li><a href="#media">{{project.menu.media[lang]}}</a></li>
+                    <li><a href="#contact">{{project.menu.contact[lang]}}</a></li>
                         
                     <li class="lilang">
                         <a></a>
@@ -120,7 +132,7 @@
 
     <section class="home home-isometric section" id="home">
         <div class="home-isometric-wrapper">
-            <img class="wow home-isometric-1 fadeInDown" src="./img/layer-01-3.png" data-wow-delay="0.1s" alt="image slide" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInDown;">
+            <img class="wow home-isometric-1 fadeInDown" src="./img/layer-01-5.jpg" data-wow-delay="0.1s" alt="image slide" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInDown;">
             <!--img class="layer fadeInUp wow home-isometric-2" src="./img/layer-01-2.png" data-wow-delay="0.3s" alt="image slide" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
             <img class="layer fadeInLeft wow home-isometric-3" src="./img/layer-01-3.png" data-wow-delay="0.5s" alt="image slide" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInLeft;">
             <img class="layer fadeInUp wow home-isometric-4" src="./img/layer-01-4.png" data-wow-delay="0.7s" alt="image slide" style="visibility: visible; animation-delay: 0.7s; animation-name: fadeInUp;"-->
@@ -147,6 +159,19 @@
             <a target="_blank" :href="project.ppt.doc[lang]" class="btn btn-margin btn-lg  btn-primary">{{project.ppt.btn[lang]}}</a>
         </div>
     </section>
+    
+    <!-- app download -->
+    <section id="download" style="background: #000;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="text-center">{{ download.name[lang] }}</h2>
+                    <a class="download-img" href="https://bitcv.app/"><img src="img/app_download.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section style="min-height: 0px;"></section>
 
     <section id="testimonials" class="testimonials section" style="background: #262626;">
         <div class="container">
@@ -197,7 +222,7 @@
                         <h4>{{p.title[lang]}}</h4>
                         <p class="fixed-height">{{p.content[lang]}}
                         </p>
-                        <a v-if="index < 2" :href="p.address" target="_blank" class="btn btn-margin btn-default btn-lg">{{ p.link[lang] }}</a>
+                        <a v-if="p.link" :href="p.address" target="_blank" class="btn btn-margin btn-default btn-lg">{{ p.link[lang] }}</a>
                     </div>
                 </div>
 
@@ -449,6 +474,8 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 text-center">
+                        <img style="display: block; width: 200px; margin: 0 auto 20px;" src="./img/wechat-qrC.jpg" alt="wechat-qrcode">
+                        <p>{{ footer.wechat[lang] }}</p>
                         <img class="footer-logo" src="./img/logo-white.png" alt="footer-logo">
                         <p>Singapore BitCV Foundation LTD. No: 201803900M</p>
                         <p>Address: 100 TRAS STREET #16-01 100 AM SINGAPORE (079027)</p>
@@ -463,19 +490,19 @@
 
 </div>
 
-	<script src="./js/vue.js"></script>
-	<script src="./js/data.js?17"></script>
+    <script src="./js/vue.js"></script>
+    <script src="./js/data.js?v=20180623"></script>
 
-	<script data-cfasync="false" src="./js/email-decode.min.js"></script>
-	<script src="./js/jquery-1.11.2.min.js"></script>
-	<script src="./js/swiper.min.js"></script>
-	<script src="./js/bootstrap.min.js"></script>
-	<script src="./js/jquery.countTo.js"></script>
-	<script src="./js/jquery.inview.js"></script>
-	<script src="./js/jquery.filterizr.js"></script>
-	<script src="./js/controls.js"></script>
-	<script src="./js/main.js"></script>
-	<script type="text/javascript">
+    <script data-cfasync="false" src="./js/email-decode.min.js"></script>
+    <script src="./js/jquery-1.11.2.min.js"></script>
+    <script src="./js/swiper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/jquery.countTo.js"></script>
+    <script src="./js/jquery.inview.js"></script>
+    <script src="./js/jquery.filterizr.js"></script>
+    <script src="./js/controls.js"></script>
+    <script src="./js/main.js"></script>
+    <script type="text/javascript">
 // Portfolio filters  
 $(document).ready(function() {
 //Initialize filterizr with default options
@@ -485,3 +512,4 @@ $('.filtr-container').filterizr();
 
 
 </body></html>
+
