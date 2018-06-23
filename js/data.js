@@ -30,7 +30,7 @@ var app = new Vue({
         },
 
         news: {
-            bigtitle: {en: 'BCV Dynamic', cn: 'BCV 動態', jp: '通貨魏動向', ko: 'BCV 동향'},
+            bigtitle: {en: 'BCV News', cn: 'BCV 動態', jp: '通貨魏動向', ko: 'BCV 동향'},
             list: [
                 {
                     mediumtitle: {en: 'BCV Landing on Bibox', cn: 'BCV 登錄 Bibox', jp: 'BCV Landing on Bibox', ko: 'BCV Landing on Bibox'},
@@ -115,7 +115,7 @@ var app = new Vue({
                     address:'https://bitcv.com/candyRoom/candyList'
                 },
                 {
-                    icon: 'icon ti-notepad',
+                    icon: 'icon ti-package',
                     title: { en:'One-Click tool for efficient multi-address token transfer — TransferQuick', cn:'一鍵派發Token的高效利器 — 代發寶', jp:'ワンキー配布トークン効率的なツール — 代発宝', ko:'원 클릭 token 분배의 고효율적 도구 — Dai-fa Bao' },
                     content: {
                         en:'One-click upload all addresses, support multiple tokens, copy-and-paste no more, power up your efficiency.',
@@ -127,7 +127,7 @@ var app = new Vue({
                     address: 'https://bitcv.com/acting/home'
                 },
                 {
-                    icon: 'icon ti-notepad',
+                    icon: 'icon ti-money',
                     title: { en:'Digital Asset Management Application – BCV Wallet', cn:'數字資産管理應用 — 幣威錢包', jp:'Digital Asset Management Application – BCV Wallet', ko:'Digital Asset Management Application – BCV Wallet' },
                     content: {
                         en:'Digital asset wallet application with leading encryption and security technologies based on blockchain technology, providing users with secure, easy-to-use and fast digital asset management services.',
@@ -139,7 +139,7 @@ var app = new Vue({
                     address: 'https://bitcv.app/'
                 },
                 {
-                    icon: 'icon ti-notepad',
+                    icon: 'icon ti-gift',
                     title: { en:'Digital Asset Red Pocket - Candy Lot', cn:'數字資産紅包産品 — 糖包兒', jp:'Digital Asset Red Pocket - Candy Lot', ko:'Digital Asset Red Pocket - Candy Lot' },
                     content: {
                         en:'Quickly issue digital asset red pocket,  support common blockchain project communities such as WeChat, QQ, and Telegram.',
@@ -151,7 +151,7 @@ var app = new Vue({
                     address: 'https://candy.ucai.net/'
                 },
                 {
-                    icon: 'icon ti-notepad',
+                    icon: 'icon ti-signal',
                     title: { en:'Digital Asset Database — Chain Radar', cn:'數字資産資料庫 — 鏈雷達', jp:'Digital Asset Database — Chain Radar', ko:'Digital Asset Database — Chain Radar' },
                     content: {
                         en:'Blockchain project information database and information provider.',
@@ -161,7 +161,7 @@ var app = new Vue({
                     }
                 },
                 {
-                    icon: 'icon ti-notepad',
+                    icon: 'icon ti-crown',
                     title: { en:'Behavior mining - Spinach Manor', cn:'經濟系統 — 菠菜莊園', jp:'Behavior mining - Spinach Manor', ko:'Behavior mining - Spinach Manor' },
                     content: {
                         en:'Blockchain technology-based behavior mining and reward system, a total of 120 million BCVs are used to reward the daily activities of the users. The total amount is constant, halved during time, and never increased.',
@@ -214,7 +214,7 @@ var app = new Vue({
         },
 
         arch: {
-            name: { en:'Project Technical Architecture and Product Realization', cn:'項目技術架構與產品實現', jp:'プロジェクト技術の構造と製品の実現', ko:'프로젝트기술구조와 제품실현' },
+            name: { en:'Project Technical Architecture', cn:'項目技術架構與產品實現', jp:'プロジェクト技術の構造と製品の実現', ko:'프로젝트기술구조와 제품실현' },
             list: [
                 {
                     img: './img/layer-1.png',
