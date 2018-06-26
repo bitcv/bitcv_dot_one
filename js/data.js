@@ -103,30 +103,6 @@ var app = new Vue({
             name: { en:'Digital Asset Management Platform', cn:'數字資産管理平台' ,jp:'デジタル資産管理の方策', ko:'디저털자산관리해결방안' },
             list: [
                 {
-                    icon: 'icon ti-server',
-                    title: { en:'Digital Asset Management Platform - EncryptoMore', cn:'數字資產理财平台 — 餘幣寶', jp:'デジタルアセットウェルスマネジメントプラットフォーム - 余幣宝', ko:'디지털 자산 관리 재테크 플랫폼 - Yu-Bi Bao' },
-                    content: {
-                        en:'Purchasing EncryptoMore Plan locks in future earnings in advance, collect your profit at the end of the locking period and enjoy the growth of your personal assets',
-                        cn:'購買餘幣寶計劃提前鎖定未來收益，鎖定期結束收回本金並獲得額外收益實現個人資產的滾動增長',
-                        jp:'貨幣バオ購入計画は、将来の収益を事前にロックし、ロック期の終わりにプリンシパルを回収し、追加収入を得ることで個人資産の伸びを実現する',
-                        ko:'Yu-Bi Bao 구매계획 이전 미래의 수입을 Lock하고, Lock시기 종료 후 원금 회수 및 추가 수익을 얻어 개인자산을 지속적으로 증가시킵니다'
-                    },
-                    link: { en:'Enter', 'cn':'进入',jp:'入力',ko:'들어가기' },
-                    address:'https://bitcv.com/candyRoom/candyList'
-                },
-                {
-                    icon: 'icon ti-package',
-                    title: { en:'One-Click tool for efficient multi-address token transfer — TransferQuick', cn:'一鍵派發Token的高效利器 — 代發寶', jp:'ワンキー配布トークン効率的なツール — 代発宝', ko:'원 클릭 token 분배의 고효율적 도구 — Dai-fa Bao' },
-                    content: {
-                        en:'One-click upload all addresses, support multiple tokens, copy-and-paste no more, power up your efficiency.',
-                        cn:'一鍵上傳用戶地址，支持多種Token自動發放，工具解放雙手。讓時間更有價值，助力企業提升服務價值',
-                        jp:'ワンクリックでユーザーアドレスをアップロードし、自動的に発行される複数のトークンをサポートし、時間を節約するツールフリーハンド、企業のサービス価値向上に役立つ',
-                        ko:'원 클릭으로 사용자 주소를 업로드하고, 자동으로 발행되는 여러 토큰을 지원하며, 툴을 사용해 사용자의 시간을 더욱 활용하고, 기업이 서비스 가치를 향상시키는 데 도움을줍니다.'
-                    },
-                    link: { en:'Enter', 'cn':'进入',jp:'入力',ko:'들어가기' },
-                    address: 'https://bitcv.com/acting/home'
-                },
-                {
                     icon: 'icon ti-money',
                     title: { en:'Digital Asset Management Application – BCV Wallet', cn:'數字資産管理應用 — 幣威錢包', jp:'Digital Asset Management Application – BCV Wallet', ko:'Digital Asset Management Application – BCV Wallet' },
                     content: {
@@ -151,18 +127,6 @@ var app = new Vue({
                     address: 'https://candy.ucai.net/'
                 },
                 {
-                    icon: 'icon ti-signal',
-                    title: { en:'Digital Asset Database — Chain Radar', cn:'數字資産資料庫 — 鏈雷達', jp:'Digital Asset Database — Chain Radar', ko:'Digital Asset Database — Chain Radar' },
-                    content: {
-                        en:'Blockchain project information database and information provider.',
-                        cn:'区块链行业项目信息数据库及信息服务提供。',
-                        jp:'Blockchain project information database and information provider.',
-                        ko:'Blockchain project information database and information provider.'
-                    },
-                    link: { en:'Enter', 'cn':'进入',jp:'入力',ko:'들어가기' },
-                    address: 'https://bitcv.com/discover'
-                },
-                {
                     icon: 'icon ti-crown',
                     title: { en:'Behavior mining - Spinach Manor', cn:'經濟系統 — 菠菜莊園', jp:'Behavior mining - Spinach Manor', ko:'Behavior mining - Spinach Manor' },
                     content: {
@@ -173,6 +137,42 @@ var app = new Vue({
                     },
                     link: { en:'Enter', 'cn':'进入',jp:'入力',ko:'들어가기' },
                     address: 'https://bitcv.app/'
+                },
+                {
+                    icon: 'icon ti-server',
+                    title: { en:'Digital Asset Management Platform - EncryptoMore', cn:'數字資產理财平台 — 餘幣寶', jp:'デジタルアセットウェルスマネジメントプラットフォーム - 余幣宝', ko:'디지털 자산 관리 재테크 플랫폼 - Yu-Bi Bao' },
+                    content: {
+                        en:'Purchasing EncryptoMore Plan locks in future earnings in advance, collect your profit at the end of the locking period and enjoy the growth of your personal assets',
+                        cn:'購買餘幣寶計劃提前鎖定未來收益，鎖定期結束收回本金並獲得額外收益實現個人資產的滾動增長',
+                        jp:'貨幣バオ購入計画は、将来の収益を事前にロックし、ロック期の終わりにプリンシパルを回収し、追加収入を得ることで個人資産の伸びを実現する',
+                        ko:'Yu-Bi Bao 구매계획 이전 미래의 수입을 Lock하고, Lock시기 종료 후 원금 회수 및 추가 수익을 얻어 개인자산을 지속적으로 증가시킵니다'
+                    },
+                    link: { en:'Enter', 'cn':'进入',jp:'入力',ko:'들어가기' },
+                    address:'https://bitcv.com/candyRoom/candyList'
+                },
+                {
+                    icon: 'icon ti-package',
+                    title: { en:'One-Click tool for efficient multi-address token transfer — TransferQuick', cn:'一鍵派發Token的高效利器 — 代發寶', jp:'ワンキー配布トークン効率的なツール — 代発宝', ko:'원 클릭 token 분배의 고효율적 도구 — Dai-fa Bao' },
+                    content: {
+                        en:'One-click upload all addresses, support multiple tokens, copy-and-paste no more, power up your efficiency.',
+                        cn:'一鍵上傳用戶地址，支持多種Token自動發放，工具解放雙手。讓時間更有價值，助力企業提升服務價值',
+                        jp:'ワンクリックでユーザーアドレスをアップロードし、自動的に発行される複数のトークンをサポートし、時間を節約するツールフリーハンド、企業のサービス価値向上に役立つ',
+                        ko:'원 클릭으로 사용자 주소를 업로드하고, 자동으로 발행되는 여러 토큰을 지원하며, 툴을 사용해 사용자의 시간을 더욱 활용하고, 기업이 서비스 가치를 향상시키는 데 도움을줍니다.'
+                    },
+                    link: { en:'Enter', 'cn':'进入',jp:'入力',ko:'들어가기' },
+                    address: 'https://bitcv.com/acting/home'
+                },
+                {
+                    icon: 'icon ti-signal',
+                    title: { en:'Digital Asset Database — Chain Radar', cn:'數字資産資料庫 — 鏈雷達', jp:'Digital Asset Database — Chain Radar', ko:'Digital Asset Database — Chain Radar' },
+                    content: {
+                        en:'Blockchain project information database and information provider.',
+                        cn:'区块链行业项目信息数据库及信息服务提供。',
+                        jp:'Blockchain project information database and information provider.',
+                        ko:'Blockchain project information database and information provider.'
+                    },
+                    link: { en:'Enter', 'cn':'进入',jp:'入力',ko:'들어가기' },
+                    address: 'https://bitcv.com/discover'
                 }
                 // {
                 //     icon: 'icon ti-desktop',
