@@ -21,7 +21,7 @@ var app = new Vue({
             name: { en:'Blockchain Digital Asset <br>Management Service Engine', cn:'區塊鏈數字資產管理服務引擎', jp:'ブロックチェーンデジタル<br>資産管理サービスエンジン', ko:'블록체인디지털자산관리서비스엔진' },
             whitepaper: {
                 btn: { en:'Download White Paper', cn:'下載白皮書', jp:'白書のダウンロード', ko:'백서 다운로드' },
-                doc: { en:'doc/bitcv_whitepaper_en.pdf', cn:'doc/bitcv_whitepaper_tr.pdf', jp:'doc/bitcv_whitepaper_jp.pdf', ko:'doc/bitcv_whitepaper_ko.pdf' }
+                doc: { en:'doc/bitcv_whitepaper_2.0_en.pdf', cn:'doc/bitcv_whitepaper_2.0_cn.pdf', jp:'doc/bitcv_whitepaper_jp.pdf', ko:'doc/bitcv_whitepaper_ko.pdf' }
             },
             ppt: {
                 btn: { en:'Download Project Presentation', cn:'下載PPT', jp:'PPTをダウンロード', ko:'PPT 다운로드' },
