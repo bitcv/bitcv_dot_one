@@ -33,6 +33,16 @@ var app = new Vue({
             bigtitle: {en: 'BCV News', cn: 'BCV 動態', jp: '通貨魏動向', ko: 'BCV 동향'},
             list: [
                 {
+                    mediumtitle: {en: 'BCV launched on Huobi Autonomous Digital Asset Exchange (HADAX)', cn: 'BCV 登錄火幣', jp: 'BCV ログイン火災のコイン', ko: 'BCV 로그인 화재 동전'},
+                    link: {en: 'https://www.hadax.com/zh-cn/', cn: 'https://www.hadax.com/zh-cn/', jp: 'https://www.hadax.com/zh-cn/', ko: 'https://www.hadax.com/zh-cn/'},
+                    content: {
+                        en: 'Deposits for BCV will be available from 14:30 June 26, 2018(GMT+8)<br><a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.hadax.com/zh-cn/">BCV/BTC</a>, <a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.hadax.com/zh-cn/">BCV/ETH</a> trading will be available on HADAX from 15:00 June 27, 2018(GMT+8)<br>Withdrawals will be available from 14:30 June 28, 2018 (GMT+8)',
+                        cn: '開放交易區：<a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.hadax.com/zh-cn/">BTC</a>、<a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.hadax.com/zh-cn/">ETH</a><br>開放充值時間：2018 年 6 月 26 日 14:30<br>開放交易時間：2018 年 6 月 27 日 15:00<br>開放提現時間：2018 年 6 月 28 日 14:30',
+                        jp: 'オープン取引エリア： <a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.hadax.com/zh-cn/">BTC</a>、<a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.hadax.com/zh-cn/">ETH</a><br>オープン充電時間：2018 年 6 月 26 日 14:30<br>営業時間：2018 年 6 月 27 日 15:00<br>開かれた離脱時間：2018 年 6 月 28 日 14:30',
+                        ko: '공개 거래 지역： <a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.hadax.com/zh-cn/">BTC</a>、<a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.hadax.com/zh-cn/">ETH</a><br>개방 충전 시간 : 2018 년 6 월 26 일 14:30<br>영업 시간 : 2018 년 6 월 27 일 15시<br>공개 철수 기간 : 2018 년 6 월 28 일 14:30'
+                    }
+                },
+                {
                     mediumtitle: {en: 'BCV Landing on Bibox', cn: 'BCV 登錄 Bibox', jp: 'BCV Landing on Bibox', ko: 'BCV Landing on Bibox'},
                     link: {en: 'https://www.bibox.com/', cn: 'https://www.bibox.com/', jp: 'https://www.bibox.com/', ko: 'https://www.bibox.com/'},
                     content: {
