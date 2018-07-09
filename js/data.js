@@ -670,7 +670,17 @@ var app = new Vue({
         media: {
             name: { en:'Media report', cn:'媒体报道', jp:'メディアカバレッジ', ko:'언론 보도' },
             list: [
-
+                {
+                    img: './img/media-huoxingcj.png', // 火星财经
+                    url: './img/media-detail-huoxingcj.jpg',
+                    name: { en:'火星财经', cn:'火星财经', jp:'火星财经', ko:'火星财经' },
+                    intro: {
+                        en:'幣威獲柳誌偉先生數千萬融資',
+                        cn:'幣威獲柳誌偉先生數千萬融資',
+                        jp:'幣威獲柳誌偉先生數千萬融資',
+                        ko:'幣威獲柳誌偉先生數千萬融資'
+                    }
+                },
                 {
                     img: './img/media-yahu.png',// 雅虎
                     url: 'https://finance.yahoo.com/news/look-bit-capital-vendor-intelligent-060400180.html',
@@ -680,6 +690,17 @@ var app = new Vue({
                         cn:'開荒工具箱 數字資產智能資管平台幣威全測評',
                         jp:'Wasteland Toolboxデジタル資産管理プラットフォーム',
                         ko:'Wasteland Toolbox 디지털 자산 관리 플랫폼'
+                    }
+                },
+                {
+                    img: './img/media-hunxucj.png', // 混序财经
+                    url: './img/media-detail-hunxucj.jpg',
+                    name: { en:'混序财经', cn:'混序财经', jp:'混序财经', ko:'混序财经' },
+                    intro: {
+                        en:'幣威獲數千萬融資，錢包用護突破10萬人',
+                        cn:'幣威獲數千萬融資，錢包用護突破10萬人',
+                        jp:'幣威獲數千萬融資，錢包用護突破10萬人',
+                        ko:'幣威獲數千萬融資，錢包用護突破10萬人'
                     }
                 },
                 {
