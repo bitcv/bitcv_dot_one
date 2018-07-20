@@ -53,16 +53,6 @@ var app = new Vue({
                     }
                 },
                 {
-                    mediumtitle: {en: 'BCV * Bit-Z', cn: 'BCV * Bit-Z', jp: 'BCV * Bit-Z', ko: 'BCV * Bit-Z'},
-                    link: {en: 'https://www.bit-z.pro/user/signup?pid=1422735', cn: 'https://www.bit-z.pro/user/signup?pid=1422735', jp: 'https://www.bit-z.pro/user/signup?pid=1422735', ko: 'https://www.bit-z.pro/user/signup?pid=1422735'},
-                    content: {
-                        en: 'Trading Pairs: <a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.bit-z.com/">BTC</a><br>Open Trade Time: May 31, 2018 15:00<br>Welfare Activities：<br/>May 31 15:00 - June 2 15:00 No fee<br/>June 6th 15:00 - June 9th 15:00 Trading breaks up 300,000 BCV',
-                        cn: '開放交易區：<a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.bit-z.com/">BTC</a><br>開放時間：2018 年 5 月 31 日 15:00<br>福利活動：<br/>5月31日 15 :00-6月2日 15:00 免手續費<br/>6月6日 15:00 - 6月9日 15:00 交易瓜分 30 萬BCV',
-                        jp: 'オープントレーディングエリア：<a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.bit-z.com/">BTC</a><br>取引開始時間：2018 年 3 月 16 日 18:00<br>福祉活動：<br/>5月31日15 : 00 - 6月2日15 : 00免除手数料<br/>6月6日15 : 00 - 6月9日15 : 00交易関系30万BCV',
-                        ko: '거래개시 지역 :<a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.bit-z.com/">BTC</a><br>거래개시 시각 : 2018 년 5 월 31 일 15:00<br>복지 활동：<br/>5 월 31 일 15: 00 - 6 월 2 월 2 일 오전 15: 00 면수료 면제<br/>6 월 6 일 - 00 - 6 월 9 일 00: 00 거래 30 만 BCV'
-                    }
-                },
-                {
                     mediumtitle: {en: 'BCV Trading Now On BTB', cn: 'BCV 登錄 BTB', jp: '通貨魏BCVのBTB進出', ko: 'BTB에 BCV진출'},
                     link: {en: 'https://www.btb.com', cn: 'https://www.btb.com', jp: 'https://www.btb.com', ko: 'https://www.btb.com'},
                     content: {
@@ -84,22 +74,22 @@ var app = new Vue({
                 },
                 {
                     mediumtitle: {en: 'BCV Trading Now On Bit-Z', cn: 'BCV 登錄 Bit-Z', jp: '通貨魏BCVのBit-z進出', ko: 'Bit－z에 BCV진출'},
-                    link: {en: 'https://www.bit-z.com', cn: 'https://www.bit-z.com', jp: 'https://www.bit-z.com', ko: 'https://www.bit-z.com'},
+                    link: {en: 'https://www.bitz.com', cn: 'https://www.bitz.com', jp: 'https://www.bitz.com', ko: 'https://www.bitz.com'},
                     content: {
-                        en: 'Open Deposit Time: March 14, 2018 18:00<br>Open Trade Time: March 16, 2018 18:00<br>Trading Pairs: <a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.bit-z.com/exchange/bcv_eth">ETH</a><br>',
-                        cn: '開放充值時間：2018 年 3 月 14 日 18:00<br>開放交易時間：2018 年 3 月 16 日 12:00<br>開放交易區：<a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.bit-z.com/exchange/bcv_eth">ETH</a><br>',
-                        jp: 'オープンチャージ時間：2018 年 3 月 14 日 18:00<br>取引開始時間：2018 年 3 月 16 日 18:00<br>オープントレーディングエリア：<a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.bit-z.com/exchange/bcv_eth">ETH</a><br>',
-                        ko: '충전개시 시각  : 2018 년 3 월 14 일 18:00<br>거래개시 시각 : 2018 년 3 월 16 일 18:00<br>거래개시 지역 :<a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.bit-z.com/exchange/bcv_eth">ETH</a><br>'
+                        en: 'Open Deposit Time: March 14, 2018 18:00<br>Open Trade Time: March 16, 2018 18:00<br>Trading Pairs: <a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.bitz.com/exchange/bcv_eth">ETH</a>、<a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.bitz.com/exchange/bcv_btc">BTC</a><br>',
+                        cn: '開放充值時間：2018 年 3 月 14 日 18:00<br>開放交易時間：2018 年 3 月 16 日 12:00<br>開放交易區：<a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.bitz.com/exchange/bcv_eth">ETH</a>、<a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.bitz.com/exchange/bcv_btc">BTC</a><br>',
+                        jp: 'オープンチャージ時間：2018 年 3 月 14 日 18:00<br>取引開始時間：2018 年 3 月 16 日 18:00<br>オープントレーディングエリア：<a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.bitz.com/exchange/bcv_eth">ETH</a>、<a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.bitz.com/exchange/bcv_btc">BTC</a><br>',
+                        ko: '충전개시 시각  : 2018 년 3 월 14 일 18:00<br>거래개시 시각 : 2018 년 3 월 16 일 18:00<br>거래개시 지역 :<a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.bitz.com/exchange/bcv_eth">ETH</a>、<a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.bitz.com/exchange/bcv_btc">BTC</a><br>'
                     }
                 },
                 {
                     mediumtitle: {en: 'BCV Trading Now On AEX', cn: 'BCV 登錄 AEX', jp: '通貨魏ダイナミック着陸AEX', ko: 'BCV진출AEX'},
-                    link: {en: 'https://www.aex.com', cn: 'https://www.aex.com', jp: 'https://www.aex.com', ko: 'https://www.aex.com'},
+                    link: {en: 'https://www.bit.cc/', cn: 'https://www.bit.cc/', jp: 'https://www.bit.cc/', ko: 'https://www.bit.cc/'},
                     content: {
-                        en: 'Open Deposit Time: March 7, 2018 20:00<br>Open Trade Time: March 9, 2018 12:00<br>Trading Pairs: <a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.aex.com/page/trade.html?mk_type=USDT&trade_coin_name=BCV">USDT</a>、<a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.aex.com/page/trade.html?mk_type=CNC&trade_coin_name=BCV">CNC</a><br>In order to celebrate AEX listing BCV, users trade and deposit BCV in Beijing time  March 7th 18:00 - March 16th 18:00, will receive millions of BCV airdrop. <br>In March 9-11, In the Super Welfare Day event, we are airdroping additional 206664BCV!',
-                        cn: '充值開放時間： 2018 年 3 月 7 日 20:00<br>交易開放時間： 2018 年 3 月 9 日 12:00<br>開放交易區： <a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.aex.com/page/trade.html?mk_type=USDT&trade_coin_name=BCV">USDT</a>、<a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.aex.com/page/trade.html?mk_type=CNC&trade_coin_name=BCV">CNC</a><br>為慶祝 BCV 上線 AEX ，北京時間 3 月 7 日 18:00 至 3 月 16 日 18:00，對交易 BCV 和充值 BCV 的用戶壕送百萬 BCV 。<br>此外，3 月 9 日至 11 日，超級福利將會送出 206664 BCV !',
-                        jp: 'オープンチャージ時間：2018 年 3 月 7 日 20:00<br>取引開始時間：：2018 年 3 月 9 日 12:00<br>オープントレーディングエリア：<a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.aex.com/page/trade.html?mk_type=USDT&trade_coin_name=BCV">USDT</a>、<a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.aex.com/page/trade.html?mk_type=CNC&trade_coin_name=BCV">CNC</a><br>ラインBCVでAEXを祝うために，北京時間 3 月 7 日 18:00  -  3 月 16 日 18:00，BCV取引とチャージBCVユーザーに数百万BCVに報酬を与える<br>また、3 月 9 日 から11日には206664BCVがSuper Welfare Dayに送られます',
-                        ko: '충전개시 시각  :  2018 년 3 월 7 일 20:00<br>거래개시 시각 : 2018 년 3 월 9 일 12:00<br>거래개시 지역 :<a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.aex.com/page/trade.html?mk_type=USDT&trade_coin_name=BCV">USDT</a>、<a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.aex.com/page/trade.html?mk_type=CNC&trade_coin_name=BCV">CNC</a><br>BCV의 AEX 진출을 축하하기 위해，베이징 시간 3 월 7 일 18:00 - 3 월 16 일 18:00，BCV 거래&충전 사용자를 위해 수백만 BCV 증정<br>또한 3 월 9-11 일의 수퍼 복지의 날에 206664 BCV 제공'
+                        en: 'Open Deposit Time: March 7, 2018 20:00<br>Open Trade Time: March 9, 2018 12:00<br>Trading Pairs: <a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.bit.cc//page/trade.html?mk_type=CNC&trade_coin_name=BCV">CNC</a><br>In order to celebrate AEX listing BCV, users trade and deposit BCV in Beijing time  March 7th 18:00 - March 16th 18:00, will receive millions of BCV airdrop. <br>In March 9-11, In the Super Welfare Day event, we are airdroping additional 206664BCV!',
+                        cn: '充值開放時間： 2018 年 3 月 7 日 20:00<br>交易開放時間： 2018 年 3 月 9 日 12:00<br>開放交易區：<a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.bit.cc//page/trade.html?mk_type=CNC&trade_coin_name=BCV">CNC</a><br>為慶祝 BCV 上線 AEX ，北京時間 3 月 7 日 18:00 至 3 月 16 日 18:00，對交易 BCV 和充值 BCV 的用戶壕送百萬 BCV 。<br>此外，3 月 9 日至 11 日，超級福利將會送出 206664 BCV !',
+                        jp: 'オープンチャージ時間：2018 年 3 月 7 日 20:00<br>取引開始時間：：2018 年 3 月 9 日 12:00<br>オープントレーディングエリア：<a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.bit.cc//page/trade.html?mk_type=CNC&trade_coin_name=BCV">CNC</a><br>ラインBCVでAEXを祝うために，北京時間 3 月 7 日 18:00  -  3 月 16 日 18:00，BCV取引とチャージBCVユーザーに数百万BCVに報酬を与える<br>また、3 月 9 日 から11日には206664BCVがSuper Welfare Dayに送られます',
+                        ko: '충전개시 시각  :  2018 년 3 월 7 일 20:00<br>거래개시 시각 : 2018 년 3 월 9 일 12:00<br>거래개시 지역 :<a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.bit.cc//page/trade.html?mk_type=CNC&trade_coin_name=BCV">CNC</a><br>BCV의 AEX 진출을 축하하기 위해，베이징 시간 3 월 7 일 18:00 - 3 월 16 일 18:00，BCV 거래&충전 사용자를 위해 수백만 BCV 증정<br>또한 3 월 9-11 일의 수퍼 복지의 날에 206664 BCV 제공'
                     }
                 }
             ]
