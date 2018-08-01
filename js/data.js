@@ -112,7 +112,7 @@ var app = new Vue({
                         ko:'Digital asset wallet application with leading encryption and security technologies based on blockchain technology, providing users with secure, easy-to-use and fast digital asset management services.'
                     },
                     link: { en:'Enter', 'cn':'进入',jp:'入力',ko:'들어가기' },
-                    address: 'https://bitcv.app/'
+                    address: 'https://www.bitcv.app/?from=bitcvOne'
                 },
                 {
                     icon: 'icon ti-gift',
@@ -136,7 +136,7 @@ var app = new Vue({
                         ko:'Blockchain technology-based behavior mining and reward system, a total of 120 million BCVs are used to reward the daily activities of the users. The total amount is constant, halved during time, and never increased.'
                     },
                     link: { en:'Enter', 'cn':'进入',jp:'入力',ko:'들어가기' },
-                    address: 'https://bitcv.app/'
+                    address: 'https://www.bitcv.app/?from=bitcvOne'
                 },
                 {
                     icon: 'icon ti-server',

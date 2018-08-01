@@ -180,7 +180,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <h2 class="text-center">{{ download.name[lang] }}</h2>
-                    <a class="download-img" href="https://bitcv.app/"><img src="img/app_download.png?v=20180629" alt=""></a>
+                    <a class="download-img" href="https://www.bitcv.app/?from=bitcvOne" target="_blank"><img src="img/app_download.png?v=20180629" alt=""></a>
                 </div>
             </div>
         </div>
@@ -505,7 +505,7 @@
 </div>
 
     <script src="./js/vue.js"></script>
-    <script src="./js/data.js?v=20180720"></script>
+    <script src="./js/data.js?v=20180801"></script>
 
     <script data-cfasync="false" src="./js/email-decode.min.js"></script>
     <script src="./js/jquery-1.11.2.min.js"></script>
