@@ -21,7 +21,7 @@ var app = new Vue({
             name: { en:'Blockchain Digital Asset <br>Management Service Engine', cn:'區塊鏈數字資產管理服務引擎', jp:'ブロックチェーンデジタル<br>資産管理サービスエンジン', ko:'블록체인디지털자산관리서비스엔진' },
             whitepaper: {
                 btn: { en:'Download White Paper', cn:'下載白皮書', jp:'白書のダウンロード', ko:'백서 다운로드' },
-                doc: { en:'doc/bitcv_whitepaper_en.pdf', cn:'doc/bitcv_whitepaper_tr.pdf', jp:'doc/bitcv_whitepaper_jp.pdf', ko:'doc/bitcv_whitepaper_ko.pdf' }
+                doc: { en:'doc/bitcv_whitepaper_en.pdf?v=201808', cn:'doc/bitcv_whitepaper_tr.pdf?v=201808', jp:'doc/bitcv_whitepaper_jp.pdf?v=201808', ko:'doc/bitcv_whitepaper_ko.pdf?v=201808' }
             },
             ppt: {
                 btn: { en:'Download Project Presentation', cn:'下載PPT', jp:'PPTをダウンロード', ko:'PPT 다운로드' },
@@ -543,16 +543,6 @@ var app = new Vue({
                         cn:'孔壹學院創始人',
                         jp:'孔壱学院の創業者と CEO',
                         ko:'Kong Yi 학원 창립인&CEO'
-                    }
-                },
-                {
-                    img: './img/brand-chengbinghao.png',
-                    name: { en:'Cheng Binghao', cn:'程炳皓', jp:'程炳皓', ko:'정병호' },
-                    intro: {
-                        en:'CEO of Happy Net; investor.',
-                        cn:'開心網CEO，投資人。',
-                        jp:'開心ウェブサイトの CEO、投資人',
-                        ko:'Happy Net CEO, 투자자'
                     }
                 },
                 {
