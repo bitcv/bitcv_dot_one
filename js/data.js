@@ -661,6 +661,17 @@ var app = new Vue({
             name: { en:'Media report', cn:'媒体报道', jp:'メディアカバレッジ', ko:'언론 보도' },
             list: [
                 {
+                    img: './img/media-jinsecaijing.png',// 金色财经
+                    url: 'https://www.jinse.com/bitcoin/217870.html',
+                    name: { en:'Golden Finance', cn:'金色財經', jp:'ゴールデンファイナンス', ko:'황금 금융' },
+                    intro: {
+                        en:'币威钱包：致力打造区块链领域的“支付宝”',
+                        cn:'币威钱包：致力打造区块链领域的“支付宝”',
+                        jp:'币威钱包：致力打造区块链领域的“支付宝”',
+                        ko:'币威钱包：致力打造区块链领域的“支付宝”'
+                    }
+                },
+                {
                     img: './img/media-huoxingcj.png', // 火星财经
                     url: './img/media-detail-huoxingcj.jpg',
                     name: { en:'火星财经', cn:'火星财经', jp:'火星财经', ko:'火星财经' },
@@ -694,17 +705,6 @@ var app = new Vue({
                     }
                 },
                 {
-                    img: './img/media-jinsecaijing.png',// 金色财经
-                    url: 'https://www.jinse.com/news/blockchain/178033.html',
-                    name: { en:'Golden Finance', cn:'金色財經', jp:'ゴールデンファイナンス', ko:'황금 금융' },
-                    intro: {
-                        en:'In the future, 10% of the global population should configure digital assets',
-                        cn:'未來全球 10% 的人群都應配置數字資產',
-                        jp:'将来的には、世界人口の10％がデジタル資産を設定すべきです',
-                        ko:' 미래에는 전세계 인구의 10 %가 디지털 자산을 구성해야합니다.'
-                    }
-                },
-                {
                     img: './img/media-xicaijing.png',// 烯財經
                     url: 'http://mp.weixin.qq.com/s/2SYYWp6aXDOrt_7nyweHxA',
                     name: { en:'Hennessy Finance', cn:'烯財經', jp:'ヘネシーファイナンス', ko:'헤네시 금융' },
@@ -724,17 +724,6 @@ var app = new Vue({
                         cn:'A Look at Bit Capital Vendor, the Intelligent Digital Asset Management Platform',
                         jp:'A Look at Bit Capital Vendor, the Intelligent Digital Asset Management Platform',
                         ko:'A Look at Bit Capital Vendor, the Intelligent Digital Asset Management Platform'
-                    }
-                },
-                {
-                    img: './img/media-coinspectator.png',// coinspectator
-                    url: 'https://coinspectator.com/news/345279/a-look-at-bit-capital-vendor-the-intelligent-digital-asset-management-platform',
-                    name: { en:'CoinSpectator', cn:'CoinSpectator', jp:'CoinSpectator', ko:'CoinSpectator' },
-                    intro: {
-                        en:'A Look at Bit Capital Vendor, the Intelligent Digital Asset Management Platform benzinga.com',
-                        cn:'A Look at Bit Capital Vendor, the Intelligent Digital Asset Management Platform benzinga.com',
-                        jp:'A Look at Bit Capital Vendor, the Intelligent Digital Asset Management Platform benzinga.com',
-                        ko:'A Look at Bit Capital Vendor, the Intelligent Digital Asset Management Platform benzinga.com'
                     }
                 },
                 {
@@ -845,6 +834,17 @@ var app = new Vue({
                         cn:'區塊鏈並非萬能，解決性能問題是關鍵',
                         jp:'ブロックチェインは万能薬ではなく、性能問題を解決することが重要です',
                         ko:' Blockchain은 성능 문제를 해결하는 만병 통치약이 아닙니다.'
+                    }
+                },
+                {
+                    img: './img/media-coinspectator.png',// coinspectator
+                    url: 'https://coinspectator.com/news/345279/a-look-at-bit-capital-vendor-the-intelligent-digital-asset-management-platform',
+                    name: { en:'CoinSpectator', cn:'CoinSpectator', jp:'CoinSpectator', ko:'CoinSpectator' },
+                    intro: {
+                        en:'A Look at Bit Capital Vendor, the Intelligent Digital Asset Management Platform benzinga.com',
+                        cn:'A Look at Bit Capital Vendor, the Intelligent Digital Asset Management Platform benzinga.com',
+                        jp:'A Look at Bit Capital Vendor, the Intelligent Digital Asset Management Platform benzinga.com',
+                        ko:'A Look at Bit Capital Vendor, the Intelligent Digital Asset Management Platform benzinga.com'
                     }
                 },
             ]
