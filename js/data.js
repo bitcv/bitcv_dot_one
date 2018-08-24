@@ -140,9 +140,9 @@ var app = new Vue({
                 },
                 {
                     icon: 'icon ti-server',
-                    title: { en:'Digital Asset Management Platform - EncryptoMore', cn:'數字資產理财平台 — 餘幣寶', jp:'デジタルアセットウェルスマネジメントプラットフォーム - 余幣宝', ko:'디지털 자산 관리 재테크 플랫폼 - Yu-Bi Bao' },
+                    title: { en:'Digital Asset Management Platform - CryptoMore', cn:'數字資產理财平台 — 餘幣寶', jp:'デジタルアセットウェルスマネジメントプラットフォーム - 余幣宝', ko:'디지털 자산 관리 재테크 플랫폼 - Yu-Bi Bao' },
                     content: {
-                        en:'Purchasing EncryptoMore Plan locks in future earnings in advance, collect your profit at the end of the locking period and enjoy the growth of your personal assets',
+                        en:'Purchasing CryptoMore Plan locks in future earnings in advance, collect your profit at the end of the locking period and enjoy the growth of your personal assets',
                         cn:'購買餘幣寶計劃提前鎖定未來收益，鎖定期結束收回本金並獲得額外收益實現個人資產的滾動增長',
                         jp:'貨幣バオ購入計画は、将来の収益を事前にロックし、ロック期の終わりにプリンシパルを回収し、追加収入を得ることで個人資産の伸びを実現する',
                         ko:'Yu-Bi Bao 구매계획 이전 미래의 수입을 Lock하고, Lock시기 종료 후 원금 회수 및 추가 수익을 얻어 개인자산을 지속적으로 증가시킵니다'
@@ -435,10 +435,10 @@ var app = new Vue({
                 {
                     date: { en:'July to Aug 2018', cn:'2018年7-8月', jp:'2018年7月-8月', ko:'2018년7월-8월' },
                     content: {
-                        en:'BCV Wallet 3.0 International Version and SDK',
-                        cn:'國際化與開放SDK 3.0',
-                        jp:'BCV Wallet 3.0 International Version and SDK',
-                        ko:'BCV Wallet 3.0 International Version and SDK'
+                        en:'Implementation of international strategy for BCV Wallet',
+                        cn:'实施币威钱包国际化战略',
+                        jp:'Implementation of international strategy for BCV Wallet',
+                        ko:'Implementation of international strategy for BCV Wallet'
                     }
                 },
                 {
