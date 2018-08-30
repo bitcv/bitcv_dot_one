@@ -505,7 +505,7 @@
 </div>
 
     <script src="./js/vue.js"></script>
-    <script src="./js/data.js?v=20180824"></script>
+    <script src="./js/data.js?v=20180830"></script>
 
     <script data-cfasync="false" src="./js/email-decode.min.js"></script>
     <script src="./js/jquery-1.11.2.min.js"></script>

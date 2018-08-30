@@ -33,6 +33,16 @@ var app = new Vue({
             bigtitle: {en: 'BCV News', cn: 'BCV 動態', jp: '通貨魏動向', ko: 'BCV 동향'},
             list: [
                 {
+                    mediumtitle: {en: 'BCV Current Circulation Statistics', cn: 'BCV當前流通盤統計', jp: 'BCV Current Circulation Statistics', ko: 'BCV Current Circulation Statistics'},
+                    link: {en: 'https://www.bitcv.com/', cn: 'https://www.bitcv.com/', jp: 'https://www.bitcv.com/', ko: 'https://www.bitcv.com/'},
+                    content: {
+                        en: 'Major team holdings except exchange account.<br/>1. Smart Contract Unlocking Address Holds 648,000,000<br/>2. Financing account and team account holds 86,345,360<br/>It is basically in line with the expected 480 million circulation submitted to Feixiaohao.com in March 2018.',
+                        cn: '目前項目方除去交易所賬戶持幣外，主要持幣地址統計<br/>1. 智能合約解鎖地址 持幣 648,000,000<br/>2. 融資專戶和項目方日常賬戶 持幣86,345,360<br/>基本符合2018年3月非小號提交的4.8億流通盤預期。',
+                        jp: 'Major team holdings except exchange account.<br/>1. Smart Contract Unlocking Address Holds 648,000,000<br/>2. Financing account and team account holds 86,345,360<br/>It is basically in line with the expected 480 million circulation submitted to Feixiaohao.com in March 2018.',
+                        ko: 'Major team holdings except exchange account.<br/>1. Smart Contract Unlocking Address Holds 648,000,000<br/>2. Financing account and team account holds 86,345,360<br/>It is basically in line with the expected 480 million circulation submitted to Feixiaohao.com in March 2018.'
+                    }
+                },
+                {
                     mediumtitle: {en: 'BCV launched on Huobi Autonomous Digital Asset Exchange (HADAX)', cn: 'BCV 登錄火幣', jp: 'BCV ログイン火災のコイン', ko: 'BCV 로그인 화재 동전'},
                     link: {en: 'https://www.hadax.com/zh-cn/', cn: 'https://www.hadax.com/zh-cn/', jp: 'https://www.hadax.com/zh-cn/', ko: 'https://www.hadax.com/zh-cn/'},
                     content: {
