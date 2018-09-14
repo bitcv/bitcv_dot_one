@@ -97,6 +97,10 @@
     #download .download-img img {
         width: 100%;
     }
+
+    .services-box p.fixed-height {
+        height: 8.2em;
+    }
     @media (max-width: 1199px) and (min-width: 480px) {
         .lilang {
             width: 100%;
@@ -180,7 +184,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <h2 class="text-center">{{ download.name[lang] }}</h2>
-                    <a class="download-img" href="https://www.bitcv.app/?from=bitcvOne" target="_blank"><img src="img/app_download.png?v=20180629" alt=""></a>
+                    <a class="download-img" :href="download.link[lang]" target="_blank"><img :src="download.img[lang]" alt=""></a>
                 </div>
             </div>
         </div>
@@ -231,7 +235,7 @@
                 </div>
                 <!--<img src="img/new.svg" style="max-width: 50px;"/>-->
                 <div v-for="(p, index) in product.list" class="col-md-6 wow fadeInLeft" style="visibility: visible; animation-name: fadeInLeft;">
-                    <div class="services-box text-center shadow" :style="index < 2 ? 'background-image:url(img/new.svg);background-size:50px 50px;background-repeat: no-repeat;background-position: 100% 0%;' : ''" >
+                    <div class="services-box text-center shadow" :style="index > 1 && index < 4 ? 'background-image:url(img/new.svg);background-size:50px 50px;background-repeat: no-repeat;background-position: 100% 0%;' : ''" >
                         <span :class="p.icon"></span>
                         <h4>{{p.title[lang]}}</h4>
                         <p class="fixed-height">{{p.content[lang]}}
@@ -505,7 +509,7 @@
 </div>
 
     <script src="./js/vue.js"></script>
-    <script src="./js/data.js?v=20180830"></script>
+    <script src="./js/data.js?v=20180914"></script>
 
     <script data-cfasync="false" src="./js/email-decode.min.js"></script>
     <script src="./js/jquery-1.11.2.min.js"></script>
@@ -523,6 +527,4 @@ $(document).ready(function() {
 $('.filtr-container').filterizr();
 });
 </script>
-
-
 </body></html>
