@@ -14,7 +14,7 @@ var app = new Vue({
         	menu: {
                 home:{ cn:'首頁', en:'Home', jp:'ホームページ', ko:'홈' },  
     		    services:{ cn:'產品', en:'Product', jp:'製品', ko:'제품' },
-    		    solution:{ cn:'架構', en:'Architecture', jp:'建築', ko:'건축' },
+    		    solution:{ cn:'架構', en:'Architecture', jp:'全体構造', ko:'건축' },
     		    timeline:{ cn:'里程碑', en:'Roadmap', jp:'マイルストーン', ko:'이정표' },
     		    team:{ cn:'團隊', en:'Team', jp:'チーム', ko:'팀' },
     		    clients:{ cn:'顧問', en:'Consultants', jp:'コンサルタント', ko:'컨설턴트' },
@@ -24,85 +24,85 @@ var app = new Vue({
     	    },
             name: { en:'Blockchain Digital Asset <br>Management Service Engine', cn:'區塊鏈數字資產管理服務引擎', jp:'ブロックチェーンデジタル<br>資産管理サービスエンジン', ko:'블록체인디지털자산관리서비스엔진' },
             whitepaper: {
-                btn: { en:'Download White Paper', cn:'下載白皮書', jp:'白書のダウンロード', ko:'백서 다운로드' },
+                btn: { en:'Download White Paper', cn:'下載白皮書', jp:'白書をダウンロードする', ko:'백서 다운로드' },
                 doc: { en:'doc/bitcv_whitepaper_en.pdf?v=201808', cn:'doc/bitcv_whitepaper_tr.pdf?v=201808', jp:'doc/bitcv_whitepaper_jp.pdf?v=201808', ko:'doc/bitcv_whitepaper_ko.pdf?v=201808' }
             },
             ppt: {
-                btn: { en:'Download Project Presentation', cn:'下載PPT', jp:'PPTをダウンロード', ko:'PPT 다운로드' },
+                btn: { en:'Download Project Presentation', cn:'下載PPT', jp:'PPTをダウンロードする', ko:'PPT 다운로드' },
                 doc: { en:'doc/bitcv_project_en.pdf', cn:'doc/bitcv_project_tr.pdf', jp:'doc/bitcv_project_jp.pdf', ko:'doc/bitcv_project_ko.pdf' }
             }
         },
 
         news: {
-            bigtitle: {en: 'BCV News', cn: 'BCV 動態', jp: '通貨魏動向', ko: 'BCV 동향'},
+            bigtitle: {en: 'BCV News', cn: 'BCV 動態', jp: 'BCVモーメンツ', ko: 'BCV 동향'},
             list: [
                 {
-                    mediumtitle: {en: 'BCV Current Circulation Statistics', cn: 'BCV當前流通盤統計', jp: 'BCV Current Circulation Statistics', ko: 'BCV Current Circulation Statistics'},
+                    mediumtitle: {en: 'BCV Current Circulation Statistics', cn: 'BCV當前流通盤統計', jp: '今まで、BCVに関するデータ', ko: 'BCV Current Circulation Statistics'},
                     link: {en: 'https://www.bitcv.com/', cn: 'https://www.bitcv.com/', jp: 'https://www.bitcv.com/', ko: 'https://www.bitcv.com/'},
                     content: {
                         en: 'Major team holdings except exchange account.<br/>1. Smart Contract Unlocking Address Holds 648,000,000<br/>2. Financing account and team account holds 86,345,360<br/>It is basically in line with the expected 480 million circulation submitted to Feixiaohao.com in March 2018.',
                         cn: '目前項目方除去交易所賬戶持幣外，主要持幣地址統計<br/>1. 智能合約解鎖地址 持幣 648,000,000<br/>2. 融資專戶和項目方日常賬戶 持幣86,345,360<br/>基本符合2018年3月非小號提交的4.8億流通盤預期。',
-                        jp: 'Major team holdings except exchange account.<br/>1. Smart Contract Unlocking Address Holds 648,000,000<br/>2. Financing account and team account holds 86,345,360<br/>It is basically in line with the expected 480 million circulation submitted to Feixiaohao.com in March 2018.',
+                        jp: '今、取引所のほか、BCVの保存先<br/>1. 今、取引所のほか、BCVの保存先<br/>2. 融資向けおよび協力相手側のアカウントに：86345360<br/>2018年3月に確立した大口取引4.8億の流通目標がほぼ達成された。',
                         ko: 'Major team holdings except exchange account.<br/>1. Smart Contract Unlocking Address Holds 648,000,000<br/>2. Financing account and team account holds 86,345,360<br/>It is basically in line with the expected 480 million circulation submitted to Feixiaohao.com in March 2018.'
                     }
                 },
                 {
-                    mediumtitle: {en: 'BCV launched on Huobi Autonomous Digital Asset Exchange (HADAX)', cn: 'BCV 登錄火幣', jp: 'BCV ログイン火災のコイン', ko: 'BCV 로그인 화재 동전'},
+                    mediumtitle: {en: 'BCV launched on Huobi Autonomous Digital Asset Exchange (HADAX)', cn: 'BCV 登錄火幣', jp: 'bcvがhuobi登録達成', ko: 'BCV 로그인 화재 동전'},
                     link: {en: 'https://www.hadax.com/zh-cn/', cn: 'https://www.hadax.com/zh-cn/', jp: 'https://www.hadax.com/zh-cn/', ko: 'https://www.hadax.com/zh-cn/'},
                     content: {
                         en: 'Deposits for BCV will be available from 14:30 June 26, 2018(GMT+8)<br><a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.hadax.com/zh-cn/">BCV/BTC</a>, <a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.hadax.com/zh-cn/">BCV/ETH</a> trading will be available on HADAX from 15:00 June 27, 2018(GMT+8)<br>Withdrawals will be available from 14:30 June 28, 2018 (GMT+8)',
                         cn: '開放交易區：<a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.hadax.com/zh-cn/">BTC</a>、<a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.hadax.com/zh-cn/">ETH</a><br>開放充值時間：2018 年 6 月 26 日 14:30<br>開放交易時間：2018 年 6 月 27 日 15:00<br>開放提現時間：2018 年 6 月 28 日 14:30',
-                        jp: 'オープン取引エリア： <a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.hadax.com/zh-cn/">BTC</a>、<a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.hadax.com/zh-cn/">ETH</a><br>オープン充電時間：2018 年 6 月 26 日 14:30<br>営業時間：2018 年 6 月 27 日 15:00<br>開かれた離脱時間：2018 年 6 月 28 日 14:30',
+                        jp: '取引できるトークン： <a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.hadax.com/zh-cn/">BTC</a>、<a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.hadax.com/zh-cn/">ETH</a><br>入金開始の時間：2018 年 6 月 2 6日 14:30<br>取引開始の時間：2018 年 6 月 27 日 15:00<br>引き出し開始の時間：2018 年 6 月 28 日 14:30',
                         ko: '공개 거래 지역： <a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.hadax.com/zh-cn/">BTC</a>、<a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.hadax.com/zh-cn/">ETH</a><br>개방 충전 시간 : 2018 년 6 월 26 일 14:30<br>영업 시간 : 2018 년 6 월 27 일 15시<br>공개 철수 기간 : 2018 년 6 월 28 일 14:30'
                     }
                 },
                 {
-                    mediumtitle: {en: 'BCV Landing on Bibox', cn: 'BCV 登錄 Bibox', jp: 'BCV Landing on Bibox', ko: 'BCV Landing on Bibox'},
+                    mediumtitle: {en: 'BCV Landing on Bibox', cn: 'BCV 登錄 Bibox', jp: 'BCVがBIBOX登録達成', ko: 'BCV Landing on Bibox'},
                     link: {en: 'https://www.bibox.com/', cn: 'https://www.bibox.com/', jp: 'https://www.bibox.com/', ko: 'https://www.bibox.com/'},
                     content: {
                         en: 'Trading Pairs: <a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.bibox.com/">BTC</a>、<a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.bibox.com/">ETH</a>、<a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.bibox.com/">BIX</a><br>Open Trade Time: June 5, 2018 11:00<br>Open Trade Time: June 5, 2018 16:00',
                         cn: '開放交易區：<a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.bibox.com/">BTC</a>、<a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.bibox.com/">ETH</a>、<a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.bibox.com/">BIX</a><br>開放充值時間：2018 年 6 月 5 日 11:00<br>開放交易時間：2018 年 6 月 5 日 16:00',
-                        jp: 'Trading Pairs: <a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.bibox.com/">BTC</a>、<a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.bibox.com/">ETH</a>、<a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.bibox.com/">BIX</a><br>Open Trade Time: June 5, 2018 11:00<br>Open Trade Time: June 5, 2018 16:00',
+                        jp: '取引できるトークン：<a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.bibox.com/">BTC</a>、<a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.bibox.com/">ETH</a>、<a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.bibox.com/">BIX</a><br>入金開始の時間：2018 年 6 月 5 日 11:00<br>取引開始の時間：2018 年 6 月 5 日 16:00',
                         ko: 'Trading Pairs: <a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.bibox.com/">BTC</a>、<a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.bibox.com/">ETH</a>、<a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.bibox.com/">BIX</a><br>Open Trade Time: June 5, 2018 11:00<br>Open Trade Time: June 5, 2018 16:00'
                     }
                 },
                 {
-                    mediumtitle: {en: 'BCV Trading Now On BTB', cn: 'BCV 登錄 BTB', jp: '通貨魏BCVのBTB進出', ko: 'BTB에 BCV진출'},
+                    mediumtitle: {en: 'BCV Trading Now On BTB', cn: 'BCV 登錄 BTB', jp: 'BCVがBTB登録達成', ko: 'BTB에 BCV진출'},
                     link: {en: 'https://www.btb.com', cn: 'https://www.btb.com', jp: 'https://www.btb.com', ko: 'https://www.btb.com'},
                     content: {
                         en: 'Open Deposit Time: April 28, 2018<br>Open Trade Time: April 28, 2018<br>Trading Pairs: <a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.btb.com/#/trade/btc/bcv">BTC</a>、<a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.btb.com/#/trade/eth/bcv">ETH</a>、<a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.btb.com/#/trade/usdt/bcv">USDT</a>',
                         cn: '開放充值時間：2018 年 4 月 28 日<br>開放交易時間：2018 年 4 月 28 日<br>開放交易區：<a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.btb.com/#/trade/btc/bcv">BTC</a>、<a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.btb.com/#/trade/eth/bcv">ETH</a>、<a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.btb.com/#/trade/usdt/bcv">USDT</a>',
-                        jp: 'オープンチャージ時間：2018 年 4 月 28 日<br>取引開始時間：2018 年 4 月 28 日<br>オープントレーディングエリア：<a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.btb.com/#/trade/btc/bcv">BTC</a>、<a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.btb.com/#/trade/eth/bcv">ETH</a>、<a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.btb.com/#/trade/usdt/bcv">USDT</a>',
+                        jp: '入金開始の時間：2018 年 4 月 28 日<br>取引開始の時間：2018 年 4 月 28 日<br>取引できるトークン：<a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.btb.com/#/trade/btc/bcv">BTC</a>、<a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.btb.com/#/trade/eth/bcv">ETH</a>、<a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.btb.com/#/trade/usdt/bcv">USDT</a>',
                         ko: '충전개시 시각  : 2018 년 4 월 28 일<br>거래개시 시각 : 2018 년 4 월 28 일<br>거래개시 지역 :<a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.btb.com/#/trade/btc/bcv">BTC</a>、<a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.btb.com/#/trade/eth/bcv">ETH</a>、<a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.btb.com/#/trade/usdt/bcv">USDT</a>'
                     }
                 },
                 {
-                    mediumtitle: {en: 'BCV Trading OTC Exchange Now On ETHOTC', cn: 'BCV 登錄場外交易所 ETHOTC', jp: 'BCV OTCへのログインETH OTC', ko: 'BCV OTC ETHOTC에 로그인하십시오'},
+                    mediumtitle: {en: 'BCV Trading OTC Exchange Now On ETHOTC', cn: 'BCV 登錄場外交易所 ETHOTC', jp: 'BCVが場外取引所のETHOTC登録達成', ko: 'BCV OTC ETHOTC에 로그인하십시오'},
                     link: {en: 'https://www.ethotc.io', cn: 'https://www.ethotc.io', jp: 'https://www.ethotc.io', ko: 'https://www.ethotc.io'},
                     content: {
                         en: 'Open Trade Time: April 17, 2018<br>',
                         cn: '開放交易時間：2018 年 4 月 17 日<br>',
-                        jp: '取引開始時間：2018 年 4 月 17 日<br>',
+                        jp: '取引開始の時間：2018年 年 4 月 17 日<br>',
                         ko: '거래개시 시각 : 2018 년 4 월 17 일<br>'
                     }
                 },
                 {
-                    mediumtitle: {en: 'BCV Trading Now On Bit-Z', cn: 'BCV 登錄 Bit-Z', jp: '通貨魏BCVのBit-z進出', ko: 'Bit－z에 BCV진출'},
+                    mediumtitle: {en: 'BCV Trading Now On Bit-Z', cn: 'BCV 登錄 Bit-Z', jp: 'BCVがBIT-Z登録達成', ko: 'Bit－z에 BCV진출'},
                     link: {en: 'https://www.bitz.com', cn: 'https://www.bitz.com', jp: 'https://www.bitz.com', ko: 'https://www.bitz.com'},
                     content: {
                         en: 'Open Deposit Time: March 14, 2018 18:00<br>Open Trade Time: March 16, 2018 18:00<br>Trading Pairs: <a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.bitz.com/exchange/bcv_eth">ETH</a>、<a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.bitz.com/exchange/bcv_btc">BTC</a><br>',
                         cn: '開放充值時間：2018 年 3 月 14 日 18:00<br>開放交易時間：2018 年 3 月 16 日 12:00<br>開放交易區：<a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.bitz.com/exchange/bcv_eth">ETH</a>、<a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.bitz.com/exchange/bcv_btc">BTC</a><br>',
-                        jp: 'オープンチャージ時間：2018 年 3 月 14 日 18:00<br>取引開始時間：2018 年 3 月 16 日 18:00<br>オープントレーディングエリア：<a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.bitz.com/exchange/bcv_eth">ETH</a>、<a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.bitz.com/exchange/bcv_btc">BTC</a><br>',
+                        jp: '入金開始の時間：2018 年 3 月 14 日 18:00<br>取引開始の時間：2018 年 3 月 16 日 18:00<br>取引できるトークン：<a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.bitz.com/exchange/bcv_eth">ETH</a>、<a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.bitz.com/exchange/bcv_btc">BTC</a><br>',
                         ko: '충전개시 시각  : 2018 년 3 월 14 일 18:00<br>거래개시 시각 : 2018 년 3 월 16 일 18:00<br>거래개시 지역 :<a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.bitz.com/exchange/bcv_eth">ETH</a>、<a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.bitz.com/exchange/bcv_btc">BTC</a><br>'
                     }
                 },
                 {
-                    mediumtitle: {en: 'BCV Trading Now On AEX', cn: 'BCV 登錄 AEX', jp: '通貨魏ダイナミック着陸AEX', ko: 'BCV진출AEX'},
+                    mediumtitle: {en: 'BCV Trading Now On AEX', cn: 'BCV 登錄 AEX', jp: 'BCVがAEX登録達成', ko: 'BCV진출AEX'},
                     link: {en: 'https://www.bit.cc/', cn: 'https://www.bit.cc/', jp: 'https://www.bit.cc/', ko: 'https://www.bit.cc/'},
                     content: {
                         en: 'Open Deposit Time: March 7, 2018 20:00<br>Open Trade Time: March 9, 2018 12:00<br>Trading Pairs: <a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.bit.cc//page/trade.html?mk_type=CNC&trade_coin_name=BCV">CNC</a><br>In order to celebrate AEX listing BCV, users trade and deposit BCV in Beijing time  March 7th 18:00 - March 16th 18:00, will receive millions of BCV airdrop. <br>In March 9-11, In the Super Welfare Day event, we are airdroping additional 206664BCV!',
                         cn: '充值開放時間： 2018 年 3 月 7 日 20:00<br>交易開放時間： 2018 年 3 月 9 日 12:00<br>開放交易區：<a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.bit.cc//page/trade.html?mk_type=CNC&trade_coin_name=BCV">CNC</a><br>為慶祝 BCV 上線 AEX ，北京時間 3 月 7 日 18:00 至 3 月 16 日 18:00，對交易 BCV 和充值 BCV 的用戶壕送百萬 BCV 。<br>此外，3 月 9 日至 11 日，超級福利將會送出 206664 BCV !',
-                        jp: 'オープンチャージ時間：2018 年 3 月 7 日 20:00<br>取引開始時間：：2018 年 3 月 9 日 12:00<br>オープントレーディングエリア：<a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.bit.cc//page/trade.html?mk_type=CNC&trade_coin_name=BCV">CNC</a><br>ラインBCVでAEXを祝うために，北京時間 3 月 7 日 18:00  -  3 月 16 日 18:00，BCV取引とチャージBCVユーザーに数百万BCVに報酬を与える<br>また、3 月 9 日 から11日には206664BCVがSuper Welfare Dayに送られます',
+                        jp: '入金開始の時間：2018 年 3 月 7 日 20:00<br>取引開始の時間：2018 年 3 月 9 日 12:00<br>取引できるトークン：<a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.bit.cc//page/trade.html?mk_type=CNC&trade_coin_name=BCV">CNC</a><br>BCVがAEX登録達成を祝うため、北京現地時間で 3 月 7 日から 3 月 16 日の 18 時まで、BCVを取引したり、入金したりしたユーザーに奨励金として合わせて百万以上のBCVを送った。<br>また、3 月 9 日から 11 日にかけて、スーパーサプライズとして、合わせて 206664 BCV を送った。',
                         ko: '충전개시 시각  :  2018 년 3 월 7 일 20:00<br>거래개시 시각 : 2018 년 3 월 9 일 12:00<br>거래개시 지역 :<a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.bit.cc//page/trade.html?mk_type=CNC&trade_coin_name=BCV">CNC</a><br>BCV의 AEX 진출을 축하하기 위해，베이징 시간 3 월 7 일 18:00 - 3 월 16 일 18:00，BCV 거래&충전 사용자를 위해 수백만 BCV 증정<br>또한 3 월 9-11 일의 수퍼 복지의 날에 206664 BCV 제공'
                     }
                 }
@@ -110,36 +110,36 @@ var app = new Vue({
         },
 
         download: {
-            name: { en:'BCV Wallet App Download', cn:'幣威錢包下載' ,jp:'BCV Wallet App Download', ko:'BCV Wallet App Download' },
-            img: { en:'img/app_download_en.png', cn:'img/app_download_cn.png' ,jp:'img/app_download_en.png', ko:'img/app_download_en.png' },
+            name: { en:'BCV Wallet App Download', cn:'幣威錢包下載' ,jp:'BCVウォレットをダウンロードする', ko:'BCV Wallet App Download' },
+            img: { en:'img/app_download_en.png', cn:'img/app_download_cn.png' ,jp:'img/app_download_jp.png', ko:'img/app_download_en.png' },
             link: { en:'https://www.bitcv.app/?from=bitcvOne&lang=en', cn:'https://www.bitcv.app/?from=bitcvOne&lang=cn' ,jp:'https://www.bitcv.app/?from=bitcvOne&lang=en', ko:'https://www.bitcv.app/?from=bitcvOne&lang=en' }
         },
 
         product: {
-            name: { en:'Digital Asset Management Platform', cn:'數字資産管理平台' ,jp:'デジタル資産管理の方策', ko:'디저털자산관리해결방안' },
+            name: { en:'Digital Asset Management Platform', cn:'數字資産管理平台' ,jp:'デジタル資産管理プラットフォーム', ko:'디저털자산관리해결방안' },
             list: [
                 {
                     icon: 'icon ti-wallet',
-                    title: { en:'Digital Asset Management Application – BCV Wallet', cn:'數字資産管理應用 — 幣威錢包', jp:'Digital Asset Management Application – BCV Wallet', ko:'Digital Asset Management Application – BCV Wallet' },
+                    title: { en:'Digital Asset Management Application – BCV Wallet', cn:'數字資産管理應用 — 幣威錢包', jp:'デジタル資産管理アプリ―BCVウォレット', ko:'Digital Asset Management Application – BCV Wallet' },
                     content: {
                         en:'Digital asset wallet application with leading encryption and security technologies based on blockchain technology, providing users with secure, easy-to-use and fast digital asset management services.',
                         cn:'基于區塊鏈技術的數字錢包應用，具有領先的加密和安全技術，為用戶提供安全、易用、快捷的數字資産管理服務。',
-                        jp:'Digital asset wallet application with leading encryption and security technologies based on blockchain technology, providing users with secure, easy-to-use and fast digital asset management services.',
+                        jp:'ブロックチェーン技術に基づくデジタル資産管理のアプリ、進んだ安全技術をもって、ユーザーに安全、安心かつ使い安いデジタル資産のサービスを提供する。',
                         ko:'Digital asset wallet application with leading encryption and security technologies based on blockchain technology, providing users with secure, easy-to-use and fast digital asset management services.'
                     },
-                    link: { en:'Enter', 'cn':'进入',jp:'入力',ko:'들어가기' },
+                    link: { en:'Enter', 'cn':'进入',jp:'入る',ko:'들어가기' },
                     address: 'https://www.bitcv.app/?from=bitcvOne'
                 },
                 {
                     icon: 'icon ti-gift',
-                    title: { en:'Digital Asset Red Pocket - Candy Lot', cn:'數字資産紅包産品 — 糖包兒', jp:'Digital Asset Red Pocket - Candy Lot', ko:'Digital Asset Red Pocket - Candy Lot' },
+                    title: { en:'Digital Asset Red Pocket - Candy Lot', cn:'數字資産紅包産品 — 糖包兒', jp:'デジタル資産管理のラッキーマネープロジェクト：CandyLot', ko:'Digital Asset Red Pocket - Candy Lot' },
                     content: {
                         en:'Quickly issue digital asset red pocket,  support common blockchain project communities such as WeChat, QQ, and Telegram.',
                         cn:'能夠方便快速的發放數字資産紅包，可以支持微信、QQ、Telegram等常用的區塊鏈項目社群場景。',
-                        jp:'Quickly issue digital asset red pocket,  support common blockchain project communities such as WeChat, QQ, and Telegram.',
+                        jp:'効率よくデジタル資産のラッキーマネーを共有することができ、wechat、QQ、Telegramなどブロックチェンの人気コミュニティに共有することができる。',
                         ko:'Quickly issue digital asset red pocket,  support common blockchain project communities such as WeChat, QQ, and Telegram.'
                     },
-                    link: { en:'Enter', 'cn':'进入',jp:'入力',ko:'들어가기' },
+                    link: { en:'Enter', 'cn':'进入',jp:'入る',ko:'들어가기' },
                     address: 'https://candy.ucai.net/'
                 },
                 {
@@ -151,7 +151,7 @@ var app = new Vue({
                         jp:'BCV 指数は2018年4月から発表されている仮想通貨市場の全体的状況を反映する指数である。客観的且つ合理性のある方法で、取引されている仮想通貨の市場の全体価格の変化が反映されている。計算するとき、計算の対象は人的に指定しないため、客観的に仮想通貨市場の全体像を反映することができる。',
                         ko:'The Bit Capital Index  (known as the BCI) are a set of indexes released in April 2018 to reflect the overall picture of the cryptocurrency exchange market.  The BCV group uses an objective and scientific method to show the changes of the overall market value. While calculating, We do not artificially specify the weights of any cryptocurrency so that the BCI can truly reflect the market condition.'
                     },
-                    link: { en:'Enter', 'cn':'进入',jp:'入力',ko:'들어가기' },
+                    link: { en:'Enter', 'cn':'进入',jp:'入る',ko:'들어가기' },
                     address: 'https://www.bitcv.app/?from=bitcvOne'
                 },
                 {
@@ -163,19 +163,19 @@ var app = new Vue({
                         jp:'BCVグループに研究、開発した量的プロジェクトです、今までの取引テータに基づいて、価格の変化に従って、売買することを決め、低い価格で購入して、高価格で売り出すことによって、長期的安定な収益を保つことができる。',
                         ko:'Quantsuggest is a passive quantitative strategic product generated by BitCapital Vendor. Its algorithm is based on history transaction records and adjusts the position according to the periodic dynamics of the price, namely buy in at low prices and sell out at high prices. In this way, we manage to realize long'
                     },
-                    link: { en:'Enter', 'cn':'进入',jp:'入力',ko:'들어가기' },
+                    link: { en:'Enter', 'cn':'进入',jp:'入る',ko:'들어가기' },
                     address: 'https://www.bitcv.app/?from=bitcvOne'
                 },
                 {
                     icon: 'icon ti-crown',
-                    title: { en:'Behavior mining - Spinach Manor', cn:'經濟系統 — 菠菜莊園', jp:'Behavior mining - Spinach Manor', ko:'Behavior mining - Spinach Manor' },
+                    title: { en:'Behavior mining - Spinach Manor', cn:'經濟系統 — 菠菜莊園', jp:'経済システム―菠菜莊園', ko:'Behavior mining - Spinach Manor' },
                     content: {
                         en:'Blockchain technology-based behavior mining and reward system, a total of 120 million BCVs are used to reward the daily activities of the users. The total amount is constant, halved during time, and never increased.',
                         cn:'基于区块链技术的行为挖矿奖励体系，共投放 1.2 亿 BCV 用于奖励币威用户的日常行为，总量恒定、逐渐减半、永不增发。',
-                        jp:'Blockchain technology-based behavior mining and reward system, a total of 120 million BCVs are used to reward the daily activities of the users. The total amount is constant, halved during time, and never increased.',
+                        jp:'ブロックチェーン技術に基づくマイニング行為を奨励するシステム、BCVを1.2億枚投与して、BCVユーザーの日常の活動を奨励する。総数量一定的、毎回得られる量はだんだん減り、増発なし。',
                         ko:'Blockchain technology-based behavior mining and reward system, a total of 120 million BCVs are used to reward the daily activities of the users. The total amount is constant, halved during time, and never increased.'
                     },
-                    link: { en:'Enter', 'cn':'进入',jp:'入力',ko:'들어가기' },
+                    link: { en:'Enter', 'cn':'进入',jp:'入る',ko:'들어가기' },
                     address: 'https://www.bitcv.app/?from=bitcvOne'
                 },
                 {
@@ -187,7 +187,7 @@ var app = new Vue({
                         jp:'貨幣バオ購入計画は、将来の収益を事前にロックし、ロック期の終わりにプリンシパルを回収し、追加収入を得ることで個人資産の伸びを実現する',
                         ko:'Yu-Bi Bao 구매계획 이전 미래의 수입을 Lock하고, Lock시기 종료 후 원금 회수 및 추가 수익을 얻어 개인자산을 지속적으로 증가시킵니다'
                     },
-                    link: { en:'Enter', 'cn':'进入',jp:'入力',ko:'들어가기' },
+                    link: { en:'Enter', 'cn':'进入',jp:'入る',ko:'들어가기' },
                     address:'https://bitcv.com/candyRoom/candyList'
                 },
                 {
@@ -199,19 +199,19 @@ var app = new Vue({
                         jp:'ワンクリックでユーザーアドレスをアップロードし、自動的に発行される複数のトークンをサポートし、時間を節約するツールフリーハンド、企業のサービス価値向上に役立つ',
                         ko:'원 클릭으로 사용자 주소를 업로드하고, 자동으로 발행되는 여러 토큰을 지원하며, 툴을 사용해 사용자의 시간을 더욱 활용하고, 기업이 서비스 가치를 향상시키는 데 도움을줍니다.'
                     },
-                    link: { en:'Enter', 'cn':'进入',jp:'入力',ko:'들어가기' },
+                    link: { en:'Enter', 'cn':'进入',jp:'入る',ko:'들어가기' },
                     address: 'https://bitcv.com/acting/home'
                 },
                 {
                     icon: 'icon ti-signal',
-                    title: { en:'Digital Asset Database — Chain Radar', cn:'數字資産資料庫 — 鏈雷達', jp:'Digital Asset Database — Chain Radar', ko:'Digital Asset Database — Chain Radar' },
+                    title: { en:'Digital Asset Database — Chain Radar', cn:'數字資産資料庫 — 鏈雷達', jp:'デジタル資産のデーターベース：チェンレダー', ko:'Digital Asset Database — Chain Radar' },
                     content: {
                         en:'Blockchain project information database and information provider.',
                         cn:'区块链行业项目信息数据库及信息服务提供。',
-                        jp:'Blockchain project information database and information provider.',
+                        jp:'ブロックチェン業界のプロジェクトのデータベースおよび情報サービスを提供する。',
                         ko:'Blockchain project information database and information provider.'
                     },
-                    link: { en:'Enter', 'cn':'进入',jp:'入力',ko:'들어가기' },
+                    link: { en:'Enter', 'cn':'进入',jp:'入る',ko:'들어가기' },
                     address: 'https://bitcv.com/discover'
                 }
                 // {
@@ -416,24 +416,24 @@ var app = new Vue({
         },
 
         roadmap: {
-            name: { en:'Project Milestones and Roadmap', cn:'項目里程碑及路線圖', jp:'プロジェクトのマイルストーン及びロードマップ', ko:'프로젝트 이정표 및 노선도' },
+            name: { en:'Project Milestones and Roadmap', cn:'項目里程碑及路線圖', jp:'発展のロードマップ', ko:'프로젝트 이정표 및 노선도' },
             list: [
                 {
                     date: { en:'Jan 2018', cn:'2018年1月', jp:'2018年1月', ko:'2018년1월' },
                     content: {
                         en:'Start up team formation completed',
                         cn:'團隊組建',
-                        jp:'Start up team formation completed',
+                        jp:'チーム構築',
                         ko:'Start up team formation completed'
                     }
                 },
                 {
                     date: { en:'Feb 2018', cn:'2018年2月', jp:'2018年2月', ko:'2018년2월' },
                     content: {
-                        en:' Service tools development, improve R & D team',
+                        en:'Service tools development, improve R & D team',
                         cn:'工具落地，完善研發團隊',
-                        jp:' Service tools development, improve R & D team',
-                        ko:' Service tools development, improve R & D team'
+                        jp:'開発陣を備え、全体像を明確にする',
+                        ko:'Service tools development, improve R & D team'
                     }
                 },
                 {
@@ -441,7 +441,7 @@ var app = new Vue({
                     content: {
                         en:'Fully promote of BCV wallet development',
                         cn:'全力推動錢包開發',
-                        jp:'Fully promote of BCV wallet development',
+                        jp:'ウォレットの開発に専念',
                         ko:'Fully promote of BCV wallet development'
                     }
                 },
@@ -450,16 +450,16 @@ var app = new Vue({
                     content: {
                         en:'BCV Wallet 1.0 Online',
                         cn:'錢包1.0版本上線',
-                        jp:'BCV Wallet 1.0 Online',
+                        jp:'ウォレット1.0がリリースされた',
                         ko:'BCV Wallet 1.0 Online'
                     }
                 },
                 {
-                    date: { en:'Beginning of June 2018', cn:'2018年6月初', jp:'2018年6月初め', ko:'2018 년 6 월 초' },
+                    date: { en:'Beginning of June 2018', cn:'2018年6月初', jp:'2018年6月初期', ko:'2018 년 6 월 초' },
                     content: {
                         en:'BCV Wallet supports cross chain function',
                         cn:'跨鏈錢包實現',
-                        jp:'BCV Wallet supports cross chain function',
+                        jp:'クロスチェン型ウォレットの開発完了',
                         ko:'BCV Wallet supports cross chain function'
                     }
                 },
@@ -468,7 +468,7 @@ var app = new Vue({
                     content: {
                         en:'BCV wallet 2.0 online with large amount of improvements',
                         cn:'錢包2.0發布，大幅度完善',
-                        jp:'BCV wallet 2.0 online with large amount of improvements',
+                        jp:'ウォレット2.0がリリースされ、性能が大いに改善された',
                         ko:'BCV wallet 2.0 online with large amount of improvements'
                     }
                 },
@@ -477,7 +477,7 @@ var app = new Vue({
                     content: {
                         en:'Implementation of international strategy for BCV Wallet',
                         cn:'实施币威钱包国际化战略',
-                        jp:'Implementation of international strategy for BCV Wallet',
+                        jp:'BCVウォレットの国際戦略が着地',
                         ko:'Implementation of international strategy for BCV Wallet'
                     }
                 },
@@ -486,7 +486,7 @@ var app = new Vue({
                     content: {
                         en:'Test Net of BCV Chain Online',
                         cn:'BCV Chain 內測，內部移植，搭建配套',
-                        jp:'Test Net of BCV Chain Online',
+                        jp:'BCVチェンの内部テストが完了',
                         ko:'Test Net of BCV Chain Online'
                     }
                 },
@@ -495,7 +495,7 @@ var app = new Vue({
                     content: {
                         en:'Launch of BCV Chain and API',
                         cn:'主網上線，正式開放API',
-                        jp:'Launch of BCV Chain and API',
+                        jp:'BCVチェンがリリーズされ、APIが正式的に開放された',
                         ko:'Launch of BCV Chain and API'
                     }
                 }
@@ -503,7 +503,7 @@ var app = new Vue({
         },
 
         consultants: {
-            name: { en:'Project consultants', cn:'項目顧問', jp:'プロジェクトの顧問', ko:'프로젝트 고문' },
+            name: { en:'Project consultants', cn:'項目顧問', jp:'コンサルタント', ko:'프로젝트 고문' },
             list: [
                 {
                     img: './img/brand-fengxin.png',
@@ -670,7 +670,7 @@ var app = new Vue({
         },
 
         institutions: {
-            name: { en:'Institutions', cn:'機構', jp:'機関', ko:'기관' },
+            name: { en:'Institutions', cn:'機構', jp:'協力機構', ko:'기관' },
             list: [
                 //'./img/project-linkvc.jpg', //Link VC
                 './img/project-genesis.jpg',
@@ -688,7 +688,7 @@ var app = new Vue({
         },
 
         media: {
-            name: { en:'Media report', cn:'媒体报道', jp:'メディアカバレッジ', ko:'언론 보도' },
+            name: { en:'Media report', cn:'媒体报道', jp:'連携メディア', ko:'언론 보도' },
             list: [
                 {
                     img: './img/media-fenghuang.jpg',// 凤凰网
@@ -892,7 +892,7 @@ var app = new Vue({
         },
 
         footer: {
-            wechat: { en:'WeChat scan code attention', cn:'微信扫码关注', jp:'WeChat scan code attention', ko:'WeChat scan code attention' },
+            wechat: { en:'WeChat scan code attention', cn:'微信扫码关注', jp:'ＱＲコードをスキャンして、フォローする', ko:'WeChat scan code attention' },
         }
 
     },
