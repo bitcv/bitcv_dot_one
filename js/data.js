@@ -37,18 +37,28 @@ var app = new Vue({
             bigtitle: {en: 'BCV News', cn: 'BCV 動態', jp: 'BCVモーメンツ', ko: 'BCV 동향'},
             list: [
                 {
-                    mediumtitle: {en: 'BCV Current Circulation Statistics', cn: 'BCV當前流通盤統計', jp: '今まで、BCVに関するデータ', ko: 'BCV Current Circulation Statistics'},
-                    link: {en: 'https://www.bitcv.com/', cn: 'https://www.bitcv.com/', jp: 'https://www.bitcv.com/', ko: 'https://www.bitcv.com/'},
+                    mediumtitle: {en: 'BCV EX Exchange', cn: 'BCV EX 交易所', jp: 'BCV EXエクスチェンジ', ko: 'BCV EX Exchange'},
+                    link: {en: '', cn: '', jp: '', ko: ''},
                     content: {
-                        en: 'Major team holdings except exchange account.<br/>1. Smart Contract Unlocking Address Holds 648,000,000<br/>2. Financing account and team account holds 86,345,360<br/>It is basically in line with the expected 480 million circulation submitted to Feixiaohao.com in March 2018.',
-                        cn: '目前項目方除去交易所賬戶持幣外，主要持幣地址統計<br/>1. 智能合約解鎖地址 持幣 648,000,000<br/>2. 融資專戶和項目方日常賬戶 持幣86,345,360<br/>基本符合2018年3月非小號提交的4.8億流通盤預期。',
-                        jp: '今、取引所のほか、BCVの保存先<br/>1. 今、取引所のほか、BCVの保存先<br/>2. 融資向けおよび協力相手側のアカウントに：86345360<br/>2018年3月に確立した大口取引4.8億の流通目標がほぼ達成された。',
-                        ko: 'Major team holdings except exchange account.<br/>1. Smart Contract Unlocking Address Holds 648,000,000<br/>2. Financing account and team account holds 86,345,360<br/>It is basically in line with the expected 480 million circulation submitted to Feixiaohao.com in March 2018.'
+                        en: 'International Exchange ：Includes instant orders, complete charting tools, transaction history and a simple order process for all user experiences.<br/>High liquidity and trading depth：Share the liquidity and depth with the top 5 exchanges in the world to provide you with the fastest trading experience.<br/>Both Realtime and OTC trade ：Provide two trading modes, both on and off the court to meet your multiple trading needs.',
+                        cn: '國際級的交易所：包括即時訂單，完整的圖表工具，交易歷史記錄和簡單的訂單流程，滿足您所有情境體驗。<br/>高流動性與深度：與全球排名前5的交易所共享流動性與深度，為您提供最快的交易撮合體驗。<br/>場內場外兼具：場內場外兩種交易模式，滿足您的多種交易需求。',
+                        jp: '即時注文、完全なチャート作成ツール、取引履歴、すべての状況に応じた簡単な注文処理など、インターナショナルレベルの取引所。<br/>高い流動性と深み：世界でトップ5の取引所と流動性と深みを共有し、最速の取引経験を提供します。<br/>オンサイトとオフサイトの両方：複数の取引ニーズを満たすオンサイトとオフ・オフの取引モード。',
+                        ko: 'International Exchange ：Includes instant orders, complete charting tools, transaction history and a simple order process for all user experiences.<br/>High liquidity and trading depth：Share the liquidity and depth with the top 5 exchanges in the world to provide you with the fastest trading experience.<br/>Both Realtime and OTC trade ：Provide two trading modes, both on and off the court to meet your multiple trading needs.'
                     }
                 },
                 {
-                    mediumtitle: {en: 'BCV launched on Huobi Autonomous Digital Asset Exchange (HADAX)', cn: 'BCV 登錄火幣', jp: 'bcvがhuobi登録達成', ko: 'BCV 로그인 화재 동전'},
-                    link: {en: 'https://www.hadax.com/zh-cn/', cn: 'https://www.hadax.com/zh-cn/', jp: 'https://www.hadax.com/zh-cn/', ko: 'https://www.hadax.com/zh-cn/'},
+                    mediumtitle: {en: 'BCV Current Circulation Statistics', cn: 'BCV當前流通盤統計', jp: '今まで、BCVに関するデータ', ko: 'BCV Current Circulation Statistics'},
+                    link: {en: 'https://www.bitcv.com/', cn: 'https://www.bitcv.com/', jp: 'https://www.bitcv.com/', ko: 'https://www.bitcv.com/'},
+                    content: {
+                        en: 'Major team holdings except exchange account.<br/>1. Smart Contract Unlocking Address Holds 600,000,000<br/>2. Financing account and team accounts (including exchanges account) 120,000,000+<br/>It is basically in line with the expected 480 million circulation submitted to Feixiaohao.com in March 2018. Along with mining in wallet and public chain, the locked tokens will be unlocked according to the rules.',
+                        cn: '目前項目方除去交易所賬戶持幣外，主要持幣地址統計<br/>1. 目前智能合約鎖倉地址持幣 600,000,000<br/>2. 融資專戶、項目方日常賬戶、項目方交易所持幣 120,000,000+<br/>基本符合 2018 年 3 月份提交給交易所流通盤 480,000,000 的預期。<br/>但是隨著錢包行為挖礦以及項目運營，鎖定的持幣將按約定陸續解鎖。',
+                        jp: '今、取引所のほか、BCVの保存先<br/>1. 現在のスマート契約ロックの位置アドレスは、600,000,000<br/>2. 融資勘定、プロジェクト当事者毎日勘定、プロジェクト当事者為替通貨120,000,000+<br/>基本的には、交換所は2018年3月に480,000,000人の取引所に提出される予定である。しかし、財布行動のマイニングとプロジェクト運用では、ロックされた通貨は契約に従ってロック解除されます。',
+                        ko: 'Major team holdings except exchange account.<br/>1. Smart Contract Unlocking Address Holds 600,000,000<br/>2. Financing account and team accounts (including exchanges account) 120,000,000+<br/>It is basically in line with the expected 480 million circulation submitted to Feixiaohao.com in March 2018. Along with mining in wallet and public chain, the locked tokens will be unlocked according to the rules.'
+                    }
+                },
+                {
+                    mediumtitle: {en: 'BCV launched on Huobi Exchange', cn: 'BCV 登錄火幣', jp: 'bcvがhuobi登録達成', ko: 'BCV 로그인 화재 동전'},
+                    link: {en: 'https://www.hbg.com/', cn: 'https://www.hbg.com/', jp: 'https://www.hbg.com/', ko: 'https://www.hbg.com/'},
                     content: {
                         en: 'Deposits for BCV will be available from 14:30 June 26, 2018(GMT+8)<br><a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.hadax.com/zh-cn/">BCV/BTC</a>, <a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.hadax.com/zh-cn/">BCV/ETH</a> trading will be available on HADAX from 15:00 June 27, 2018(GMT+8)<br>Withdrawals will be available from 14:30 June 28, 2018 (GMT+8)',
                         cn: '開放交易區：<a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.hadax.com/zh-cn/">BTC</a>、<a style="text-decoration:underline;color: #c2a362;" target="_blank" href="https://www.hadax.com/zh-cn/">ETH</a><br>開放充值時間：2018 年 6 月 26 日 14:30<br>開放交易時間：2018 年 6 月 27 日 15:00<br>開放提現時間：2018 年 6 月 28 日 14:30',
@@ -112,7 +122,7 @@ var app = new Vue({
         download: {
             name: { en:'BCV Wallet App Download', cn:'幣威錢包下載' ,jp:'BCVウォレットをダウンロードする', ko:'BCV Wallet App Download' },
             img: { en:'img/app_download_en.png', cn:'img/app_download_cn.png' ,jp:'img/app_download_jp.png', ko:'img/app_download_en.png' },
-            link: { en:'https://www.bitcv.app/?from=bitcvOne&lang=en', cn:'https://www.bitcv.app/?from=bitcvOne&lang=cn' ,jp:'https://www.bitcv.app/?from=bitcvOne&lang=en', ko:'https://www.bitcv.app/?from=bitcvOne&lang=en' }
+            link: { en:'https://www.bitcv.app/?from=bitcvOne&lang=en', cn:'https://www.bitcv.app/?from=bitcvOne&lang=cn' ,jp:'https://www.bitcv.app/?from=bitcvOne&lang=jp', ko:'https://www.bitcv.app/?from=bitcvOne&lang=en' }
         },
 
         product: {
@@ -203,17 +213,29 @@ var app = new Vue({
                     address: 'https://bitcv.com/acting/home'
                 },
                 {
-                    icon: 'icon ti-signal',
-                    title: { en:'Digital Asset Database — Chain Radar', cn:'數字資産資料庫 — 鏈雷達', jp:'デジタル資産のデーターベース：チェンレダー', ko:'Digital Asset Database — Chain Radar' },
+                    icon: 'icon ti-shortcode',
+                    title: { en:'Over The Counter Trading', cn:'OTC 交易', jp:'OTC 取引', ko:'Over The Counter Trading' },
                     content: {
-                        en:'Blockchain project information database and information provider.',
-                        cn:'区块链行业项目信息数据库及信息服务提供。',
-                        jp:'ブロックチェン業界のプロジェクトのデータベースおよび情報サービスを提供する。',
-                        ko:'Blockchain project information database and information provider.'
+                        en:'Wallet integrated OTC trading function.',
+                        cn:'錢包內內置 OTC 交易功能',
+                        jp:'ウォレット内にOTC取引機能を内蔵',
+                        ko:'Wallet integrated OTC trading function.'
                     },
                     link: { en:'Enter', 'cn':'进入',jp:'入る',ko:'들어가기' },
-                    address: 'https://bitcv.com/discover'
+                    address: 'https://www.bitcv.app/?from=bitcvOne'
                 }
+                // {
+                //     icon: 'icon ti-signal',
+                //     title: { en:'Digital Asset Database — Chain Radar', cn:'數字資産資料庫 — 鏈雷達', jp:'デジタル資産のデーターベース：チェンレダー', ko:'Digital Asset Database — Chain Radar' },
+                //     content: {
+                //         en:'Blockchain project information database and information provider.',
+                //         cn:'区块链行业项目信息数据库及信息服务提供。',
+                //         jp:'ブロックチェン業界のプロジェクトのデータベースおよび情報サービスを提供する。',
+                //         ko:'Blockchain project information database and information provider.'
+                //     },
+                //     link: { en:'Enter', 'cn':'进入',jp:'入る',ko:'들어가기' },
+                //     address: 'https://bitcv.com/discover'
+                // }
                 // {
                 //     icon: 'icon ti-desktop',
                 //     title: { en:'Project Investment and Financing SaaS System - SaaS', cn:'項目投融SaaS系統——投融SaaS', jp:'プロジェクト投資･融資 SAAS システム――投融資 SAAS', ko:'프로젝트융자 SaaS 시스템—융자 SaaS' },
