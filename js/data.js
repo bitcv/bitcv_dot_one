@@ -47,13 +47,13 @@ var app = new Vue({
                     }
                 },
                 {
-                    mediumtitle: {en: 'BCV Current Circulation Statistics', cn: 'BCV當前流通盤統計', jp: '今まで、BCVに関するデータ', ko: 'BCV Current Circulation Statistics'},
+                    mediumtitle: {en: 'BCV Testnet Announcement', cn: 'BCV 测试网公告', jp: 'BCV Testnet Announcement', ko: 'BCV Testnet Announcement'},
                     link: {en: 'https://www.bitcv.com/', cn: 'https://www.bitcv.com/', jp: 'https://www.bitcv.com/', ko: 'https://www.bitcv.com/'},
                     content: {
-                        en: 'Major team holdings except exchange account.<br/>1. Smart Contract Unlocking Address Holds 600,000,000<br/>2. Financing account and team accounts (including exchanges account) 120,000,000+<br/>It is basically in line with the expected 480 million circulation submitted to Feixiaohao.com in March 2018. Along with mining in wallet and public chain, the locked tokens will be unlocked according to the rules.',
-                        cn: '目前項目方除去交易所賬戶持幣外，主要持幣地址統計<br/>1. 目前智能合約鎖倉地址持幣 600,000,000<br/>2. 融資專戶、項目方日常賬戶、項目方交易所持幣 120,000,000+<br/>基本符合 2018 年 3 月份提交給交易所流通盤 480,000,000 的預期。<br/>但是隨著錢包行為挖礦以及項目運營，鎖定的持幣將按約定陸續解鎖。',
-                        jp: '今、取引所のほか、BCVの保存先<br/>1. 現在のスマート契約ロックの位置アドレスは、600,000,000<br/>2. 融資勘定、プロジェクト当事者毎日勘定、プロジェクト当事者為替通貨120,000,000+<br/>基本的には、交換所は2018年3月に480,000,000人の取引所に提出される予定である。しかし、財布行動のマイニングとプロジェクト運用では、ロックされた通貨は契約に従ってロック解除されます。',
-                        ko: 'Major team holdings except exchange account.<br/>1. Smart Contract Unlocking Address Holds 600,000,000<br/>2. Financing account and team accounts (including exchanges account) 120,000,000+<br/>It is basically in line with the expected 480 million circulation submitted to Feixiaohao.com in March 2018. Along with mining in wallet and public chain, the locked tokens will be unlocked according to the rules.'
+                        en: 'The BCV public chain test network will be launched on December 15. According to the white paper, 120 million BCVs for public chain mining and 1.2 BCVs for wallet mining awards total 240 million BCVs will be transferred out from the team address in conjunction with the public chain. At the same time, the team incentives will be unlocked in 2019. At that time, the BCV on the team contract account address expected gradually drop from the current 600 million to 300 million.',
+                        cn: 'BCV公链测试网将在12月15日上线，根据白皮书所示，用于公链挖矿奖励的1.2亿枚BCV与用于钱包挖矿奖励的1.2枚BCV共2.4亿枚BCV将会从团队地址转出，配合公链使用，同时2019年团队激励开始解锁，届时团队账户地址上的BCV将从目前的6亿逐渐下降至3亿。',
+                        jp: 'The BCV public chain test network will be launched on December 15. According to the white paper, 120 million BCVs for public chain mining and 1.2 BCVs for wallet mining awards total 240 million BCVs will be transferred out from the team address in conjunction with the public chain. At the same time, the team incentives will be unlocked in 2019. At that time, the BCV on the team contract account address expected gradually drop from the current 600 million to 300 million.',
+                        ko: 'The BCV public chain test network will be launched on December 15. According to the white paper, 120 million BCVs for public chain mining and 1.2 BCVs for wallet mining awards total 240 million BCVs will be transferred out from the team address in conjunction with the public chain. At the same time, the team incentives will be unlocked in 2019. At that time, the BCV on the team contract account address expected gradually drop from the current 600 million to 300 million.'
                     }
                 },
                 {
