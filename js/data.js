@@ -348,16 +348,16 @@ var app = new Vue({
                         ko: '청화대학오다구금융학원 전세계창업리더쉽반 수강생。2004 년베이징경영대학졸업，허쥔 6 회 이사조직팀 핵심멤버、Sinovation 벤쳐 형제회 3 기반장。Happy net 창립멤버，고급풀스택구축사，국내 IT 직업교육브랜드우수학원창립，Sinovation 벤쳐 등의 기금 복수기금 획득,이전 1 억대의 UV 의 Happy Net 구조설계와 성능우수화를 주도99.99%이상의 신뢰가는 서비스 실현。직책：기금회기술 및 프로젝트전략기획。전체전략기획。'
                     }
                 },
-                {   
-                    img: 'user-jiagui.png',
-                    name: { en:'Xiong Jiagui', cn:'熊家貴', jp:'熊家貴', ko:'웅가귀 연합창립자' },
-                    intro: {
-                        en: 'Graduated from Tsinghua University; senior R & D engineer in Sina; python group leader in iAsk; chief architect in Happy Net. He is proficient in Linux, Unix infrastructure research and development, and provide independently storage, communications and other middleware services. He once managed the design of millions of concurrent online instant messaging system in Happy Net. Duties: Leading the design of the underlying protocol of the digital asset management chain and highly reliable underlying platform.',
-                        cn: '畢業於清華大學，曾任新浪資深研發工程師，愛問爬蟲組組長，開心網首席架構師。精通Linux、Unix底層研發，獨立實現存儲、通信等多種中間件服務。曾主導開心網數百萬並發在線即時通信系統設計。職責:主導數字資管鏈的底層協議設計和高可靠底層平臺設計。',
-                        jp: '清華大学を卒業。Sinaのベテランエンジニア。愛問爬虫グループリーダー、開心ウェブサイトの首席エンジニア。Linux、Unixのベース開発の専門家で、独立でストレージ、通信など様々な中間サービスを実現した。開心ウェブサイトの数百万ものインスタントメッセンジャーシステムの設計を主導したという経験を持つ。役割：デジタル資管システムのベーシックプロトコルと信頼性のあるベーシックプラットホームの設計などの主導。\n',
-                        ko: '청화대학 공정물리학졸업，이전 Sina 경력직연구&개발엔지니어 이전 Sina 경력직연구&개발엔지니어,Iaskworm 팀장，Happy Net 첫 번째 구축사.정통 Linux、Unix Bottom 개발，독립적으로저장、통신 등의 중간 서비스 실현,이전 수 백만대의 Happy net 에서 Instant massage , 시스템 설계,직책：디지털자산관리체인의 Bottom 협약설계 및 고신뢰성 Bottom플랫폼설계.'
-                    }
-                },
+                // {   
+                //     img: 'user-jiagui.png',
+                //     name: { en:'Xiong Jiagui', cn:'熊家貴', jp:'熊家貴', ko:'웅가귀 연합창립자' },
+                //     intro: {
+                //         en: 'Graduated from Tsinghua University; senior R & D engineer in Sina; python group leader in iAsk; chief architect in Happy Net. He is proficient in Linux, Unix infrastructure research and development, and provide independently storage, communications and other middleware services. He once managed the design of millions of concurrent online instant messaging system in Happy Net. Duties: Leading the design of the underlying protocol of the digital asset management chain and highly reliable underlying platform.',
+                //         cn: '畢業於清華大學，曾任新浪資深研發工程師，愛問爬蟲組組長，開心網首席架構師。精通Linux、Unix底層研發，獨立實現存儲、通信等多種中間件服務。曾主導開心網數百萬並發在線即時通信系統設計。職責:主導數字資管鏈的底層協議設計和高可靠底層平臺設計。',
+                //         jp: '清華大学を卒業。Sinaのベテランエンジニア。愛問爬虫グループリーダー、開心ウェブサイトの首席エンジニア。Linux、Unixのベース開発の専門家で、独立でストレージ、通信など様々な中間サービスを実現した。開心ウェブサイトの数百万ものインスタントメッセンジャーシステムの設計を主導したという経験を持つ。役割：デジタル資管システムのベーシックプロトコルと信頼性のあるベーシックプラットホームの設計などの主導。\n',
+                //         ko: '청화대학 공정물리학졸업，이전 Sina 경력직연구&개발엔지니어 이전 Sina 경력직연구&개발엔지니어,Iaskworm 팀장，Happy Net 첫 번째 구축사.정통 Linux、Unix Bottom 개발，독립적으로저장、통신 등의 중간 서비스 실현,이전 수 백만대의 Happy net 에서 Instant massage , 시스템 설계,직책：디지털자산관리체인의 Bottom 협약설계 및 고신뢰성 Bottom플랫폼설계.'
+                //     }
+                // },
                 {   
                     img: 'user-zhihua.png',
                     name: { en:'Liu Zhihua', cn:'劉志華', jp:'劉志華', ko:'유지화 연합창립자' },
@@ -378,19 +378,19 @@ var app = new Vue({
                         ko: '북경대학투자관리석사졸업;Apple Angel 투자자인 중국계 외국인이며, 창립 투자자인부종남선생님의 중화구역 비서;미국 삼광 Sunland Fund 중국시장 책임자;이전 Sinovation 벤쳐시장 CEO 비서;인터넷 K12 Online 교육회사연합창립자;현 PPTEAM 프로젝트 창립자;일류 인터넷창업회사와 일류투자기관 고위층에매직쇼기술서비스제공;합작회사는 Tecent 회사, 금일 톱뉴스 국가전력 등이다.'
                     }
                 },
-                {
-                    img: 'user-ruanying2.png',
-                    name: { en:'Ruan Ying', cn:'阮颖', jp:'阮穎', ko:'원영' },
-                    intro: {
-                        en: 'Graduated from Nankai University and then studied at the 33 phase of Exed, the Chinese enterprise operator of Guanghua School of Management, Peking University. She is an early founder team of Renren games, the earliest web game productor in China, and a pioneer of the earliest overseas operation model. Then join the Kaixin network management team, responsible for the overall product and operation of the Kaixin.',
-                        cn: '本科畢業於南開大學，後在北京大學光華管理學院中國企業經營者33期Exed學習。曾是人人遊戲早期創始團隊，國內最早的網頁遊戲探路者，最早海外運營模式的參與者開創者。後加入開心網管理團隊，負責開心網整體產品和運營工作。',
-                        jp: '南開大学の本科を卒業後、北京大学光華管理学院中国企業経営者33期Exedにて学ぶ。人人遊戯の早期創始チームで、国内で最初のインターネットゲームの開拓者で、最も早く海外運営モデルの参加者先駆者。その後、楽しい開心ネット管理チームに参加し、ネット全体の製品と運営を担当している。\n',
-                        ko: '남개대학 본과 졸업 후, 북경대학 광화관리학부 중국기업경영자 33기 Exed이수.\n' +
-                        '이전 Ren-Ren Games 초기 창립멤버였고, 또한 국내최초 웹게임의 선구자였이며, \n' +
-                        '최초 해외 운영방식의 참여자이자 창시자였습니다.\n' +
-                        '이후 Happy-Net 관리팀에 참여하여 Happy-Net의 전 제품&운영 업무를 맡고 있습니다.\n'
-                    }
-                },
+                // {
+                //     img: 'user-ruanying2.png',
+                //     name: { en:'Ruan Ying', cn:'阮颖', jp:'阮穎', ko:'원영' },
+                //     intro: {
+                //         en: 'Graduated from Nankai University and then studied at the 33 phase of Exed, the Chinese enterprise operator of Guanghua School of Management, Peking University. She is an early founder team of Renren games, the earliest web game productor in China, and a pioneer of the earliest overseas operation model. Then join the Kaixin network management team, responsible for the overall product and operation of the Kaixin.',
+                //         cn: '本科畢業於南開大學，後在北京大學光華管理學院中國企業經營者33期Exed學習。曾是人人遊戲早期創始團隊，國內最早的網頁遊戲探路者，最早海外運營模式的參與者開創者。後加入開心網管理團隊，負責開心網整體產品和運營工作。',
+                //         jp: '南開大学の本科を卒業後、北京大学光華管理学院中国企業経営者33期Exedにて学ぶ。人人遊戯の早期創始チームで、国内で最初のインターネットゲームの開拓者で、最も早く海外運営モデルの参加者先駆者。その後、楽しい開心ネット管理チームに参加し、ネット全体の製品と運営を担当している。\n',
+                //         ko: '남개대학 본과 졸업 후, 북경대학 광화관리학부 중국기업경영자 33기 Exed이수.\n' +
+                //         '이전 Ren-Ren Games 초기 창립멤버였고, 또한 국내최초 웹게임의 선구자였이며, \n' +
+                //         '최초 해외 운영방식의 참여자이자 창시자였습니다.\n' +
+                //         '이후 Happy-Net 관리팀에 참여하여 Happy-Net의 전 제품&운영 업무를 맡고 있습니다.\n'
+                //     }
+                // },
                 {
                     img: 'user-sicheng2.png',
                     name: { en:'Duan Sicheng', cn:'段思程', jp:'段思程', ko:'단사성\n' },
@@ -401,22 +401,22 @@ var app = new Vue({
                         ko: '홍콩 주민, 컴퓨터 과학 기술 출신, 미국 미술사, 원시카고 선물거래소 전문 엔지니어, Glovx, 스포츠마인, FadWater 등 핵심 제품 개발 참여.선물과 기권거래에 대해 깊은 인지를 갖고 있으며, 시장에서는 장기간 정수익을 유지한다.지상소는 세계에서 가장 큰 교역소이며, 황금, 원유 등 대량의 상품의 정가권을 보유하고 있다.현재 BCV 에 가입해 양적, 바람 컨트롤, 시중 관리 책임이다.'
                     }
                 },
-                {
-                    img: 'user-yingying.png',
-                    name: { en:'Zhang Yingying', cn:'張瀛瑩', jp:'張柳', ko:'장영옥' },
-                    intro: {
-                        en: 'In 2007, in the well-known Internet service interconnection company, the company created the first million singles, many times Topsales. Lead the team to create sales performance with annual revenue of 10 million. In 2013, the world\'s leading foreign financial big data company is responsible for the market of colleges and universities nationwide. In 2017, we established Shared Plus Company and established partnerships with many companies such as Didi, QuickTime, and the famous artificial intelligence company Haizhi Technology and the establishment of state-owned enterprises under the well-known Propaganda Department.',
-                        cn: '2007 年，在知名網絡服務互聯通公司，創造第一個百萬大 單，連續多次 Topsales 。帶領團隊創造年收入千萬的銷售業 績。 2013 年在全球領先的金融大數據外企，負責全國高校及 政府的市場。 2017 年，創辦共享加公司，與滴滴、速途及知 名人工智能公司海知科技及知名中宣部下屬國企建立等多家公 司建立合作關係。',
-                        jp: '2007年、著名なインターネットサービスの相互接続会社にて、何百万ものトップセールス出した。年間売上1,000万ドルで販売成果を創出するチームをリードした。2013年には、世界有数の外国金融大手データ会社にて、全国の大学と政府の市場を担当。2017年には、Shared Plus Companyを設立し、Didi、QuickTime、有名な人工知能会社Haizhi Technology、Central Propaganda Departmentの国営企業など多くの企業と提携した。\n',
-                        ko: '2007년, 유명한 인터넷 서비스 CNLink 회사에서 \n' +
-                        '최초 1회 거래 백만 위안화 및 연이어 수 차례 TopSales달성 \n' +
-                        '프로젝트팀 이끌며 천만의 수익성 매출 창조.\n' +
-                        '2013년 세계를 선두하는 금융 빅 데이터 외국기업에서 \n' +
-                        '고등 교육기관 및 정부시장 담당.  \n' +
-                        '2017년, Sharespace회사 창립, China Uber Taxi(Di-Di Taxi),\nSoo-Too 및 유명 인공지능 HAIZOL, 유명 중공중앙선전부\n' +
-                        '아래의 국영기업과 파트너쉽 업무 진행。\n'
-                    }
-                },
+                // {
+                //     img: 'user-yingying.png',
+                //     name: { en:'Zhang Yingying', cn:'張瀛瑩', jp:'張柳', ko:'장영옥' },
+                //     intro: {
+                //         en: 'In 2007, in the well-known Internet service interconnection company, the company created the first million singles, many times Topsales. Lead the team to create sales performance with annual revenue of 10 million. In 2013, the world\'s leading foreign financial big data company is responsible for the market of colleges and universities nationwide. In 2017, we established Shared Plus Company and established partnerships with many companies such as Didi, QuickTime, and the famous artificial intelligence company Haizhi Technology and the establishment of state-owned enterprises under the well-known Propaganda Department.',
+                //         cn: '2007 年，在知名網絡服務互聯通公司，創造第一個百萬大 單，連續多次 Topsales 。帶領團隊創造年收入千萬的銷售業 績。 2013 年在全球領先的金融大數據外企，負責全國高校及 政府的市場。 2017 年，創辦共享加公司，與滴滴、速途及知 名人工智能公司海知科技及知名中宣部下屬國企建立等多家公 司建立合作關係。',
+                //         jp: '2007年、著名なインターネットサービスの相互接続会社にて、何百万ものトップセールス出した。年間売上1,000万ドルで販売成果を創出するチームをリードした。2013年には、世界有数の外国金融大手データ会社にて、全国の大学と政府の市場を担当。2017年には、Shared Plus Companyを設立し、Didi、QuickTime、有名な人工知能会社Haizhi Technology、Central Propaganda Departmentの国営企業など多くの企業と提携した。\n',
+                //         ko: '2007년, 유명한 인터넷 서비스 CNLink 회사에서 \n' +
+                //         '최초 1회 거래 백만 위안화 및 연이어 수 차례 TopSales달성 \n' +
+                //         '프로젝트팀 이끌며 천만의 수익성 매출 창조.\n' +
+                //         '2013년 세계를 선두하는 금융 빅 데이터 외국기업에서 \n' +
+                //         '고등 교육기관 및 정부시장 담당.  \n' +
+                //         '2017년, Sharespace회사 창립, China Uber Taxi(Di-Di Taxi),\nSoo-Too 및 유명 인공지능 HAIZOL, 유명 중공중앙선전부\n' +
+                //         '아래의 국영기업과 파트너쉽 업무 진행。\n'
+                //     }
+                // },
                 {
                     img: 'user-yanhe.png',
                     name: { en:'Zhao Yanhe', cn:'趙延鶴', jp:'趙延鶴', ko:'조연학' },
