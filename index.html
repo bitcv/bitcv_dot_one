@@ -27,6 +27,9 @@
     time, mark, audio, video {
         font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
     }
+    .text-indent-2em {
+        text-indent: 2em;
+    }
     .portfolio-title2 {
         color: #fff;
         margin: 10px 0;
@@ -75,7 +78,15 @@
     .btn-default:focus {
         border-color: #c2a362;
     }
-    
+
+    /* foundation */
+    #foundation {
+        padding: 40px 0 50px;
+    }
+    #foundation h2 {
+        padding: 30px 0;
+    }
+
     #download {
         padding: 40px 0 50px;
     }
@@ -168,8 +179,31 @@
         </div>
     </section>
     
+    <!-- 用于分割 .section 间隔调色 -->
+    <section style="min-height: 0px;"></section>
+
+    <!-- foundation -->
+    <section class="section" id="foundation">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="text-center">{{ foundation.name[lang] }}</h2>
+                    <p class="">{{ foundation.intro.p1[lang] }}</p>
+                    <p class="">{{ foundation.intro.p2[lang] }}</p>
+                    <p class="">{{ foundation.intro.p3[lang] }}</p>
+                    <p class="">{{ foundation.intro.p4[lang] }}</p>
+                    <p class="">{{ foundation.intro.p5[lang] }}</p>
+                    <p class="">{{ foundation.intro.p6[lang] }}</p>
+                    <div class="text-center">
+                        <img src="./img/foundation-qrcode.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- app download -->
-    <section id="download" style="background: #000;">
+    <section id="download">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -179,9 +213,8 @@
             </div>
         </div>
     </section>
-    <section style="min-height: 0px;"></section>
 
-    <section id="testimonials" class="testimonials section" style="background: #262626;">
+    <section id="testimonials" class="testimonials section">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 testimonials-introduction">
@@ -215,7 +248,6 @@
             </div>
         </div>
     </section>
-    <section style="min-height: 0px;"></section>
 
     <section id="services" class="services section">
         <div class="container">
@@ -499,7 +531,7 @@
 </div>
 
     <script src="./js/vue.js"></script>
-    <script src="./js/data.js?v=20190213"></script>
+    <script src="./js/data.js?v=20190926"></script>
 
     <script data-cfasync="false" src="./js/email-decode.min.js"></script>
     <script src="./js/jquery-1.11.2.min.js"></script>
