@@ -190,7 +190,7 @@
     </section>
     
     <!-- 用于分割 .section 间隔调色 -->
-    <section style="min-height: 0px;"></section>
+    <!-- <section style="min-height: 0px;"></section> -->
 
     <!-- foundation -->
     <!-- <section class="section" id="foundation">
