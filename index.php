@@ -193,7 +193,7 @@
     <section style="min-height: 0px;"></section>
 
     <!-- foundation -->
-    <section class="section" id="foundation">
+    <!-- <section class="section" id="foundation">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -210,7 +210,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <!-- app download -->
     <section id="download">
